@@ -1,0 +1,56 @@
+# tools
+
+Local checks for the quiz data and code. Python 3 standard library only, no
+packages to install. Run everything from the repo root, and run it before
+every push.
+
+## Question file checker
+
+```sh
+python3 tools/check_questions.py
+```
+
+Scans every `<quiz-id>/questions.js` in the repo root (skipping `tools/` and
+folders without a `questions.js`) and checks `quizzes.js` against the quiz
+folders it found. Exits 0 when all is valid; otherwise prints one error per
+line to stderr, naming the quiz, deck and question id, and exits 1.
+
+To check a single file against a folder name (for example the test fixture,
+which is not listed in `quizzes.js`):
+
+```sh
+python3 tools/check_questions.py tools/fixture/questions.js tools/fixture
+```
+
+The quiz `id` must equal the last component of the folder name.
+
+What it checks:
+
+- `questions.js` is `window.QUIZ = <strict JSON>;` and `quizzes.js` is
+  `window.QUIZZES = <strict JSON array>;`.
+- Quiz: `id` equals its folder, non-empty `title` and `subtitle`, at least
+  one deck. Deck: non-empty `id` and `label`, at least 10 questions.
+- Question ids are unique across the quiz. Every question has non-empty
+  `id`, `type`, `q`, `why` and `src`.
+- `mc`: 3-4 distinct non-empty `options`, `answer` is an integer index into
+  them. `tf`: `answer` is `true` or `false`. `match`: 3-5 `[left, right]`
+  `pairs` with distinct lefts and distinct rights. `order`: 3-5 distinct
+  `items`, in the correct order.
+- `quizzes.js`: one entry per quiz folder, each with `id`, `path` (equal to
+  `id + "/"`), `title` and `subtitle`. Extra keys such as `decks` and
+  `questions` counts are allowed.
+
+## Test suites
+
+Python tests (checker and other tools):
+
+```sh
+python3 -m unittest discover -s tools -p 'test_*.py' -v
+```
+
+JavaScript tests for the quiz engine (added later), using node's built-in
+test runner:
+
+```sh
+node --test tools/
+```
