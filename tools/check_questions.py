@@ -8,6 +8,9 @@ Usage:
   python3 tools/check_questions.py <path/to/questions.js> <folder>
       Validate one file against the given folder name (its last component).
       quizzes.js is not read.
+  python3 tools/check_questions.py --deck <path/to/deck.json>
+      Validate one deck stored as a bare JSON array of questions. The deck id
+      is the file name without its extension.
 
 Exit code 0 when everything is valid, 1 otherwise (errors go to stderr).
 """
@@ -97,23 +100,8 @@ def _check_question(q, where):
     return errors
 
 
-def validate_quiz(quiz, folder_name):
-    folder = os.path.basename(os.path.normpath(folder_name))
-    if not isinstance(quiz, dict):
-        return ["quiz in %s: top level must be an object" % folder]
-    quiz_id = quiz.get("id")
-    label = "quiz %s" % (quiz_id if _is_text(quiz_id) else "<no id>")
+def _check_decks(decks, label):
     errors = []
-    if quiz_id != folder:
-        errors.append("%s: id %r does not match folder %r" % (label, quiz_id, folder))
-    for field in ("title", "subtitle"):
-        if not _is_text(quiz.get(field)):
-            errors.append("%s: missing or empty '%s'" % (label, field))
-    decks = quiz.get("decks")
-    if not isinstance(decks, list) or not decks:
-        errors.append("%s: needs at least one deck" % label)
-        return errors
-
     deck_ids = set()
     question_ids = set()
     for d_index, deck in enumerate(decks):
@@ -151,6 +139,32 @@ def validate_quiz(quiz, folder_name):
     return errors
 
 
+def validate_quiz(quiz, folder_name):
+    folder = os.path.basename(os.path.normpath(folder_name))
+    if not isinstance(quiz, dict):
+        return ["quiz in %s: top level must be an object" % folder]
+    quiz_id = quiz.get("id")
+    label = "quiz %s" % (quiz_id if _is_text(quiz_id) else "<no id>")
+    errors = []
+    if quiz_id != folder:
+        errors.append("%s: id %r does not match folder %r" % (label, quiz_id, folder))
+    for field in ("title", "subtitle"):
+        if not _is_text(quiz.get(field)):
+            errors.append("%s: missing or empty '%s'" % (label, field))
+    decks = quiz.get("decks")
+    if not isinstance(decks, list) or not decks:
+        errors.append("%s: needs at least one deck" % label)
+        return errors
+
+    return errors + _check_decks(decks, label)
+
+
+def validate_deck(questions, deck_id):
+    """Validate a bare question array as a deck named deck_id."""
+    deck = {"id": deck_id, "label": deck_id, "questions": questions}
+    return _check_decks([deck], "deck file")
+
+
 def validate_registry(registry, quiz_ids):
     if not isinstance(registry, list):
         return ["quizzes.js: must be an array"]
@@ -186,6 +200,18 @@ def _check_file(path, folder):
         return ["%s: cannot load: %s" % (path, exc)]
 
 
+def _check_deck_file(path):
+    deck_id = os.path.splitext(os.path.basename(path))[0]
+    try:
+        with open(path, encoding="utf-8") as f:
+            questions = json.load(f)
+    except (OSError, ValueError) as exc:
+        return ["%s: cannot load: %s" % (path, exc)]
+    if not isinstance(questions, list):
+        return ["%s: deck %s: top level must be an array" % (path, deck_id)]
+    return validate_deck(questions, deck_id)
+
+
 def _scan(root):
     errors = []
     quiz_ids = set()
@@ -209,10 +235,12 @@ def main(argv, root=REPO_ROOT):
     """argv excludes the program name. Returns the process exit code."""
     if len(argv) == 0:
         errors = _scan(root)
+    elif len(argv) == 2 and argv[0] == "--deck":
+        errors = _check_deck_file(argv[1])
     elif len(argv) == 2:
         errors = _check_file(argv[0], argv[1])
     else:
-        print("usage: check_questions.py [<path/to/questions.js> <folder>]", file=sys.stderr)
+        print("usage: check_questions.py [<path/to/questions.js> <folder> | --deck <path/to/deck.json>]", file=sys.stderr)
         return 1
     for error in errors:
         print(error, file=sys.stderr)

@@ -279,6 +279,34 @@ class LoadAndMainTest(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("elsewhere", err)
 
+    def test_deck_flag_validates_bare_array(self):
+        questions = valid_quiz()["decks"][0]["questions"]
+        path = self.write("decks/citta.json", json.dumps(questions, ensure_ascii=False))
+        self.assertEqual(self.run_main(["--deck", path]), (0, ""))
+        dup = copy.deepcopy(questions)
+        dup[1]["id"] = dup[0]["id"]
+        path = self.write("decks/citta.json", json.dumps(dup))
+        code, err = self.run_main(["--deck", path])
+        self.assertEqual(code, 1)
+        self.assertIn("citta", err)
+        self.assertIn("duplicate", err)
+        path = self.write("decks/citta.json", json.dumps(questions[:9]))
+        code, err = self.run_main(["--deck", path])
+        self.assertEqual(code, 1)
+        self.assertIn("citta", err)
+        self.assertIn("fewer than 10", err)
+        path = self.write("decks/citta.json", "[{\"id\": ,]")
+        code, err = self.run_main(["--deck", path])
+        self.assertEqual(code, 1)
+        self.assertIn("citta.json", err)
+        self.assertNotIn("Traceback", err)
+        code, err = self.run_main(["--deck", os.path.join(self.root, "decks", "nope.json")])
+        self.assertEqual(code, 1)
+        self.assertIn("nope.json", err)
+        code, err = self.run_main(["--deck"])
+        self.assertEqual(code, 1)
+        self.assertIn("usage", err.lower())
+
     def test_main_bad_arg_count(self):
         code, err = self.run_main(["only-one"])
         self.assertEqual(code, 1)

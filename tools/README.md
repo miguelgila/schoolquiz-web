@@ -24,6 +24,14 @@ python3 tools/check_questions.py tools/fixture/questions.js tools/fixture
 
 The quiz `id` must equal the last component of the folder name.
 
+To check a deck on its own, stored as a bare JSON array of question objects
+(no `window.QUIZ` prefix), use `--deck`. The deck id is the file name without
+its extension, and the same deck and question rules apply as for a full quiz:
+
+```sh
+python3 tools/check_questions.py --deck decks/citta.json
+```
+
 What it checks:
 
 - `questions.js` is `window.QUIZ = <strict JSON>;` and `quizzes.js` is
