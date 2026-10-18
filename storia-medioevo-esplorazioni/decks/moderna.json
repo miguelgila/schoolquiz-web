@@ -68,7 +68,7 @@
       "I figli primogeniti dei re",
       "I figli secondogeniti in poi dei nobili",
       "I nobili che diventano borghesi",
-      "I soldati che proteggono il papa"
+      "I soldati che proteggono il papa e l'imperatore"
     ],
     "answer": 1,
     "why": "I nobili cadetti sono i figli secondogeniti in poi dei nobili.",
@@ -179,7 +179,7 @@
     "q": "Perché nei dipinti del Medioevo il blu era un colore così caro?",
     "options": [
       "Perché arrivava dalle Americhe",
-      "Perché proveniva dal lapislazzuli, un minerale raro e prezioso",
+      "Perché proveniva dal lapislazzuli",
       "Perché lo potevano usare solo i papi",
       "Perché si otteneva da un fiore che cresceva solo a Firenze"
     ],
@@ -194,7 +194,7 @@
     "options": [
       "Lo sfondo tutto dorato",
       "L'uso di pochi colori",
-      "La profondità, per esempio le montagne sullo sfondo",
+      "La profondità",
       "Le figure tutte della stessa grandezza"
     ],
     "answer": 2,
@@ -221,7 +221,7 @@
     "q": "Secondo il nuovo modo di pensare del Quattrocento, che cosa permette di fare scoperte e acquisire nuove conoscenze?",
     "options": [
       "Ripetere quello che dicono i governanti",
-      "L'osservazione diretta del mondo e la sperimentazione",
+      "L'osservazione e la sperimentazione",
       "Leggere soltanto le Sacre Scritture",
       "Obbedire alle corporazioni"
     ],
@@ -317,7 +317,7 @@
       "Perché l'Africa non compare",
       "Perché l'Oceano Indiano è un mare chiuso",
       "Perché l'India è disegnata in Europa",
-      "Perché il Mediterraneo non ha uscite"
+      "Perché il Mediterraneo non ha uscite verso l'oceano"
     ],
     "answer": 1,
     "why": "Nella carta di Tolomeo l'Oceano Indiano è un mare chiuso, quindi circumnavigare l'Africa sembra impossibile.",
@@ -419,7 +419,7 @@
     "q": "A che cosa serve la vela latina triangolare della caravella?",
     "options": [
       "A navigare anche con vento contrario",
-      "A portare più merci nella stiva",
+      "A portare più merci nella stiva, sotto il ponte",
       "A rendere la nave più pesante",
       "A fare da bandiera del re"
     ],

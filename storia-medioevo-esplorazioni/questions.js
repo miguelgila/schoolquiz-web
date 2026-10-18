@@ -29,7 +29,7 @@ window.QUIZ = {
       "Per decorare una chiesa",
       "Per insegnare la geografia ai mercanti",
       "Per convincere i cittadini che quel governo era buono",
-      "Per mostrare le rotte di bussola"
+      "Per mostrare le rotte di bussola tra un porto e l'altro"
      ],
      "answer": 2,
      "why": "Il pittore era pagato dal governo di Siena e doveva convincere i cittadini che quel governo era buono.",
@@ -63,9 +63,9 @@ window.QUIZ = {
      "q": "Dove sorgono quasi tutte le città medievali?",
      "options": [
       "In cima a una montagna",
-      "Su un fiume o su un lago, spesso vicino a un ponte o a un guado",
+      "Su un fiume o su un lago",
       "In mezzo a un bosco",
-      "Lontano da ogni strada"
+      "Lontano da ogni strada e da ogni mercato"
      ],
      "answer": 1,
      "why": "Quasi tutte le città sorgono su un fiume o su un lago, spesso dove c'è un ponte o un guado.",
@@ -147,10 +147,10 @@ window.QUIZ = {
      "type": "mc",
      "q": "Che cosa offre il signore per attirare abitanti nella città che ha fondato?",
      "options": [
-      "Terre da coltivare in campagna",
+      "Terre da coltivare in campagna, fuori dalle mura",
       "Un titolo da nobile",
       "Un posto nel suo esercito",
-      "Libertà in cambio di popolamento e di tasse sui commerci"
+      "Libertà in cambio di tasse sui commerci"
      ],
      "answer": 3,
      "why": "Il signore attira abitanti offrendo libertà in cambio di popolamento e di tasse sui commerci.",
@@ -162,7 +162,7 @@ window.QUIZ = {
      "q": "Che cosa concedono le carte di libertà alle città?",
      "options": [
       "Il diritto di battere moneta",
-      "Delle autonomie, cioè il diritto di decidere da sole",
+      "Delle autonomie",
       "Un nuovo castello",
       "L'esenzione dalla guerra per sempre"
      ],
@@ -178,7 +178,7 @@ window.QUIZ = {
       "Un diritto di tutti in quanto esseri umani",
       "Una legge uguale in tutta Europa",
       "Il diritto di non pagare mai tasse",
-      "Un privilegio scritto, concesso a un gruppo preciso"
+      "Un privilegio scritto"
      ],
      "answer": 3,
      "why": "La libertà medievale è un privilegio scritto, concesso a un gruppo preciso e valido finché vale il documento.",
@@ -212,7 +212,7 @@ window.QUIZ = {
      "q": "A che cosa servono i sigilli in fondo alla carta di Neuchâtel?",
      "options": [
       "A rendere più bello il documento",
-      "A dimostrare che le autorità rendono legale e valido il patto",
+      "A rendere legale e valido il patto",
       "A indicare il prezzo del documento",
       "A chiudere la pergamena arrotolata"
      ],
@@ -264,8 +264,8 @@ window.QUIZ = {
      "options": [
       "Essere nato da una famiglia nobile",
       "Possedere molta terra in campagna",
-      "Abitare in città da almeno un anno e un giorno, fare un mestiere ed essere in una corporazione",
-      "Essere un cavaliere al servizio del conte"
+      "Abitare in città da almeno un anno e un giorno",
+      "Essere un cavaliere al servizio del conte Ulrico"
      ],
      "answer": 2,
      "why": "Il borghese abita in città da almeno un anno e un giorno, fa un mestiere artigianale o commerciale, è in una corporazione e gode di diritti e libertà.",
@@ -278,8 +278,8 @@ window.QUIZ = {
      "options": [
       "Niente: la concede solo per generosità",
       "Un nuovo titolo di duca",
-      "Il diritto di nominare il vescovo",
-      "Le tasse sul mercato, l'aiuto in guerra e una città più popolata"
+      "Il diritto di nominare il vescovo di Losanna",
+      "Le tasse sul mercato e l'aiuto in guerra"
      ],
      "answer": 3,
      "why": "Il conte guadagna tasse su mercato, fiere, vino e pane, l'aiuto in guerra e una città più popolata.",
@@ -417,8 +417,8 @@ window.QUIZ = {
      "type": "mc",
      "q": "Perché nel Medioevo servono i cambiavalute?",
      "options": [
-      "Perché ogni città, vescovo e abbazia conia la propria moneta",
-      "Perché non esiste più la moneta",
+      "Perché ogni città conia la propria moneta",
+      "Perché non esiste più la moneta dopo l'anno Mille",
       "Perché si usa solo il baratto",
       "Perché l'oro è vietato"
      ],
@@ -469,7 +469,7 @@ window.QUIZ = {
      "type": "mc",
      "q": "Perché la lettera di cambio è utile ai mercanti?",
      "options": [
-      "Permette di non portarsi dietro l'oro sulle strade dei briganti",
+      "Permette di non portarsi dietro l'oro",
       "Permette di non pagare le tasse al mercato",
       "Sostituisce la carta di libertà",
       "Serve a coniare nuove monete"
@@ -490,7 +490,7 @@ window.QUIZ = {
      "q": "Dove sono state ritrovate nel 2014 circa centoventi monete del Duecento?",
      "options": [
       "Sulla cima del Gottardo",
-      "Lungo l'antica mulattiera del passo del Brünig",
+      "Sul passo del Brünig",
       "Nella gola della Schöllenen",
       "Al passo del Brennero"
      ],
@@ -546,7 +546,7 @@ window.QUIZ = {
      "q": "Monete di Basilea, Zurigo, Sciaffusa, Villingen e Strasburgo nella tasca di una sola persona: che cosa ci dicono sul Duecento?",
      "options": [
       "Che le monete erano tutte uguali",
-      "Che ogni città importante batteva moneta e i mercanti viaggiavano fra le città",
+      "Che ogni città importante batteva moneta",
       "Che il baratto era ancora l'unico modo di commerciare",
       "Che solo l'imperatore poteva coniare monete"
      ],
@@ -602,7 +602,7 @@ window.QUIZ = {
      "q": "Che cosa mostra la miniatura medievale sul trasporto delle merci sui passi alpini?",
      "options": [
       "Carri trainati da buoi su una strada larga",
-      "Muli carichi che camminano nella neve, con le tempeste",
+      "Muli carichi che camminano nella neve",
       "Una carovana di cammelli",
       "Navi che risalgono un fiume"
      ],
@@ -615,9 +615,9 @@ window.QUIZ = {
      "type": "mc",
      "q": "Perché sui passi alpini le merci viaggiano sul dorso degli animali e non sui carri?",
      "options": [
-      "Perché i carri erano vietati dai signori",
+      "Perché i carri erano vietati dai signori delle valli",
       "Perché gli animali costavano meno dei carri",
-      "Perché gli animali sono più stabili e si controllano meglio sui sentieri di montagna",
+      "Perché gli animali sono più stabili sui sentieri",
       "Perché le merci erano molto leggere"
      ],
      "answer": 2,
@@ -657,8 +657,8 @@ window.QUIZ = {
      "type": "mc",
      "q": "Quale vantaggio economico ricava una comunità di montagna dal passaggio delle merci?",
      "options": [
-      "Il diritto di battere moneta",
-      "Pagamenti per il trasporto, per soste e magazzini e tasse di pedaggio",
+      "Il diritto di battere moneta, come il vescovo di Basilea",
+      "Pagamenti per il trasporto e tasse di pedaggio",
       "Una carta di libertà dal vescovo",
       "Merci gratis dai mercanti"
      ],
@@ -671,7 +671,7 @@ window.QUIZ = {
      "type": "mc",
      "q": "Perché i Romani, pur conoscendo la regione del San Gottardo, quasi non la usavano?",
      "options": [
-      "Perché la gola della Schöllenen era una barriera insuperabile",
+      "Perché c'era la gola della Schöllenen",
       "Perché non c'erano somieri",
       "Perché il passo era controllato da Milano",
       "Perché preferivano il Brünig"
@@ -714,7 +714,7 @@ window.QUIZ = {
      "q": "Come si organizzano i valligiani del Gottardo per guadagnare dal passaggio dei mercanti?",
      "options": [
       "Fondano una banca",
-      "In corporazioni di somieri, con statuti e tariffe approvati da tutti",
+      "In corporazioni di somieri",
       "Chiedono una carta di libertà al conte",
       "Si arruolano tutti come mercenari"
      ],
@@ -741,7 +741,7 @@ window.QUIZ = {
      "type": "mc",
      "q": "Che cosa cambia davvero con l'apertura del Gottardo?",
      "options": [
-      "La posizione: le valli attorno al passo diventano un territorio che molti vogliono controllare",
+      "La posizione delle valli attorno al passo",
       "La quantità di merci, che supera quella del Brennero",
       "Il modo di trasportare le merci, che ora viaggiano sui carri",
       "La moneta, che diventa uguale per tutti"
@@ -756,9 +756,9 @@ window.QUIZ = {
      "q": "A chi serve soprattutto la strada del Gottardo?",
      "options": [
       "Ai mercanti della Lega Anseatica",
-      "Ai commerci degli abitanti della Svizzera centrale",
+      "Ai commerci della Svizzera centrale",
       "Ai Romani",
-      "Ai mercanti di spezie di Venezia"
+      "Ai mercanti di spezie di Venezia e di Genova"
      ],
      "answer": 1,
      "why": "Il Gottardo serve soprattutto ai commerci degli abitanti della Svizzera centrale: bovini, cavalli, formaggi.",
@@ -944,7 +944,7 @@ window.QUIZ = {
      "q": "Che cosa vuol dire «immediatezza imperiale»?",
      "options": [
       "L'assemblea pubblica dei cittadini di una valle",
-      "Un legame diretto con l'imperatore, senza passare attraverso altri signori",
+      "Un legame diretto con l'imperatore",
       "Un'alleanza difensiva fra tre valli",
       "Un territorio suddito governato da balivi"
      ],
@@ -995,7 +995,7 @@ window.QUIZ = {
      "options": [
       "A un nuovo balivo mandato dagli Asburgo",
       "Al duca Leopoldo d'Austria",
-      "A un Landamano, scelto dai cittadini nella Landsgemeinde",
+      "A un Landamano scelto dai cittadini",
       "All'abbazia di Einsiedeln"
      ],
      "answer": 2,
@@ -1018,7 +1018,7 @@ window.QUIZ = {
       "Che la Svizzera è stata fondata nel 1513",
       "Che nessun patto medievale è stato conservato",
       "Che la Svizzera è nata dalla battaglia del Morgarten",
-      "Che non c'è un giorno di nascita, ma una rete di patti che si infittisce per due secoli"
+      "Che c'è una rete di patti, non un giorno di nascita"
      ],
      "answer": 3,
      "why": "Non c'è un giorno di nascita della Svizzera, ma una rete di patti che si infittisce per due secoli.",
@@ -1096,7 +1096,7 @@ window.QUIZ = {
       "Contro chi dà fuoco alle proprietà dei confederati",
       "Contro chi ospita un assassino",
       "Contro i soldati mercenari",
-      "Contro i giudici venuti da fuori o che hanno comprato la carica con denaro"
+      "Contro i giudici venuti da fuori o corrotti"
      ],
      "answer": 3,
      "why": "L'articolo 4 rifiuta i giudici che hanno comprato la loro funzione o che non abitano nelle valli, per esempio quelli mandati dagli Asburgo.",
@@ -1136,9 +1136,9 @@ window.QUIZ = {
      "type": "mc",
      "q": "Che cos'è la «malizia dei tempi» di cui parla il patto del 1291?",
      "options": [
-      "Il saccheggio dell'abbazia di Einsiedeln",
+      "Il saccheggio dell'abbazia di Einsiedeln da parte degli Svittesi",
       "La guerra di Borgogna",
-      "L'incertezza dopo la morte dell'imperatore Rodolfo d'Asburgo, quando i signori locali cercano di allargare i loro diritti",
+      "L'incertezza dopo la morte dell'imperatore Rodolfo",
       "La conquista della Leventina"
      ],
      "answer": 2,
@@ -1151,7 +1151,7 @@ window.QUIZ = {
      "q": "Che cosa succede nel 1314?",
      "options": [
       "Lucerna entra nell'alleanza",
-      "Gli Svittesi saccheggiano l'abbazia di Einsiedeln",
+      "Gli Svittesi saccheggiano Einsiedeln",
       "I tre rinnovano l'alleanza a Brunnen",
       "Si combatte la battaglia di Sempach"
      ],
@@ -1305,7 +1305,7 @@ window.QUIZ = {
      "q": "Che cosa diventano i territori conquistati a Sud del Gottardo?",
      "options": [
       "Nuovi cantoni con gli stessi diritti",
-      "Baliaggi, cioè territori sudditi governati da balivi mandati a turno dai cantoni",
+      "Baliaggi, cioè territori sudditi",
       "Città libere con una carta di libertà",
       "Terre dirette dell'imperatore"
      ],
@@ -1332,7 +1332,7 @@ window.QUIZ = {
      "type": "mc",
      "q": "Che cosa mostrano le testimonianze sul mito del «piccolo popolo pacifico»?",
      "options": [
-      "Il mito non regge: le fonti descrivono gli Svizzeri come brutali, insolenti e imbattibili",
+      "Il mito non regge: le fonti li descrivono come brutali",
       "Le fonti confermano che gli Svizzeri evitavano la guerra",
       "Le fonti parlano solo del commercio di formaggi",
       "Le fonti dicono che gli Svizzeri facevano molti prigionieri"
@@ -1386,7 +1386,7 @@ window.QUIZ = {
      "q": "Chi paga l'equipaggiamento e le armi di un soldato mercenario?",
      "options": [
       "Il cantone da cui parte",
-      "Il soldato stesso, con il suo salario",
+      "Il soldato stesso",
       "La Dieta dei confederati",
       "Il balivo"
      ],
@@ -1490,7 +1490,7 @@ window.QUIZ = {
       "I figli primogeniti dei re",
       "I figli secondogeniti in poi dei nobili",
       "I nobili che diventano borghesi",
-      "I soldati che proteggono il papa"
+      "I soldati che proteggono il papa e l'imperatore"
      ],
      "answer": 1,
      "why": "I nobili cadetti sono i figli secondogeniti in poi dei nobili.",
@@ -1601,7 +1601,7 @@ window.QUIZ = {
      "q": "Perché nei dipinti del Medioevo il blu era un colore così caro?",
      "options": [
       "Perché arrivava dalle Americhe",
-      "Perché proveniva dal lapislazzuli, un minerale raro e prezioso",
+      "Perché proveniva dal lapislazzuli",
       "Perché lo potevano usare solo i papi",
       "Perché si otteneva da un fiore che cresceva solo a Firenze"
      ],
@@ -1616,7 +1616,7 @@ window.QUIZ = {
      "options": [
       "Lo sfondo tutto dorato",
       "L'uso di pochi colori",
-      "La profondità, per esempio le montagne sullo sfondo",
+      "La profondità",
       "Le figure tutte della stessa grandezza"
      ],
      "answer": 2,
@@ -1643,7 +1643,7 @@ window.QUIZ = {
      "q": "Secondo il nuovo modo di pensare del Quattrocento, che cosa permette di fare scoperte e acquisire nuove conoscenze?",
      "options": [
       "Ripetere quello che dicono i governanti",
-      "L'osservazione diretta del mondo e la sperimentazione",
+      "L'osservazione e la sperimentazione",
       "Leggere soltanto le Sacre Scritture",
       "Obbedire alle corporazioni"
      ],
@@ -1739,7 +1739,7 @@ window.QUIZ = {
       "Perché l'Africa non compare",
       "Perché l'Oceano Indiano è un mare chiuso",
       "Perché l'India è disegnata in Europa",
-      "Perché il Mediterraneo non ha uscite"
+      "Perché il Mediterraneo non ha uscite verso l'oceano"
      ],
      "answer": 1,
      "why": "Nella carta di Tolomeo l'Oceano Indiano è un mare chiuso, quindi circumnavigare l'Africa sembra impossibile.",
@@ -1841,7 +1841,7 @@ window.QUIZ = {
      "q": "A che cosa serve la vela latina triangolare della caravella?",
      "options": [
       "A navigare anche con vento contrario",
-      "A portare più merci nella stiva",
+      "A portare più merci nella stiva, sotto il ponte",
       "A rendere la nave più pesante",
       "A fare da bandiera del re"
      ],
@@ -1909,7 +1909,7 @@ window.QUIZ = {
      "options": [
       "Era grande e ricco di terre da coltivare",
       "Era affacciato sul Mediterraneo orientale",
-      "Era piccolo, povero di terra e affacciato sull'Atlantico",
+      "Era piccolo e affacciato sull'Atlantico",
       "Aveva appena preso Granada"
      ],
      "answer": 2,
@@ -1938,7 +1938,7 @@ window.QUIZ = {
       "Doppiò il Capo di Buona Speranza",
       "Arrivò a Calicut, in India",
       "Toccò le coste del Brasile",
-      "Superò il capo Bojador, che si credeva invalicabile"
+      "Superò il capo Bojador"
      ],
      "answer": 3,
      "why": "Nel 1434 Gil Eanes superò il capo Bojador, che si credeva invalicabile.",
@@ -1965,7 +1965,7 @@ window.QUIZ = {
      "options": [
       "Che la Terra è molto più piccola del previsto",
       "Che l'America è un nuovo continente",
-      "Che l'Oceano Indiano non è chiuso e Tolomeo aveva torto",
+      "Che l'Oceano Indiano non è chiuso",
       "Che il capo Bojador non si può superare"
      ],
      "answer": 2,
@@ -1992,7 +1992,7 @@ window.QUIZ = {
      "q": "Che cosa volevano i portoghesi lungo la rotta verso l'India?",
      "options": [
       "Conquistare grandi territori interni",
-      "Scali fortificati lungo la rotta, da Ceuta a Goa a Malacca",
+      "Scali fortificati lungo la rotta",
       "Fondare città libere con una carta di libertà",
       "Convertire l'imperatore azteco"
      ],
@@ -2019,10 +2019,10 @@ window.QUIZ = {
      "type": "mc",
      "q": "Perché il nuovo continente si chiama America e non «Colombia»?",
      "options": [
-      "Perché Vespucci disse che era un altro continente, mentre Colombo pensava di essere in India",
+      "Perché Vespucci disse che era un altro continente",
       "Perché Vespucci arrivò prima di Colombo",
       "Perché Colombo era portoghese",
-      "Perché il re di Spagna lo decise a Tordesillas"
+      "Perché il re di Spagna lo decise con il trattato di Tordesillas"
      ],
      "answer": 0,
      "why": "Colombo pensava di essere in India, mentre Amerigo Vespucci disse che era un altro continente e gli fu dato il suo nome.",
@@ -2049,7 +2049,7 @@ window.QUIZ = {
      "options": [
       "Copia le misure di Tolomeo",
       "Chiede agli esperti portoghesi",
-      "Si basa sui suoi strumenti e sulle sue osservazioni",
+      "Si basa sulle sue osservazioni",
       "Legge le lettere di Diaz al re"
      ],
      "answer": 2,
@@ -2077,8 +2077,8 @@ window.QUIZ = {
      "options": [
       "Perché non avevano caravelle",
       "Perché avevano appena preso Granada",
-      "Perché Colombo era genovese",
-      "Perché sapevano che la distanza era molto maggiore di quella calcolata da Colombo"
+      "Perché Colombo era genovese e non portoghese",
+      "Perché la distanza era molto maggiore"
      ],
      "answer": 3,
      "why": "Gli esperti portoghesi sapevano che la distanza era molto maggiore di quella calcolata da Colombo, e avevano ragione.",
@@ -2117,9 +2117,9 @@ window.QUIZ = {
      "type": "mc",
      "q": "Che cosa stabilì il trattato di Tordesillas del 1494?",
      "options": [
-      "Una riga sull'Atlantico: a Ovest la Spagna, a Est il Portogallo",
+      "Una riga sull'Atlantico fra Spagna e Portogallo",
       "La pace fra Spagna e Aztechi",
-      "Il nome «America» per il nuovo continente",
+      "Il nome «America» per il nuovo continente scoperto",
       "Il finanziamento del viaggio di Colombo"
      ],
      "answer": 0,

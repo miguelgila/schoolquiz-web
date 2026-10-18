@@ -5,7 +5,7 @@
     "q": "Dove sono state ritrovate nel 2014 circa centoventi monete del Duecento?",
     "options": [
       "Sulla cima del Gottardo",
-      "Lungo l'antica mulattiera del passo del Brünig",
+      "Sul passo del Brünig",
       "Nella gola della Schöllenen",
       "Al passo del Brennero"
     ],
@@ -61,7 +61,7 @@
     "q": "Monete di Basilea, Zurigo, Sciaffusa, Villingen e Strasburgo nella tasca di una sola persona: che cosa ci dicono sul Duecento?",
     "options": [
       "Che le monete erano tutte uguali",
-      "Che ogni città importante batteva moneta e i mercanti viaggiavano fra le città",
+      "Che ogni città importante batteva moneta",
       "Che il baratto era ancora l'unico modo di commerciare",
       "Che solo l'imperatore poteva coniare monete"
     ],
@@ -117,7 +117,7 @@
     "q": "Che cosa mostra la miniatura medievale sul trasporto delle merci sui passi alpini?",
     "options": [
       "Carri trainati da buoi su una strada larga",
-      "Muli carichi che camminano nella neve, con le tempeste",
+      "Muli carichi che camminano nella neve",
       "Una carovana di cammelli",
       "Navi che risalgono un fiume"
     ],
@@ -130,9 +130,9 @@
     "type": "mc",
     "q": "Perché sui passi alpini le merci viaggiano sul dorso degli animali e non sui carri?",
     "options": [
-      "Perché i carri erano vietati dai signori",
+      "Perché i carri erano vietati dai signori delle valli",
       "Perché gli animali costavano meno dei carri",
-      "Perché gli animali sono più stabili e si controllano meglio sui sentieri di montagna",
+      "Perché gli animali sono più stabili sui sentieri",
       "Perché le merci erano molto leggere"
     ],
     "answer": 2,
@@ -172,8 +172,8 @@
     "type": "mc",
     "q": "Quale vantaggio economico ricava una comunità di montagna dal passaggio delle merci?",
     "options": [
-      "Il diritto di battere moneta",
-      "Pagamenti per il trasporto, per soste e magazzini e tasse di pedaggio",
+      "Il diritto di battere moneta, come il vescovo di Basilea",
+      "Pagamenti per il trasporto e tasse di pedaggio",
       "Una carta di libertà dal vescovo",
       "Merci gratis dai mercanti"
     ],
@@ -186,7 +186,7 @@
     "type": "mc",
     "q": "Perché i Romani, pur conoscendo la regione del San Gottardo, quasi non la usavano?",
     "options": [
-      "Perché la gola della Schöllenen era una barriera insuperabile",
+      "Perché c'era la gola della Schöllenen",
       "Perché non c'erano somieri",
       "Perché il passo era controllato da Milano",
       "Perché preferivano il Brünig"
@@ -229,7 +229,7 @@
     "q": "Come si organizzano i valligiani del Gottardo per guadagnare dal passaggio dei mercanti?",
     "options": [
       "Fondano una banca",
-      "In corporazioni di somieri, con statuti e tariffe approvati da tutti",
+      "In corporazioni di somieri",
       "Chiedono una carta di libertà al conte",
       "Si arruolano tutti come mercenari"
     ],
@@ -256,7 +256,7 @@
     "type": "mc",
     "q": "Che cosa cambia davvero con l'apertura del Gottardo?",
     "options": [
-      "La posizione: le valli attorno al passo diventano un territorio che molti vogliono controllare",
+      "La posizione delle valli attorno al passo",
       "La quantità di merci, che supera quella del Brennero",
       "Il modo di trasportare le merci, che ora viaggiano sui carri",
       "La moneta, che diventa uguale per tutti"
@@ -271,9 +271,9 @@
     "q": "A chi serve soprattutto la strada del Gottardo?",
     "options": [
       "Ai mercanti della Lega Anseatica",
-      "Ai commerci degli abitanti della Svizzera centrale",
+      "Ai commerci della Svizzera centrale",
       "Ai Romani",
-      "Ai mercanti di spezie di Venezia"
+      "Ai mercanti di spezie di Venezia e di Genova"
     ],
     "answer": 1,
     "why": "Il Gottardo serve soprattutto ai commerci degli abitanti della Svizzera centrale: bovini, cavalli, formaggi.",

@@ -20,7 +20,7 @@
     "options": [
       "Era grande e ricco di terre da coltivare",
       "Era affacciato sul Mediterraneo orientale",
-      "Era piccolo, povero di terra e affacciato sull'Atlantico",
+      "Era piccolo e affacciato sull'Atlantico",
       "Aveva appena preso Granada"
     ],
     "answer": 2,
@@ -49,7 +49,7 @@
       "Doppiò il Capo di Buona Speranza",
       "Arrivò a Calicut, in India",
       "Toccò le coste del Brasile",
-      "Superò il capo Bojador, che si credeva invalicabile"
+      "Superò il capo Bojador"
     ],
     "answer": 3,
     "why": "Nel 1434 Gil Eanes superò il capo Bojador, che si credeva invalicabile.",
@@ -76,7 +76,7 @@
     "options": [
       "Che la Terra è molto più piccola del previsto",
       "Che l'America è un nuovo continente",
-      "Che l'Oceano Indiano non è chiuso e Tolomeo aveva torto",
+      "Che l'Oceano Indiano non è chiuso",
       "Che il capo Bojador non si può superare"
     ],
     "answer": 2,
@@ -103,7 +103,7 @@
     "q": "Che cosa volevano i portoghesi lungo la rotta verso l'India?",
     "options": [
       "Conquistare grandi territori interni",
-      "Scali fortificati lungo la rotta, da Ceuta a Goa a Malacca",
+      "Scali fortificati lungo la rotta",
       "Fondare città libere con una carta di libertà",
       "Convertire l'imperatore azteco"
     ],
@@ -130,10 +130,10 @@
     "type": "mc",
     "q": "Perché il nuovo continente si chiama America e non «Colombia»?",
     "options": [
-      "Perché Vespucci disse che era un altro continente, mentre Colombo pensava di essere in India",
+      "Perché Vespucci disse che era un altro continente",
       "Perché Vespucci arrivò prima di Colombo",
       "Perché Colombo era portoghese",
-      "Perché il re di Spagna lo decise a Tordesillas"
+      "Perché il re di Spagna lo decise con il trattato di Tordesillas"
     ],
     "answer": 0,
     "why": "Colombo pensava di essere in India, mentre Amerigo Vespucci disse che era un altro continente e gli fu dato il suo nome.",
@@ -160,7 +160,7 @@
     "options": [
       "Copia le misure di Tolomeo",
       "Chiede agli esperti portoghesi",
-      "Si basa sui suoi strumenti e sulle sue osservazioni",
+      "Si basa sulle sue osservazioni",
       "Legge le lettere di Diaz al re"
     ],
     "answer": 2,
@@ -188,8 +188,8 @@
     "options": [
       "Perché non avevano caravelle",
       "Perché avevano appena preso Granada",
-      "Perché Colombo era genovese",
-      "Perché sapevano che la distanza era molto maggiore di quella calcolata da Colombo"
+      "Perché Colombo era genovese e non portoghese",
+      "Perché la distanza era molto maggiore"
     ],
     "answer": 3,
     "why": "Gli esperti portoghesi sapevano che la distanza era molto maggiore di quella calcolata da Colombo, e avevano ragione.",
@@ -228,9 +228,9 @@
     "type": "mc",
     "q": "Che cosa stabilì il trattato di Tordesillas del 1494?",
     "options": [
-      "Una riga sull'Atlantico: a Ovest la Spagna, a Est il Portogallo",
+      "Una riga sull'Atlantico fra Spagna e Portogallo",
       "La pace fra Spagna e Aztechi",
-      "Il nome «America» per il nuovo continente",
+      "Il nome «America» per il nuovo continente scoperto",
       "Il finanziamento del viaggio di Colombo"
     ],
     "answer": 0,

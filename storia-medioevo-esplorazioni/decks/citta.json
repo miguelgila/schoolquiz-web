@@ -21,7 +21,7 @@
       "Per decorare una chiesa",
       "Per insegnare la geografia ai mercanti",
       "Per convincere i cittadini che quel governo era buono",
-      "Per mostrare le rotte di bussola"
+      "Per mostrare le rotte di bussola tra un porto e l'altro"
     ],
     "answer": 2,
     "why": "Il pittore era pagato dal governo di Siena e doveva convincere i cittadini che quel governo era buono.",
@@ -55,9 +55,9 @@
     "q": "Dove sorgono quasi tutte le città medievali?",
     "options": [
       "In cima a una montagna",
-      "Su un fiume o su un lago, spesso vicino a un ponte o a un guado",
+      "Su un fiume o su un lago",
       "In mezzo a un bosco",
-      "Lontano da ogni strada"
+      "Lontano da ogni strada e da ogni mercato"
     ],
     "answer": 1,
     "why": "Quasi tutte le città sorgono su un fiume o su un lago, spesso dove c'è un ponte o un guado.",
@@ -139,10 +139,10 @@
     "type": "mc",
     "q": "Che cosa offre il signore per attirare abitanti nella città che ha fondato?",
     "options": [
-      "Terre da coltivare in campagna",
+      "Terre da coltivare in campagna, fuori dalle mura",
       "Un titolo da nobile",
       "Un posto nel suo esercito",
-      "Libertà in cambio di popolamento e di tasse sui commerci"
+      "Libertà in cambio di tasse sui commerci"
     ],
     "answer": 3,
     "why": "Il signore attira abitanti offrendo libertà in cambio di popolamento e di tasse sui commerci.",
@@ -154,7 +154,7 @@
     "q": "Che cosa concedono le carte di libertà alle città?",
     "options": [
       "Il diritto di battere moneta",
-      "Delle autonomie, cioè il diritto di decidere da sole",
+      "Delle autonomie",
       "Un nuovo castello",
       "L'esenzione dalla guerra per sempre"
     ],
@@ -170,7 +170,7 @@
       "Un diritto di tutti in quanto esseri umani",
       "Una legge uguale in tutta Europa",
       "Il diritto di non pagare mai tasse",
-      "Un privilegio scritto, concesso a un gruppo preciso"
+      "Un privilegio scritto"
     ],
     "answer": 3,
     "why": "La libertà medievale è un privilegio scritto, concesso a un gruppo preciso e valido finché vale il documento.",
@@ -204,7 +204,7 @@
     "q": "A che cosa servono i sigilli in fondo alla carta di Neuchâtel?",
     "options": [
       "A rendere più bello il documento",
-      "A dimostrare che le autorità rendono legale e valido il patto",
+      "A rendere legale e valido il patto",
       "A indicare il prezzo del documento",
       "A chiudere la pergamena arrotolata"
     ],
@@ -256,8 +256,8 @@
     "options": [
       "Essere nato da una famiglia nobile",
       "Possedere molta terra in campagna",
-      "Abitare in città da almeno un anno e un giorno, fare un mestiere ed essere in una corporazione",
-      "Essere un cavaliere al servizio del conte"
+      "Abitare in città da almeno un anno e un giorno",
+      "Essere un cavaliere al servizio del conte Ulrico"
     ],
     "answer": 2,
     "why": "Il borghese abita in città da almeno un anno e un giorno, fa un mestiere artigianale o commerciale, è in una corporazione e gode di diritti e libertà.",
@@ -270,8 +270,8 @@
     "options": [
       "Niente: la concede solo per generosità",
       "Un nuovo titolo di duca",
-      "Il diritto di nominare il vescovo",
-      "Le tasse sul mercato, l'aiuto in guerra e una città più popolata"
+      "Il diritto di nominare il vescovo di Losanna",
+      "Le tasse sul mercato e l'aiuto in guerra"
     ],
     "answer": 3,
     "why": "Il conte guadagna tasse su mercato, fiere, vino e pane, l'aiuto in guerra e una città più popolata.",
@@ -409,8 +409,8 @@
     "type": "mc",
     "q": "Perché nel Medioevo servono i cambiavalute?",
     "options": [
-      "Perché ogni città, vescovo e abbazia conia la propria moneta",
-      "Perché non esiste più la moneta",
+      "Perché ogni città conia la propria moneta",
+      "Perché non esiste più la moneta dopo l'anno Mille",
       "Perché si usa solo il baratto",
       "Perché l'oro è vietato"
     ],
@@ -461,7 +461,7 @@
     "type": "mc",
     "q": "Perché la lettera di cambio è utile ai mercanti?",
     "options": [
-      "Permette di non portarsi dietro l'oro sulle strade dei briganti",
+      "Permette di non portarsi dietro l'oro",
       "Permette di non pagare le tasse al mercato",
       "Sostituisce la carta di libertà",
       "Serve a coniare nuove monete"

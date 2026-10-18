@@ -19,7 +19,7 @@
     "q": "Che cosa vuol dire «immediatezza imperiale»?",
     "options": [
       "L'assemblea pubblica dei cittadini di una valle",
-      "Un legame diretto con l'imperatore, senza passare attraverso altri signori",
+      "Un legame diretto con l'imperatore",
       "Un'alleanza difensiva fra tre valli",
       "Un territorio suddito governato da balivi"
     ],
@@ -70,7 +70,7 @@
     "options": [
       "A un nuovo balivo mandato dagli Asburgo",
       "Al duca Leopoldo d'Austria",
-      "A un Landamano, scelto dai cittadini nella Landsgemeinde",
+      "A un Landamano scelto dai cittadini",
       "All'abbazia di Einsiedeln"
     ],
     "answer": 2,
@@ -93,7 +93,7 @@
       "Che la Svizzera è stata fondata nel 1513",
       "Che nessun patto medievale è stato conservato",
       "Che la Svizzera è nata dalla battaglia del Morgarten",
-      "Che non c'è un giorno di nascita, ma una rete di patti che si infittisce per due secoli"
+      "Che c'è una rete di patti, non un giorno di nascita"
     ],
     "answer": 3,
     "why": "Non c'è un giorno di nascita della Svizzera, ma una rete di patti che si infittisce per due secoli.",
@@ -171,7 +171,7 @@
       "Contro chi dà fuoco alle proprietà dei confederati",
       "Contro chi ospita un assassino",
       "Contro i soldati mercenari",
-      "Contro i giudici venuti da fuori o che hanno comprato la carica con denaro"
+      "Contro i giudici venuti da fuori o corrotti"
     ],
     "answer": 3,
     "why": "L'articolo 4 rifiuta i giudici che hanno comprato la loro funzione o che non abitano nelle valli, per esempio quelli mandati dagli Asburgo.",
@@ -211,9 +211,9 @@
     "type": "mc",
     "q": "Che cos'è la «malizia dei tempi» di cui parla il patto del 1291?",
     "options": [
-      "Il saccheggio dell'abbazia di Einsiedeln",
+      "Il saccheggio dell'abbazia di Einsiedeln da parte degli Svittesi",
       "La guerra di Borgogna",
-      "L'incertezza dopo la morte dell'imperatore Rodolfo d'Asburgo, quando i signori locali cercano di allargare i loro diritti",
+      "L'incertezza dopo la morte dell'imperatore Rodolfo",
       "La conquista della Leventina"
     ],
     "answer": 2,
@@ -226,7 +226,7 @@
     "q": "Che cosa succede nel 1314?",
     "options": [
       "Lucerna entra nell'alleanza",
-      "Gli Svittesi saccheggiano l'abbazia di Einsiedeln",
+      "Gli Svittesi saccheggiano Einsiedeln",
       "I tre rinnovano l'alleanza a Brunnen",
       "Si combatte la battaglia di Sempach"
     ],
@@ -380,7 +380,7 @@
     "q": "Che cosa diventano i territori conquistati a Sud del Gottardo?",
     "options": [
       "Nuovi cantoni con gli stessi diritti",
-      "Baliaggi, cioè territori sudditi governati da balivi mandati a turno dai cantoni",
+      "Baliaggi, cioè territori sudditi",
       "Città libere con una carta di libertà",
       "Terre dirette dell'imperatore"
     ],
@@ -407,7 +407,7 @@
     "type": "mc",
     "q": "Che cosa mostrano le testimonianze sul mito del «piccolo popolo pacifico»?",
     "options": [
-      "Il mito non regge: le fonti descrivono gli Svizzeri come brutali, insolenti e imbattibili",
+      "Il mito non regge: le fonti li descrivono come brutali",
       "Le fonti confermano che gli Svizzeri evitavano la guerra",
       "Le fonti parlano solo del commercio di formaggi",
       "Le fonti dicono che gli Svizzeri facevano molti prigionieri"
@@ -461,7 +461,7 @@
     "q": "Chi paga l'equipaggiamento e le armi di un soldato mercenario?",
     "options": [
       "Il cantone da cui parte",
-      "Il soldato stesso, con il suo salario",
+      "Il soldato stesso",
       "La Dieta dei confederati",
       "Il balivo"
     ],
