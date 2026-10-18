@@ -1,0 +1,452 @@
+[
+  {
+    "id": "esplorazioni-01",
+    "type": "mc",
+    "q": "Quale fu il primo paese europeo a muoversi verso le grandi esplorazioni?",
+    "options": [
+      "Spagna",
+      "Portogallo",
+      "Francia",
+      "Inghilterra"
+    ],
+    "answer": 1,
+    "why": "Il primo paese a muoversi è il Portogallo, piccolo, povero di terra e affacciato sull'Atlantico.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-02",
+    "type": "mc",
+    "q": "Perché il Portogallo era spinto a cercare nuove rotte sul mare?",
+    "options": [
+      "Era grande e ricco di terre da coltivare",
+      "Era affacciato sul Mediterraneo orientale",
+      "Era piccolo, povero di terra e affacciato sull'Atlantico",
+      "Aveva appena preso Granada"
+    ],
+    "answer": 2,
+    "why": "Il Portogallo era piccolo, povero di terra e affacciato sull'Atlantico.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-03",
+    "type": "mc",
+    "q": "Dove il principe Enrico il Navigatore riunì cartografi, astronomi e capitani?",
+    "options": [
+      "A Sagres",
+      "A Palos",
+      "A Lisbona",
+      "A Ceuta"
+    ],
+    "answer": 0,
+    "why": "Enrico il Navigatore riunì a Sagres cartografi, astronomi e capitani e finanziò spedizioni lungo la costa africana.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-04",
+    "type": "mc",
+    "q": "Che cosa fece Gil Eanes nel 1434?",
+    "options": [
+      "Doppiò il Capo di Buona Speranza",
+      "Arrivò a Calicut, in India",
+      "Toccò le coste del Brasile",
+      "Superò il capo Bojador, che si credeva invalicabile"
+    ],
+    "answer": 3,
+    "why": "Nel 1434 Gil Eanes superò il capo Bojador, che si credeva invalicabile.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-05",
+    "type": "mc",
+    "q": "Chi doppiò per primo il Capo di Buona Speranza, nel 1488?",
+    "options": [
+      "Vasco da Gama",
+      "Bartolomeo Diaz",
+      "Gil Eanes",
+      "Pedro Álvares Cabral"
+    ],
+    "answer": 1,
+    "why": "Nel 1488 Bartolomeo Diaz doppiò la punta meridionale dell'Africa, il Capo di Buona Speranza.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-06",
+    "type": "mc",
+    "q": "Che cosa dimostrò il viaggio di Bartolomeo Diaz del 1488?",
+    "options": [
+      "Che la Terra è molto più piccola del previsto",
+      "Che l'America è un nuovo continente",
+      "Che l'Oceano Indiano non è chiuso e Tolomeo aveva torto",
+      "Che il capo Bojador non si può superare"
+    ],
+    "answer": 2,
+    "why": "Doppiando il Capo di Buona Speranza, Diaz mostrò che l'Oceano Indiano non è chiuso e che Tolomeo aveva torto.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-07",
+    "type": "mc",
+    "q": "In che anno Vasco da Gama arrivò a Calicut, in India?",
+    "options": [
+      "1488",
+      "1492",
+      "1498",
+      "1500"
+    ],
+    "answer": 2,
+    "why": "Nel 1498 Vasco da Gama arrivò a Calicut e tornò con un carico di spezie che ripagò molte volte il viaggio.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-08",
+    "type": "mc",
+    "q": "Che cosa volevano i portoghesi lungo la rotta verso l'India?",
+    "options": [
+      "Conquistare grandi territori interni",
+      "Scali fortificati lungo la rotta, da Ceuta a Goa a Malacca",
+      "Fondare città libere con una carta di libertà",
+      "Convertire l'imperatore azteco"
+    ],
+    "answer": 1,
+    "why": "I portoghesi volevano scali fortificati lungo la rotta: un impero fatto di punti su una linea, non di superfici.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-09",
+    "type": "mc",
+    "q": "Quale fu la prima carta a scrivere il nome «America»?",
+    "options": [
+      "La Geografia di Tolomeo",
+      "L'Imago mundi di Pierre d'Ailly",
+      "La carta di navigazione di Diaz",
+      "Il planisfero di Martin Waldseemüller"
+    ],
+    "answer": 3,
+    "why": "Il planisfero di Martin Waldseemüller, del 1507, è la prima carta che scrive il nome «America».",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-10",
+    "type": "mc",
+    "q": "Perché il nuovo continente si chiama America e non «Colombia»?",
+    "options": [
+      "Perché Vespucci disse che era un altro continente, mentre Colombo pensava di essere in India",
+      "Perché Vespucci arrivò prima di Colombo",
+      "Perché Colombo era portoghese",
+      "Perché il re di Spagna lo decise a Tordesillas"
+    ],
+    "answer": 0,
+    "why": "Colombo pensava di essere in India, mentre Amerigo Vespucci disse che era un altro continente e gli fu dato il suo nome.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-11",
+    "type": "mc",
+    "q": "Quale libro possedeva Colombo e riempì di note a margine?",
+    "options": [
+      "La Geografia di Claudio Tolomeo",
+      "L'Imago mundi di Pierre d'Ailly",
+      "Le lettere di Cortés a Carlo V",
+      "Il diario di Antonio Pigafetta"
+    ],
+    "answer": 1,
+    "why": "Colombo possedeva l'Imago mundi di Pierre d'Ailly, un'enciclopedia geografica del 1410, e la riempì di annotazioni.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-12",
+    "type": "mc",
+    "q": "Come si fa Colombo un'idea delle dimensioni della Terra?",
+    "options": [
+      "Copia le misure di Tolomeo",
+      "Chiede agli esperti portoghesi",
+      "Si basa sui suoi strumenti e sulle sue osservazioni",
+      "Legge le lettere di Diaz al re"
+    ],
+    "answer": 2,
+    "why": "Colombo si basa sui suoi strumenti e sulle sue osservazioni per farsi un'idea delle dimensioni della Terra.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-13",
+    "type": "mc",
+    "q": "Secondo i calcoli di Colombo, com'era la Terra?",
+    "options": [
+      "Molto più piccola di quanto è in realtà",
+      "Molto più grande di quanto è in realtà",
+      "Piatta e circondata dall'oceano",
+      "Grande esattamente come la conosciamo oggi"
+    ],
+    "answer": 0,
+    "why": "Colombo ricavò un perimetro all'equatore di 20 400 miglia: per lui la Terra era molto più piccola di quanto è in realtà.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-15",
+    "type": "mc",
+    "q": "Perché i portoghesi rifiutarono il progetto di Colombo?",
+    "options": [
+      "Perché non avevano caravelle",
+      "Perché avevano appena preso Granada",
+      "Perché Colombo era genovese",
+      "Perché sapevano che la distanza era molto maggiore di quella calcolata da Colombo"
+    ],
+    "answer": 3,
+    "why": "Gli esperti portoghesi sapevano che la distanza era molto maggiore di quella calcolata da Colombo, e avevano ragione.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-16",
+    "type": "mc",
+    "q": "Da quale porto salpò Colombo il 3 agosto 1492?",
+    "options": [
+      "Lisbona",
+      "Sagres",
+      "Palos",
+      "Calicut"
+    ],
+    "answer": 2,
+    "why": "Il 3 agosto 1492 Colombo salpò da Palos.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-17",
+    "type": "mc",
+    "q": "Dove toccò terra Colombo il 12 ottobre 1492?",
+    "options": [
+      "Alle Bahamas",
+      "In Brasile",
+      "In India",
+      "In Guinea"
+    ],
+    "answer": 0,
+    "why": "Il 12 ottobre 1492 Colombo toccò terra alle Bahamas.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-18",
+    "type": "mc",
+    "q": "Che cosa stabilì il trattato di Tordesillas del 1494?",
+    "options": [
+      "Una riga sull'Atlantico: a Ovest la Spagna, a Est il Portogallo",
+      "La pace fra Spagna e Aztechi",
+      "Il nome «America» per il nuovo continente",
+      "Il finanziamento del viaggio di Colombo"
+    ],
+    "answer": 0,
+    "why": "Con il trattato di Tordesillas Spagna e Portogallo tracciarono una riga verticale sull'Atlantico: a Ovest la Spagna, a Est il Portogallo.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-19",
+    "type": "mc",
+    "q": "Quale impero abbatté Francisco Pizarro nel 1532?",
+    "options": [
+      "L'impero azteco",
+      "L'impero inca",
+      "L'impero bizantino",
+      "L'impero portoghese"
+    ],
+    "answer": 1,
+    "why": "Francisco Pizarro abbatté l'impero inca nel 1532.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-20",
+    "type": "mc",
+    "q": "Secondo la scheda, che cosa contò soprattutto nella conquista dell'America?",
+    "options": [
+      "Il vaiolo",
+      "Le caravelle",
+      "Le lettere a Carlo V",
+      "Il trattato di Tordesillas"
+    ],
+    "answer": 0,
+    "why": "Contarono cavalli, armi da fuoco e alleanze, ma soprattutto il vaiolo.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-21",
+    "type": "mc",
+    "q": "A chi scrisse Cortés le sue cinque lunghe lettere?",
+    "options": [
+      "A Montezuma",
+      "Al re di Portogallo",
+      "All'imperatore Carlo V",
+      "A Cristoforo Colombo"
+    ],
+    "answer": 2,
+    "why": "Cortés scrisse cinque lunghe lettere all'imperatore Carlo V per raccontargli e giustificargli quello che aveva fatto.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-22",
+    "type": "tf",
+    "q": "Nel 1500 Pedro Álvares Cabral toccò le coste del Brasile.",
+    "answer": true,
+    "why": "Nel 1500 Pedro Álvares Cabral toccò le coste del Brasile.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-23",
+    "type": "tf",
+    "q": "Vasco da Gama tornò dall'India con un carico di spezie che ripagò molte volte il costo del viaggio.",
+    "answer": true,
+    "why": "Nel 1498 Vasco da Gama tornò da Calicut con spezie che ripagarono molte volte il viaggio.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-24",
+    "type": "tf",
+    "q": "Colombo propose alla Francia di raggiungere le Indie navigando verso Ovest.",
+    "answer": false,
+    "why": "Colombo, genovese, propose al Portogallo di raggiungere le Indie navigando verso Ovest.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-25",
+    "type": "tf",
+    "q": "Fino alla morte Colombo restò convinto di essere arrivato in Asia.",
+    "answer": true,
+    "why": "Fino alla morte Colombo restò convinto di essere arrivato in Asia.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-26",
+    "type": "tf",
+    "q": "Oggi in Brasile si parla spagnolo per via della riga di Tordesillas.",
+    "answer": false,
+    "why": "Per via della riga di Tordesillas in Brasile oggi si parla portoghese.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-27",
+    "type": "tf",
+    "q": "La spedizione di Magellano era portoghese.",
+    "answer": false,
+    "why": "La spedizione di Magellano (1519-1522) era spagnola: 5 navi e circa 250 uomini, tornarono in 18 su una sola nave.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-28",
+    "type": "tf",
+    "q": "Nel suo racconto, Montezuma dice di essere «di carne e ossa», mortale come gli spagnoli.",
+    "answer": true,
+    "why": "Nella seconda lettera di Cortés, Montezuma mostra il proprio corpo e dice di essere «di carne e ossa come voi, mortale e palpabile».",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-29",
+    "type": "match",
+    "q": "Abbina ogni navigatore all'anno della sua impresa.",
+    "pairs": [
+      [
+        "Gil Eanes",
+        "1434"
+      ],
+      [
+        "Bartolomeo Diaz",
+        "1488"
+      ],
+      [
+        "Vasco da Gama",
+        "1498"
+      ],
+      [
+        "Pedro Álvares Cabral",
+        "1500"
+      ]
+    ],
+    "why": "Eanes supera il capo Bojador nel 1434, Diaz doppia il Capo di Buona Speranza nel 1488, da Gama arriva in India nel 1498, Cabral tocca il Brasile nel 1500.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-30",
+    "type": "match",
+    "q": "Abbina ogni conquistador o navigatore al luogo legato alla sua impresa.",
+    "pairs": [
+      [
+        "Hernán Cortés",
+        "Impero azteco"
+      ],
+      [
+        "Francisco Pizarro",
+        "Impero inca"
+      ],
+      [
+        "Vasco da Gama",
+        "Calicut"
+      ],
+      [
+        "Cristoforo Colombo",
+        "Bahamas"
+      ]
+    ],
+    "why": "Cortés abbatte gli Aztechi, Pizarro gli Inca, da Gama arriva a Calicut, Colombo tocca terra alle Bahamas.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-31",
+    "type": "match",
+    "q": "Abbina ogni evento al suo anno.",
+    "pairs": [
+      [
+        "Colombo tocca terra alle Bahamas",
+        "1492"
+      ],
+      [
+        "Trattato di Tordesillas",
+        "1494"
+      ],
+      [
+        "Planisfero di Waldseemüller",
+        "1507"
+      ],
+      [
+        "Pizarro abbatte l'impero inca",
+        "1532"
+      ]
+    ],
+    "why": "Bahamas 1492, Tordesillas 1494, planisfero di Waldseemüller 1507, Pizarro e gli Inca 1532.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-32",
+    "type": "order",
+    "q": "Metti in ordine cronologico i viaggi portoghesi.",
+    "items": [
+      "Gil Eanes supera il capo Bojador",
+      "Bartolomeo Diaz doppia il Capo di Buona Speranza",
+      "Vasco da Gama arriva a Calicut",
+      "Cabral tocca le coste del Brasile"
+    ],
+    "why": "1434, 1488, 1498, 1500.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "esplorazioni-33",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Colombo tocca terra alle Bahamas",
+      "Trattato di Tordesillas",
+      "Planisfero di Waldseemüller con il nome «America»",
+      "Cortés incontra Montezuma",
+      "Pizarro abbatte l'impero inca"
+    ],
+    "why": "1492, 1494, 1507, 1519, 1532.",
+    "src": "§2 · Colombo e l'incontro"
+  },
+  {
+    "id": "esplorazioni-34",
+    "type": "order",
+    "q": "Metti in ordine cronologico il primo viaggio di Colombo.",
+    "items": [
+      "La Spagna accetta di finanziare Colombo",
+      "Colombo salpa da Palos",
+      "Colombo tocca terra alle Bahamas"
+    ],
+    "why": "Nel 1492 la Spagna accetta di finanziarlo, il 3 agosto salpa da Palos, il 12 ottobre tocca terra alle Bahamas.",
+    "src": "§2 · Colombo e l'incontro"
+  }
+]

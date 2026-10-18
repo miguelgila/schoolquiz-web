@@ -266,7 +266,7 @@ Domanda guida del blocco: nel 1450 un europeo colto sa che il mondo finisce dove
 - Colombo si basa sui suoi strumenti e sulle sue osservazioni per farsi un'idea delle dimensioni della Terra (risposta modello).
 - Per Colombo è importante dire di aver navigato lui stesso: altrimenti lo avrebbero considerato un pazzo senza esperienza (risposta dello studente).
 - Colombo annota che nel dicembre 1488 attraccò a Lisbona Bartolomeo Diaz, capitano di tre caravelle, che aveva navigato 600 leghe oltre il già navigato fino a un promontorio da lui chiamato Cabo de Boa Esperança, e disegnò il viaggio lega per lega su una carta di navigazione per il re.
-- Le note di Colombo erano appunti privati, non destinati a nessuno: per uno storico valgono proprio perché sincere, diversamente da una lettera ufficiale.
+- Le note di Colombo erano appunti privati, non destinati a nessuno. (Il valore per lo storico era una domanda senza risposta nella scheda: DA VERIFICARE, non usare.)
 - Cristoforo Colombo, genovese, propone al Portogallo di raggiungere le Indie navigando verso Ovest.
 - I portoghesi rifiutano Colombo: i loro esperti sanno che la distanza è molto maggiore di quella calcolata da Colombo, e hanno ragione.
 - Nel 1492 la Spagna, che ha appena completato la reconquista con la presa di Granada, accetta di finanziare Colombo.
