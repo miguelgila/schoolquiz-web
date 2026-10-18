@@ -12,7 +12,8 @@ const QuizCore = {
     return out;
   },
 
-  // n questions from one deck, or an equal share per deck for 'all'.
+  // n questions from one deck, or an equal share per deck for 'all' (topped up from the
+  // larger decks when the small ones cannot fill their share).
   // Each question is a shallow copy tagged with the id of its deck.
   sampleRound(quiz, deckId, n, rng = Math.random) {
     const tag = (deck) => deck.questions.map((q) => Object.assign({}, q, { deck: deck.id }));
@@ -22,7 +23,13 @@ const QuizCore = {
         return QuizCore.shuffle([].concat(...decks.map(tag)), rng);
       }
       const share = Math.ceil(n / decks.length);
-      const picked = [].concat(...decks.map((d) => QuizCore.shuffle(tag(d), rng).slice(0, share)));
+      const shuffled = decks.map((d) => QuizCore.shuffle(tag(d), rng));
+      let picked = [].concat(...shuffled.map((qs) => qs.slice(0, share)));
+      // small decks leave the round short: top up from what the larger decks have left
+      if (picked.length < n) {
+        const rest = QuizCore.shuffle([].concat(...shuffled.map((qs) => qs.slice(share))), rng);
+        picked = picked.concat(rest.slice(0, n - picked.length));
+      }
       return QuizCore.shuffle(picked, rng).slice(0, n);
     }
     const deck = quiz.decks.find((d) => d.id === deckId);
@@ -479,7 +486,8 @@ const QuizCore = {
     actions.appendChild(next);
     card.appendChild(actions);
     next.focus({ preventScroll: true });
-    box.scrollIntoView({ block: 'nearest' });
+    // bring the feedback and the Avanti row below it into view
+    actions.scrollIntoView({ block: 'nearest' });
   }
 
   function goNext() {
@@ -532,8 +540,9 @@ const QuizCore = {
     const q = current();
     if (!q || el('card').hidden) return;
     if (e.key === 'Enter') {
-      // a focused button or link already activates itself on Enter
-      if (tag === 'BUTTON' || tag === 'A') return;
+      // a focused button or link already activates itself on Enter;
+      // inside a select Enter belongs to the select, not to the quiz
+      if (tag === 'BUTTON' || tag === 'A' || tag === 'SELECT') return;
       if (S.answered) {
         e.preventDefault();
         goNext();

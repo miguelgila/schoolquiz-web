@@ -79,6 +79,18 @@ test('sampleRound all shares across decks and respects n', () => {
   }
 });
 
+test('sampleRound all tops up from larger decks when small decks run short', () => {
+  for (let seed = 1; seed <= 50; seed++) {
+    const out = Q.sampleRound(makeQuiz([12, 1, 1]), 'all', 10, mulberry32(seed));
+    assert.equal(out.length, 10);
+    assert.equal(new Set(out.map((q) => q.id)).size, 10);
+    assert.ok(out.every((q) => q.id.startsWith(q.deck + '-')));
+    const nine = Q.sampleRound(makeQuiz([3, 3, 3]), 'all', 10, mulberry32(seed));
+    assert.equal(nine.length, 9);
+    assert.equal(new Set(nine.map((q) => q.id)).size, 9);
+  }
+});
+
 test('sampleRound with Infinity returns everything', () => {
   const quiz = makeQuiz([12, 12, 3]);
   const all = Q.sampleRound(quiz, 'all', Infinity, mulberry32(4));
