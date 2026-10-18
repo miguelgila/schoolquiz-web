@@ -1,0 +1,436 @@
+[
+  {
+    "id": "passi-01",
+    "type": "mc",
+    "q": "Dove sono state ritrovate nel 2014 circa centoventi monete del Duecento?",
+    "options": [
+      "Sulla cima del Gottardo",
+      "Lungo l'antica mulattiera del passo del Brünig",
+      "Nella gola della Schöllenen",
+      "Al passo del Brennero"
+    ],
+    "answer": 1,
+    "why": "Nel 2014 circa centoventi monete del Duecento sono state ritrovate lungo l'antica mulattiera del passo del Brünig, in Canton Obvaldo.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-02",
+    "type": "mc",
+    "q": "Chi ha coniato la maggior parte delle monete trovate al Brünig?",
+    "options": [
+      "L'abbazia di Fraumünster a Zurigo",
+      "La città di Strasburgo",
+      "Il vescovo di Basilea",
+      "La città di Sciaffusa"
+    ],
+    "answer": 2,
+    "why": "La maggior parte delle monete del Brünig sono denari coniati dal vescovo di Basilea.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-03",
+    "type": "mc",
+    "q": "Secondo gli archeologi, come sono arrivate le monete lungo la mulattiera del Brünig?",
+    "options": [
+      "Le ha perse un viaggiatore",
+      "Le hanno lasciate i Romani",
+      "Erano il pedaggio pagato ai somieri",
+      "Erano un'offerta per l'ospizio del Gottardo"
+    ],
+    "answer": 0,
+    "why": "Gli archeologi suppongono che i denari del Brünig siano stati persi da un viaggiatore.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-04",
+    "type": "mc",
+    "q": "Di che cosa è una prova il ritrovamento delle monete del Brünig?",
+    "options": [
+      "Che nel Medioevo nessuno attraversava le Alpi",
+      "Che in Europa esisteva una sola moneta",
+      "Che il Brünig era il passo più trafficato d'Europa",
+      "Che nel Medioevo le persone si spostavano spesso"
+    ],
+    "answer": 3,
+    "why": "Il ritrovamento del Brünig prova che nel Medioevo mercanti, studenti e pellegrini si spostavano di frequente.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-05",
+    "type": "mc",
+    "q": "Monete di Basilea, Zurigo, Sciaffusa, Villingen e Strasburgo nella tasca di una sola persona: che cosa ci dicono sul Duecento?",
+    "options": [
+      "Che le monete erano tutte uguali",
+      "Che ogni città importante batteva moneta e i mercanti viaggiavano fra le città",
+      "Che il baratto era ancora l'unico modo di commerciare",
+      "Che solo l'imperatore poteva coniare monete"
+    ],
+    "answer": 1,
+    "why": "Monete di zecche diverse in una sola tasca dicono che nel Duecento ogni città importante batteva moneta e che i mercanti viaggiavano fra loro.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-06",
+    "type": "mc",
+    "q": "Che cosa passava soprattutto dal passo del Brünig?",
+    "options": [
+      "Spezie e seta dall'Oriente",
+      "Tessuti di lana del Nord",
+      "Bestiame e formaggi",
+      "Carte nautiche"
+    ],
+    "answer": 2,
+    "why": "Il Brünig ebbe un'importanza regionale: serviva soprattutto al traffico di bestiame e formaggi tra Lucerna, Obvaldo e l'Italia settentrionale.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-07",
+    "type": "mc",
+    "q": "Dove si vendevano in particolare il latte e i formaggi prodotti nella Svizzera centrale?",
+    "options": [
+      "In Lombardia",
+      "Nel Baltico",
+      "In Champagne",
+      "A Maiorca"
+    ],
+    "answer": 0,
+    "why": "Latte e formaggi della Svizzera centrale venivano venduti sui mercati europei, in particolare in Lombardia.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-08",
+    "type": "mc",
+    "q": "Da quale secolo i vescovi ottennero, tra i primi, il privilegio di battere moneta?",
+    "options": [
+      "Dal XIII secolo",
+      "Dal XII secolo",
+      "Dal XV secolo",
+      "Dal IX secolo"
+    ],
+    "answer": 3,
+    "why": "I vescovi furono tra i primi, fin dal IX secolo, a ottenere il privilegio di battere moneta.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-09",
+    "type": "mc",
+    "q": "Che cosa mostra la miniatura medievale sul trasporto delle merci sui passi alpini?",
+    "options": [
+      "Carri trainati da buoi su una strada larga",
+      "Muli carichi che camminano nella neve, con le tempeste",
+      "Una carovana di cammelli",
+      "Navi che risalgono un fiume"
+    ],
+    "answer": 1,
+    "why": "La miniatura mostra muli carichi che camminano nella neve, con le tempeste.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-10",
+    "type": "mc",
+    "q": "Perché sui passi alpini le merci viaggiano sul dorso degli animali e non sui carri?",
+    "options": [
+      "Perché i carri erano vietati dai signori",
+      "Perché gli animali costavano meno dei carri",
+      "Perché gli animali sono più stabili e si controllano meglio sui sentieri di montagna",
+      "Perché le merci erano molto leggere"
+    ],
+    "answer": 2,
+    "why": "Sui sentieri di montagna gli animali sono più stabili e si controllano meglio dei carri.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-11",
+    "type": "mc",
+    "q": "Ogni animale porta «una soma». Quanto pesa circa una soma?",
+    "options": [
+      "155 chili",
+      "100 chili",
+      "250 chili",
+      "1000 chili"
+    ],
+    "answer": 0,
+    "why": "Una soma, il carico di un animale, pesa circa 155 chili.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-12",
+    "type": "mc",
+    "q": "Chi guida gli animali carichi sui passi alpini?",
+    "options": [
+      "I mercanti venuti da Milano",
+      "I soldati mercenari",
+      "I cambiavalute",
+      "I somieri, abitanti della valle"
+    ],
+    "answer": 3,
+    "why": "Chi guida gli animali sui passi non è un mercante ma un abitante della valle: i somieri.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-13",
+    "type": "mc",
+    "q": "Quale vantaggio economico ricava una comunità di montagna dal passaggio delle merci?",
+    "options": [
+      "Il diritto di battere moneta",
+      "Pagamenti per il trasporto, per soste e magazzini e tasse di pedaggio",
+      "Una carta di libertà dal vescovo",
+      "Merci gratis dai mercanti"
+    ],
+    "answer": 1,
+    "why": "La comunità di montagna guadagna dal trasporto, dalle soste e dai magazzini e dalle tasse di pedaggio.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-14",
+    "type": "mc",
+    "q": "Perché i Romani, pur conoscendo la regione del San Gottardo, quasi non la usavano?",
+    "options": [
+      "Perché la gola della Schöllenen era una barriera insuperabile",
+      "Perché non c'erano somieri",
+      "Perché il passo era controllato da Milano",
+      "Perché preferivano il Brünig"
+    ],
+    "answer": 0,
+    "why": "Per i Romani la gola della Schöllenen era una barriera insuperabile.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-15",
+    "type": "mc",
+    "q": "Che cos'era il Twärrenbrücke, costruito tra il 1218 e il 1226?",
+    "options": [
+      "Un ospizio sulla cima del passo",
+      "Un ponte di pietra costruito dai Romani",
+      "Una passerella di legno appesa alla roccia",
+      "Un magazzino per pesare le merci"
+    ],
+    "answer": 2,
+    "why": "Il Twärrenbrücke era una passerella di legno appesa alla roccia, costruita dai valligiani tra il 1218 e il 1226.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-16",
+    "type": "mc",
+    "q": "Dopo la costruzione dei ponti nella Schöllenen, quali città collega direttamente il Gottardo?",
+    "options": [
+      "Lucerna e Obvaldo",
+      "Strasburgo e Venezia",
+      "Zurigo e Genova",
+      "Basilea e Milano"
+    ],
+    "answer": 3,
+    "why": "Da quel momento il Gottardo collega direttamente Basilea e Milano.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-17",
+    "type": "mc",
+    "q": "Come si organizzano i valligiani del Gottardo per guadagnare dal passaggio dei mercanti?",
+    "options": [
+      "Fondano una banca",
+      "In corporazioni di somieri, con statuti e tariffe approvati da tutti",
+      "Chiedono una carta di libertà al conte",
+      "Si arruolano tutti come mercenari"
+    ],
+    "answer": 1,
+    "why": "I valligiani si offrono come trasportatori e si organizzano in corporazioni di somieri, con statuti e tariffe approvati da tutti.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-18",
+    "type": "mc",
+    "q": "Secondo gli storici di oggi, quanta merce passa dal Gottardo nel Medioevo rispetto al Brennero?",
+    "options": [
+      "Il doppio",
+      "La metà",
+      "Al massimo un ventesimo",
+      "Dieci volte tanto"
+    ],
+    "answer": 2,
+    "why": "Gli storici ridimensionano il Gottardo: vi passa al massimo un ventesimo di quanto transita per il Brennero.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-19",
+    "type": "mc",
+    "q": "Che cosa cambia davvero con l'apertura del Gottardo?",
+    "options": [
+      "La posizione: le valli attorno al passo diventano un territorio che molti vogliono controllare",
+      "La quantità di merci, che supera quella del Brennero",
+      "Il modo di trasportare le merci, che ora viaggiano sui carri",
+      "La moneta, che diventa uguale per tutti"
+    ],
+    "answer": 0,
+    "why": "Con il Gottardo cambia la posizione: le valli, fino a ieri marginali, interessano a imperatori, nobili e città come Milano e Zurigo.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-20",
+    "type": "mc",
+    "q": "A chi serve soprattutto la strada del Gottardo?",
+    "options": [
+      "Ai mercanti della Lega Anseatica",
+      "Ai commerci degli abitanti della Svizzera centrale",
+      "Ai Romani",
+      "Ai mercanti di spezie di Venezia"
+    ],
+    "answer": 1,
+    "why": "Il Gottardo serve soprattutto ai commerci degli abitanti della Svizzera centrale: bovini, cavalli, formaggi.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-21",
+    "type": "tf",
+    "q": "Le monete del passo del Brünig sono state ritrovate nel 1914.",
+    "answer": false,
+    "why": "Le monete del Brünig sono state ritrovate nel 2014.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-22",
+    "type": "tf",
+    "q": "Le monete del Brünig non sono proprio rotonde: sono deformate e diverse fra loro.",
+    "answer": true,
+    "why": "Le monete del Brünig sono deformate, non proprio rotonde e diverse fra loro.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-23",
+    "type": "tf",
+    "q": "Nel 1300 passano ogni anno dal Gottardo 4000 tonnellate di merce.",
+    "answer": false,
+    "why": "Le 4000 tonnellate all'anno del 1300 sono quelle registrate al Brennero, non al Gottardo.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-24",
+    "type": "tf",
+    "q": "Tutto il traffico annuale del Gottardo sarebbe potuto stare in una sola grande nave medievale.",
+    "answer": true,
+    "why": "Il traffico annuale del Gottardo era così piccolo che sarebbe stato in una sola grande nave medievale.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-25",
+    "type": "tf",
+    "q": "Il Twärrenbrücke fu costruito dai Romani.",
+    "answer": false,
+    "why": "Il Twärrenbrücke fu costruito dai valligiani tra il 1218 e il 1226.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-26",
+    "type": "tf",
+    "q": "Dal Gottardo passa anche una «merce» particolare: i soldati mercenari.",
+    "answer": true,
+    "why": "Un'altra «merce» particolare che passa dal Gottardo sono i soldati mercenari.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-27",
+    "type": "match",
+    "q": "Abbina ogni parola al suo significato.",
+    "pairs": [
+      [
+        "Soma",
+        "Carico di un animale, circa 155 chili"
+      ],
+      [
+        "Somieri",
+        "Abitanti della valle che guidano gli animali"
+      ],
+      [
+        "Soste",
+        "Magazzini dove le merci sono scaricate, pesate e tassate"
+      ],
+      [
+        "Twärrenbrücke",
+        "Passerella di legno appesa alla roccia"
+      ],
+      [
+        "«Stiebender Steg»",
+        "Primo Ponte del Diavolo, il «ponte gocciolante»"
+      ]
+    ],
+    "why": "Soma, somieri e soste sono le parole del trasporto sui passi; Twärrenbrücke e «stiebender Steg» sono i primi passaggi di legno nella Schöllenen.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-28",
+    "type": "match",
+    "q": "Abbina ogni numero a quello che indica.",
+    "pairs": [
+      [
+        "7",
+        "Bestie che servono per una tonnellata di merce"
+      ],
+      [
+        "25 800",
+        "Bestie circa che servono al Brennero nel 1300"
+      ],
+      [
+        "120",
+        "Monete circa ritrovate al Brünig"
+      ],
+      [
+        "2014",
+        "Anno del ritrovamento delle monete del Brünig"
+      ]
+    ],
+    "why": "Servono 7 bestie per una tonnellata e circa 25 800 al Brennero nel 1300; al Brünig nel 2014 si sono trovate circa 120 monete.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "passi-29",
+    "type": "match",
+    "q": "Abbina ogni luogo al fatto che lo riguarda.",
+    "pairs": [
+      [
+        "Brennero",
+        "4000 tonnellate di merce nel 1300"
+      ],
+      [
+        "Gola della Schöllenen",
+        "Barriera insuperabile per i Romani"
+      ],
+      [
+        "Cima del Gottardo",
+        "Ospizio a 2100 metri dal XIII secolo"
+      ],
+      [
+        "Passo del Brünig",
+        "Mulattiera in Canton Obvaldo con monete del Duecento"
+      ]
+    ],
+    "why": "Brennero: 4000 tonnellate nel 1300; Schöllenen: barriera per i Romani; Gottardo: ospizio a 2100 metri; Brünig: monete del Duecento in Obvaldo.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-30",
+    "type": "order",
+    "q": "Metti in ordine cronologico la storia del passaggio del Gottardo.",
+    "items": [
+      "I Romani conoscono la regione ma quasi non la usano",
+      "I valligiani costruiscono il Twärrenbrücke",
+      "Viene costruito il primo Ponte del Diavolo",
+      "Il Gottardo collega direttamente Basilea e Milano"
+    ],
+    "why": "Per i Romani la Schöllenen era insuperabile; tra il 1218 e il 1226 nasce il Twärrenbrücke, poco dopo il primo Ponte del Diavolo, e da allora il Gottardo collega Basilea e Milano.",
+    "src": "§1 · Il superamento delle Alpi"
+  },
+  {
+    "id": "passi-31",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "I vescovi ottengono il privilegio di battere moneta",
+      "Costruzione del Twärrenbrücke",
+      "Vengono coniate le monete poi trovate al Brünig",
+      "Dal Brennero passano 4000 tonnellate di merce in un anno",
+      "Ritrovamento delle monete del Brünig"
+    ],
+    "why": "IX secolo, 1218-1226, seconda metà del Duecento, 1300, 2014.",
+    "src": "§1 · Le strade e le merci"
+  }
+]
