@@ -59,6 +59,23 @@ python3 -m http.server 8000
 Best scores and the round length are kept in `localStorage` under
 `schoolquiz.fixture.*`; clear site data to reset them.
 
+## App icons
+
+`icon.svg` (repo root) is written by hand: a 512x512 `#1F5FA8` rounded square
+with a white check mark. `rsvg-convert` is not installed on the author's Mac,
+so the PNGs are exported with macOS Quick Look and `sips`, from the repo root:
+
+```sh
+qlmanage -t -s 512 -o /tmp/schoolquiz-icon icon.svg
+cp /tmp/schoolquiz-icon/icon.svg.png icon-512.png
+sips -s format png -z 180 180 icon-512.png --out icon-180.png
+sips -g pixelWidth -g pixelHeight icon-512.png icon-180.png
+```
+
+With `rsvg-convert` available, `rsvg-convert -w 512 -h 512 icon.svg -o icon-512.png`
+(and `-w 180 -h 180` for `icon-180.png`) does the same. `manifest.webmanifest`
+lists all three icons.
+
 ## Test suites
 
 Python tests (checker and other tools):

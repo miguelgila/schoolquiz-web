@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+  Landing page. All visible text comes from shared/i18n.js (data-i18n) and quizzes.js,
+  rendered by shared/landing.js.
+-->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz scolastici</title>
+<meta name="description" content="">
+<meta name="theme-color" content="#1F5FA8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z" fill="#fff"/></svg></div>
+      <div><h1 data-i18n="siteTitle"></h1><p class="sub" data-i18n="siteSub"></p></div>
+    </div>
+  </header>
+
+  <main class="landing">
+    <h2 data-i18n="landingQuizzes"></h2>
+    <div class="quizzes" id="quizzes"></div>
+  </main>
+
+  <section class="others" id="others">
+    <h2 data-i18n="landingOthers"></h2>
+    <p class="links"><a href="https://chgeo.giar.dev">chgeo.giar.dev</a> <a href="https://eugeo.giar.dev">eugeo.giar.dev</a></p>
+  </section>
+
+  <footer><a href="https://github.com/miguelgila/schoolquiz-web" rel="noopener" data-i18n="footCode"></a> (<span data-i18n="footLicence"></span>)<br><span data-i18n="coffeeQ"></span> <a href="https://ko-fi.com/miguelgila" rel="noopener" data-i18n="coffee"></a></footer>
+</div>
+
+<script src="shared/i18n.js"></script>
+<script src="quizzes.js"></script>
+<script src="shared/landing.js"></script>
+</body>
+</html>
