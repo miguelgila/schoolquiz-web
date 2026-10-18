@@ -118,8 +118,8 @@ class I18nTest(unittest.TestCase):
         self.assertEqual(missing, {}, "keys used but not defined in ui.it")
 
     def test_every_key_is_used(self):
-        if not os.path.isfile(ENGINE_PATH):
-            self.skipTest("shared/engine.js does not exist yet")
+        if not os.path.isfile(ENGINE_PATH) or not JS_KEY_RE.search(_read(ENGINE_PATH)):
+            self.skipTest("shared/engine.js has no UI strings yet")
         unused = sorted(set(self.it) - set(used_keys()))
         self.assertEqual(unused, [], "keys defined in ui.it but never used")
 

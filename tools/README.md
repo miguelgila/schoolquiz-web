@@ -1,8 +1,8 @@
 # tools
 
-Local checks for the quiz data and code. Python 3 standard library only, no
-packages to install. Run everything from the repo root, and run it before
-every push.
+Local checks for the quiz data and code. Python 3 and node (20 or newer)
+standard libraries only, no packages to install. Run everything from the repo
+root, and run it before every push.
 
 ## Question file checker
 
@@ -48,9 +48,15 @@ Python tests (checker and other tools):
 python3 -m unittest discover -s tools -p 'test_*.py' -v
 ```
 
-JavaScript tests for the quiz engine (added later), using node's built-in
-test runner:
+JavaScript tests for the quiz engine, using node's built-in test runner
+(no packages):
 
 ```sh
 node --test tools/
 ```
+
+`tools/engine.test.mjs` loads `shared/engine.js` with `node:vm` and tests the
+pure `QuizCore` part: shuffling, round sampling per deck and across all decks,
+the shuffled question views from `prepare`, grading with the `correctText`
+formats, and the best-score helpers `readBest`/`writeBest`. It uses a seeded
+random generator, so results are reproducible.
