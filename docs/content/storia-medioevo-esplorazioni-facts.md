@@ -236,7 +236,7 @@ Domanda guida del blocco: nel 1450 un europeo colto sa che il mondo finisce dove
 - Un re con le tasse può pagare una spedizione: un signore feudale no.
 - Seconda spinta: Costantinopoli cade. Il 29 maggio 1453 il sultano ottomano Maometto II conquista Costantinopoli e finisce l'Impero bizantino, durato mille anni.
 - Per i mercanti europei la conseguenza della caduta di Costantinopoli è concreta: le vie di terra verso l'Asia passano sotto controllo ottomano e i costi salgono. Chi vuole spezie deve trovare un'altra strada.
-- (Le altre due spinte compaiono nelle schede seguenti: il progresso delle tecniche di navigazione e la ricerca dell'oro e delle spezie.)
+- (Le schede scansionate riportano solo le prime due delle quattro spinte; le altre due NON sono nel materiale: DA VERIFICARE, non usare.)
 
 ## §2 · Le tecniche del viaggio
 

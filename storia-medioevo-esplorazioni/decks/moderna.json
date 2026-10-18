@@ -1,0 +1,463 @@
+[
+  {
+    "id": "moderna-01",
+    "type": "mc",
+    "q": "Nell'Alto Medioevo, chi sono i bellatores?",
+    "options": [
+      "Artigiani e contadini",
+      "I guerrieri, nobili senza possedimenti",
+      "Imperatore e papa, sovrani ed ecclesiastici",
+      "I borghesi delle città"
+    ],
+    "answer": 1,
+    "why": "I bellatores sono i «guerrieri», cioè i nobili senza possedimenti: sono quelli che combattono.",
+    "src": "Appunti · Alto e Basso Medioevo"
+  },
+  {
+    "id": "moderna-02",
+    "type": "match",
+    "q": "Abbina ogni ordine della società dell'Alto Medioevo a che cosa fa.",
+    "pairs": [
+      [
+        "Oratores",
+        "Chi prega"
+      ],
+      [
+        "Bellatores",
+        "Chi combatte"
+      ],
+      [
+        "Laboratores",
+        "Chi lavora"
+      ]
+    ],
+    "why": "Oratores sono chi prega, bellatores chi combatte, laboratores chi lavora.",
+    "src": "Appunti · Alto e Basso Medioevo"
+  },
+  {
+    "id": "moderna-03",
+    "type": "mc",
+    "q": "Nel Basso Medioevo la piramide della società cambia. Chi prende il posto dei guerrieri, nel mezzo?",
+    "options": [
+      "I contadini",
+      "Gli ecclesiastici",
+      "I borghesi",
+      "I nobili cadetti"
+    ],
+    "answer": 2,
+    "why": "Nel Basso Medioevo in mezzo alla piramide ci sono i borghesi, che prendono il posto dei guerrieri.",
+    "src": "Appunti · Alto e Basso Medioevo"
+  },
+  {
+    "id": "moderna-04",
+    "type": "order",
+    "q": "Metti in ordine la piramide della società nel Basso Medioevo, dalla cima alla base.",
+    "items": [
+      "Governanti",
+      "Borghesi",
+      "Lavoratori"
+    ],
+    "why": "Nel Basso Medioevo in cima ci sono i governanti, in mezzo i borghesi e in basso i lavoratori.",
+    "src": "Appunti · Alto e Basso Medioevo"
+  },
+  {
+    "id": "moderna-05",
+    "type": "mc",
+    "q": "Chi sono i nobili cadetti?",
+    "options": [
+      "I figli primogeniti dei re",
+      "I figli secondogeniti in poi dei nobili",
+      "I nobili che diventano borghesi",
+      "I soldati che proteggono il papa"
+    ],
+    "answer": 1,
+    "why": "I nobili cadetti sono i figli secondogeniti in poi dei nobili.",
+    "src": "Appunti · Alto e Basso Medioevo"
+  },
+  {
+    "id": "moderna-06",
+    "type": "mc",
+    "q": "Quale anno segna l'inizio dell'età moderna?",
+    "options": [
+      "1453",
+      "1488",
+      "1492",
+      "1507"
+    ],
+    "answer": 2,
+    "why": "Il 1492 segna l'inizio dell'età moderna.",
+    "src": "Appunti · Età Moderna"
+  },
+  {
+    "id": "moderna-07",
+    "type": "mc",
+    "q": "Quale di questi è uno dei cinque «strappi» dell'età moderna?",
+    "options": [
+      "La nascita delle corporazioni",
+      "L'invenzione della stampa",
+      "La divisione della società in tre ordini",
+      "La nascita delle fiere"
+    ],
+    "answer": 1,
+    "why": "L'invenzione della stampa è uno dei cinque strappi dell'età moderna.",
+    "src": "Appunti · Età Moderna"
+  },
+  {
+    "id": "moderna-08",
+    "type": "mc",
+    "q": "Uno strappo dell'età moderna è un nuovo pensiero politico. Quale passaggio indica?",
+    "options": [
+      "Da cittadini a sudditi",
+      "Da contadini a guerrieri",
+      "Da nobili a borghesi",
+      "Da sudditi a cittadini"
+    ],
+    "answer": 3,
+    "why": "Il nuovo pensiero politico dell'età moderna porta le persone da sudditi a cittadini.",
+    "src": "Appunti · Età Moderna"
+  },
+  {
+    "id": "moderna-09",
+    "type": "mc",
+    "q": "Che cos'è uno Stato?",
+    "options": [
+      "Un organismo politico creato dagli uomini",
+      "Una comunità con la stessa lingua e le stesse tradizioni",
+      "Una regione delimitata da montagne e fiumi",
+      "Un gruppo di città alleate"
+    ],
+    "answer": 0,
+    "why": "Lo Stato è un organismo politico creato dagli uomini.",
+    "src": "Appunti · Stato e Nazione"
+  },
+  {
+    "id": "moderna-10",
+    "type": "mc",
+    "q": "Una nazione ha confini geografici e confini culturali. Quale di questi è un confine culturale?",
+    "options": [
+      "Un fiume",
+      "Una catena di montagne",
+      "La lingua",
+      "Un oceano"
+    ],
+    "answer": 2,
+    "why": "La lingua è un confine culturale, come la religione, il cibo e le tradizioni; fiumi, montagne e oceani sono confini geografici.",
+    "src": "Appunti · Stato e Nazione"
+  },
+  {
+    "id": "moderna-11",
+    "type": "match",
+    "q": "Abbina ogni opera o libro al suo autore.",
+    "pairs": [
+      [
+        "Madonna col Bambino in trono, angeli e santi",
+        "Giotto"
+      ],
+      [
+        "La Madonna del Belvedere",
+        "Raffaello"
+      ],
+      [
+        "Geografia",
+        "Claudio Tolomeo"
+      ]
+    ],
+    "why": "La «Madonna col Bambino in trono» è di Giotto, la «Madonna del Belvedere» di Raffaello e la «Geografia» di Claudio Tolomeo.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-12",
+    "type": "tf",
+    "q": "Le Madonne di Giotto e di Raffaello raffigurano lo stesso soggetto a circa cinque secoli di distanza.",
+    "answer": false,
+    "why": "Le due Madonne raffigurano lo stesso soggetto a circa due secoli di distanza.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-13",
+    "type": "mc",
+    "q": "Perché nei dipinti del Medioevo il blu era un colore così caro?",
+    "options": [
+      "Perché arrivava dalle Americhe",
+      "Perché proveniva dal lapislazzuli, un minerale raro e prezioso",
+      "Perché lo potevano usare solo i papi",
+      "Perché si otteneva da un fiore che cresceva solo a Firenze"
+    ],
+    "answer": 1,
+    "why": "Nel Medioevo il blu era caro perché proveniva dal lapislazzuli, minerale raro e prezioso.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-14",
+    "type": "mc",
+    "q": "Quale elemento della Madonna di Raffaello mostra che è un'opera dell'età moderna?",
+    "options": [
+      "Lo sfondo tutto dorato",
+      "L'uso di pochi colori",
+      "La profondità, per esempio le montagne sullo sfondo",
+      "Le figure tutte della stessa grandezza"
+    ],
+    "answer": 2,
+    "why": "Nell'età moderna c'è la prospettiva e compare la profondità, per esempio le montagne sullo sfondo.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-15",
+    "type": "mc",
+    "q": "Nel 1400 e nel 1500 un nuovo modo di pensare porta al centro dell'interesse, oltre a Dio e alle Sacre Scritture, anche…",
+    "options": [
+      "l'essere umano e la natura",
+      "solo la guerra e le armi",
+      "il commercio delle spezie",
+      "la vita nei monasteri"
+    ],
+    "answer": 0,
+    "why": "Il nuovo modo di pensare porta al centro anche aspetti del mondo terreno come l'essere umano e la natura.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-16",
+    "type": "mc",
+    "q": "Secondo il nuovo modo di pensare del Quattrocento, che cosa permette di fare scoperte e acquisire nuove conoscenze?",
+    "options": [
+      "Ripetere quello che dicono i governanti",
+      "L'osservazione diretta del mondo e la sperimentazione",
+      "Leggere soltanto le Sacre Scritture",
+      "Obbedire alle corporazioni"
+    ],
+    "answer": 1,
+    "why": "Ci si rende conto che l'osservazione diretta del mondo e la sperimentazione permettono di fare scoperte.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-17",
+    "type": "mc",
+    "q": "Come si chiama la corrente culturale che riguarda la lingua e la letteratura?",
+    "options": [
+      "Rinascimento",
+      "Medioevo",
+      "Umanesimo",
+      "Età moderna"
+    ],
+    "answer": 2,
+    "why": "La corrente culturale che riguarda la lingua e la letteratura è detta Umanesimo.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-18",
+    "type": "tf",
+    "q": "Nel Medioevo pittura, scultura e architettura sono considerate artigianato.",
+    "answer": true,
+    "why": "Nel Medioevo pittura, scultura e architettura sono considerate artigianato, dal Quattrocento invece sono forme di arte.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-19",
+    "type": "mc",
+    "q": "In quale città si sviluppa il Rinascimento, prima di diffondersi nel resto d'Europa?",
+    "options": [
+      "Venezia",
+      "Siena",
+      "Genova",
+      "Firenze"
+    ],
+    "answer": 3,
+    "why": "Il Rinascimento si sviluppa a Firenze e si diffonde poi nel resto d'Europa.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-20",
+    "type": "mc",
+    "q": "Qual è la vera innovazione dell'arte rinascimentale?",
+    "options": [
+      "La prospettiva",
+      "L'uso del blu",
+      "La pergamena",
+      "La miniatura"
+    ],
+    "answer": 0,
+    "why": "La vera innovazione dell'arte rinascimentale è la prospettiva, che rappresenta la realtà in tre dimensioni.",
+    "src": "§2 · I confini del mondo si allargano"
+  },
+  {
+    "id": "moderna-21",
+    "type": "mc",
+    "q": "Claudio Tolomeo era uno scienziato greco. Dove visse?",
+    "options": [
+      "A Costantinopoli",
+      "Ad Alessandria d'Egitto",
+      "A Firenze",
+      "A Maiorca"
+    ],
+    "answer": 1,
+    "why": "Claudio Tolomeo visse ad Alessandria d'Egitto nel II secolo dopo Cristo.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-22",
+    "type": "tf",
+    "q": "Claudio Tolomeo era uno scienziato romano.",
+    "answer": false,
+    "why": "Claudio Tolomeo era uno scienziato greco vissuto ad Alessandria d'Egitto.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-23",
+    "type": "tf",
+    "q": "Nella carta di Tolomeo compare l'America.",
+    "answer": false,
+    "why": "Nella carta di Tolomeo l'America manca completamente.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-24",
+    "type": "mc",
+    "q": "Perché, guardando la carta di Tolomeo, si penserebbe impossibile raggiungere l'India via mare girando attorno all'Africa?",
+    "options": [
+      "Perché l'Africa non compare",
+      "Perché l'Oceano Indiano è un mare chiuso",
+      "Perché l'India è disegnata in Europa",
+      "Perché il Mediterraneo non ha uscite"
+    ],
+    "answer": 1,
+    "why": "Nella carta di Tolomeo l'Oceano Indiano è un mare chiuso, quindi circumnavigare l'Africa sembra impossibile.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-25",
+    "type": "mc",
+    "q": "Dove si trova il centro del mondo nella carta di Tolomeo?",
+    "options": [
+      "In Italia",
+      "In Spagna",
+      "Fra Arabia e Persia",
+      "In Cina"
+    ],
+    "answer": 2,
+    "why": "Nella carta di Tolomeo il centro del mondo è fra Arabia e Persia, nel Mediterraneo orientale.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-26",
+    "type": "mc",
+    "q": "Per tutto il Medioevo l'Europa aveva due autorità sopra tutte. Quali?",
+    "options": [
+      "Il papa e l'imperatore",
+      "Il re di Francia e il re di Spagna",
+      "Il sultano e l'imperatore",
+      "Il papa e il re del Portogallo"
+    ],
+    "answer": 0,
+    "why": "Le due autorità universali del Medioevo erano il papa e l'imperatore, entrambe ridimensionate dal Trecento.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-27",
+    "type": "mc",
+    "q": "Quale di questi è uno degli Stati nazionali che crescono al posto dei poteri universali?",
+    "options": [
+      "L'Impero bizantino",
+      "La Lega Anseatica",
+      "Il Portogallo",
+      "Venezia"
+    ],
+    "answer": 2,
+    "why": "Al posto dei poteri universali crescono gli Stati nazionali: Francia, Inghilterra, Spagna, Portogallo.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-28",
+    "type": "mc",
+    "q": "Perché un re di uno Stato nazionale può pagare una spedizione e un signore feudale no?",
+    "options": [
+      "Perché il re ha le tasse",
+      "Perché il re è più coraggioso",
+      "Perché il papa paga per lui",
+      "Perché il re possiede le caravelle per legge"
+    ],
+    "answer": 0,
+    "why": "Un re con le tasse può pagare una spedizione, un signore feudale no.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-29",
+    "type": "tf",
+    "q": "Costantinopoli cade il 29 maggio 1453.",
+    "answer": true,
+    "why": "Il 29 maggio 1453 il sultano ottomano Maometto II conquista Costantinopoli e finisce l'Impero bizantino.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-30",
+    "type": "order",
+    "q": "Metti in ordine le conseguenze della caduta di Costantinopoli per i mercanti europei.",
+    "items": [
+      "Maometto II conquista Costantinopoli",
+      "Le vie di terra verso l'Asia passano sotto controllo ottomano",
+      "I costi salgono",
+      "Chi vuole spezie deve trovare un'altra strada"
+    ],
+    "why": "Con la conquista ottomana le vie di terra verso l'Asia costano di più, e chi vuole spezie deve trovare un'altra strada.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-31",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Tolomeo scrive la «Geografia»",
+      "Il papa e l'imperatore escono ridimensionati",
+      "Caduta di Costantinopoli",
+      "Inizio dell'età moderna"
+    ],
+    "why": "Tolomeo è del II secolo, i poteri universali si indeboliscono nel Trecento, Costantinopoli cade nel 1453 e l'età moderna inizia nel 1492.",
+    "src": "§2 · Il mondo prima del 1492"
+  },
+  {
+    "id": "moderna-33",
+    "type": "mc",
+    "q": "A che cosa serve la vela latina triangolare della caravella?",
+    "options": [
+      "A navigare anche con vento contrario",
+      "A portare più merci nella stiva",
+      "A rendere la nave più pesante",
+      "A fare da bandiera del re"
+    ],
+    "answer": 0,
+    "why": "La vela latina triangolare permette alla caravella di navigare anche con vento contrario.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "moderna-34",
+    "type": "match",
+    "q": "Abbina ogni parte della caravella alla sua descrizione.",
+    "pairs": [
+      [
+        "Bompresso",
+        "Albero inclinato che sporge dalla prua"
+      ],
+      [
+        "Stiva",
+        "Spazio sotto il ponte per le merci"
+      ],
+      [
+        "Castello di prua",
+        "Struttura rialzata a prua"
+      ],
+      [
+        "Cassero",
+        "Struttura rialzata a poppa"
+      ]
+    ],
+    "why": "Il bompresso sporge dalla prua, la stiva è sotto il ponte, il castello di prua è rialzato a prua e il cassero a poppa.",
+    "src": "§2 · Le tecniche del viaggio"
+  },
+  {
+    "id": "moderna-35",
+    "type": "tf",
+    "q": "La caravella è una nave piccola, leggera e con poco pescaggio.",
+    "answer": true,
+    "why": "La caravella è piccola, leggera e con poco pescaggio: è la nave che rende tutto possibile.",
+    "src": "§2 · Le tecniche del viaggio"
+  }
+]
