@@ -1,0 +1,493 @@
+[
+  {
+    "id": "confederazione-01",
+    "type": "mc",
+    "q": "Come si chiamano in tedesco i Paesi forestali (Uri, Svitto e Untervaldo)?",
+    "options": [
+      "Landsgemeinde",
+      "Landamano",
+      "Waldstätte",
+      "Dieta"
+    ],
+    "answer": 2,
+    "why": "I Paesi forestali, cioè Uri, Svitto e Untervaldo, in tedesco si chiamano Waldstätte.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-02",
+    "type": "mc",
+    "q": "Che cosa vuol dire «immediatezza imperiale»?",
+    "options": [
+      "L'assemblea pubblica dei cittadini di una valle",
+      "Un legame diretto con l'imperatore, senza passare attraverso altri signori",
+      "Un'alleanza difensiva fra tre valli",
+      "Un territorio suddito governato da balivi"
+    ],
+    "answer": 1,
+    "why": "L'immediatezza imperiale è il legame diretto dei contadini liberi con l'imperatore, senza altri signori in mezzo.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-03",
+    "type": "mc",
+    "q": "Quale imperatore concede nel 1309 l'immediatezza imperiale a Uri, Svitto e Untervaldo?",
+    "options": [
+      "Rodolfo d'Asburgo",
+      "Leopoldo d'Austria",
+      "Werner von Homberg",
+      "Enrico VII"
+    ],
+    "answer": 3,
+    "why": "Nel 1309 l'imperatore Enrico VII concede l'immediatezza imperiale ai tre Paesi forestali, unendoli sotto un'unica amministrazione.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-04",
+    "type": "tf",
+    "q": "In cambio dell'immediatezza imperiale, l'imperatore manda un rappresentante, il balivo, a fare giustizia.",
+    "answer": true,
+    "why": "L'imperatore garantisce diritti e privilegi e invia un balivo a fare giustizia.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-05",
+    "type": "mc",
+    "q": "Chi diventa balivo dei tre Paesi forestali?",
+    "options": [
+      "Il conte Werner von Homberg",
+      "Enrico VII",
+      "Il duca Leopoldo d'Austria",
+      "Petermann Etterlin"
+    ],
+    "answer": 0,
+    "why": "Il conte Werner von Homberg diventa balivo di Uri, Svitto e Untervaldo.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-06",
+    "type": "mc",
+    "q": "Homberg e suo figlio muoiono senza eredi. A chi passano allora i poteri del balivo?",
+    "options": [
+      "A un nuovo balivo mandato dagli Asburgo",
+      "Al duca Leopoldo d'Austria",
+      "A un Landamano, scelto dai cittadini nella Landsgemeinde",
+      "All'abbazia di Einsiedeln"
+    ],
+    "answer": 2,
+    "why": "Senza balivo, i poteri passano a un Landamano, scelto dai cittadini durante la Landsgemeinde, l'assemblea pubblica.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-07",
+    "type": "tf",
+    "q": "Oggi gli storici pensano che la Confederazione sia nata solo dai tre cantoni di Uri, Svitto e Untervaldo.",
+    "answer": false,
+    "why": "Gli storici riconoscono che città più grandi, come Berna e Zurigo, hanno avuto un ruolo ancora più importante nello sviluppo della Confederazione.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-08",
+    "type": "mc",
+    "q": "Oggi si parla di una «Svizzera senza fondazione». Che cosa significa?",
+    "options": [
+      "Che la Svizzera è stata fondata nel 1513",
+      "Che nessun patto medievale è stato conservato",
+      "Che la Svizzera è nata dalla battaglia del Morgarten",
+      "Che non c'è un giorno di nascita, ma una rete di patti che si infittisce per due secoli"
+    ],
+    "answer": 3,
+    "why": "Non c'è un giorno di nascita della Svizzera, ma una rete di patti che si infittisce per due secoli.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-09",
+    "type": "mc",
+    "q": "Quando è datato il Patto federale?",
+    "options": [
+      "Dicembre 1315",
+      "Inizio di agosto 1291",
+      "15 novembre 1315",
+      "9 luglio 1386"
+    ],
+    "answer": 1,
+    "why": "Il Patto federale è «fatto l'anno del Signore 1291, al principio del mese d'agosto».",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-10",
+    "type": "mc",
+    "q": "Quali tre comunità firmano il patto del 1291?",
+    "options": [
+      "Uri, Svitto e Nidvaldo",
+      "Uri, Svitto e Lucerna",
+      "Svitto, Zurigo e Berna",
+      "Uri, Glarona e Zugo"
+    ],
+    "answer": 0,
+    "why": "Il patto del 1291 è firmato dagli uomini della valle di Uri, dalla comunità di Svitto e dagli uomini di Nidvaldo.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-11",
+    "type": "tf",
+    "q": "Il patto del 1291 dice di rinnovare un antico patto: quindi non è il primo patto, ma uno di una successione.",
+    "answer": true,
+    "why": "Il patto del 1291 rinnova «l'antico patto pure concluso sotto giuramento», quindi fa parte di una successione di patti.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-12",
+    "type": "mc",
+    "q": "Che tipo di alleanza è soprattutto il patto del 1291?",
+    "options": [
+      "Una ribellione contro i propri signori",
+      "Una carta di libertà concessa da un conte",
+      "Un'alleanza difensiva",
+      "Un piano per conquistare le terre a Sud del Gottardo"
+    ],
+    "answer": 2,
+    "why": "Le tre comunità promettono di aiutarsi e di respingere le aggressioni: il patto ha carattere soprattutto difensivo.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-13",
+    "type": "mc",
+    "q": "Secondo l'articolo 3 del patto, che cosa devono fare i firmatari verso il proprio signore?",
+    "options": [
+      "Cacciarlo dalle valli",
+      "Prestargli l'obbedienza e i servizi dovuti",
+      "Scegliere un nuovo signore nella Landsgemeinde",
+      "Non pagargli più nulla"
+    ],
+    "answer": 1,
+    "why": "L'articolo 3 dice che ognuno deve prestare al proprio signore l'obbedienza e i servizi dovuti: i firmatari non si ribellano.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-14",
+    "type": "mc",
+    "q": "Contro chi è diretto l'articolo 4 del patto del 1291?",
+    "options": [
+      "Contro chi dà fuoco alle proprietà dei confederati",
+      "Contro chi ospita un assassino",
+      "Contro i soldati mercenari",
+      "Contro i giudici venuti da fuori o che hanno comprato la carica con denaro"
+    ],
+    "answer": 3,
+    "why": "L'articolo 4 rifiuta i giudici che hanno comprato la loro funzione o che non abitano nelle valli, per esempio quelli mandati dagli Asburgo.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-15",
+    "type": "match",
+    "q": "Abbina ogni reato del patto del 1291 alla sua pena.",
+    "pairs": [
+      [
+        "Omicidio premeditato",
+        "Morte (o bando se il colpevole è fuggito)"
+      ],
+      [
+        "Incendio doloso",
+        "Esclusione dalla comunità"
+      ],
+      [
+        "Furto o danno",
+        "Sequestro dei beni"
+      ]
+    ],
+    "why": "Il patto punisce l'omicidio premeditato con la morte o il bando, l'incendio doloso con l'esclusione e il furto o danno con il sequestro dei beni.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-16",
+    "type": "tf",
+    "q": "Secondo l'articolo 13, le decisioni del patto del 1291 dovevano durare dieci anni.",
+    "answer": false,
+    "why": "L'articolo 13 dice che le decisioni dureranno «in perpetuo».",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-17",
+    "type": "mc",
+    "q": "Che cos'è la «malizia dei tempi» di cui parla il patto del 1291?",
+    "options": [
+      "Il saccheggio dell'abbazia di Einsiedeln",
+      "La guerra di Borgogna",
+      "L'incertezza dopo la morte dell'imperatore Rodolfo d'Asburgo, quando i signori locali cercano di allargare i loro diritti",
+      "La conquista della Leventina"
+    ],
+    "answer": 2,
+    "why": "Nel 1291 muore Rodolfo d'Asburgo e segue un periodo di incertezza in cui i signori locali cercano di allargare i propri diritti.",
+    "src": "§1 · Una Svizzera senza fondazione"
+  },
+  {
+    "id": "confederazione-18",
+    "type": "mc",
+    "q": "Che cosa succede nel 1314?",
+    "options": [
+      "Lucerna entra nell'alleanza",
+      "Gli Svittesi saccheggiano l'abbazia di Einsiedeln",
+      "I tre rinnovano l'alleanza a Brunnen",
+      "Si combatte la battaglia di Sempach"
+    ],
+    "answer": 1,
+    "why": "Le tensioni con gli Asburgo esplodono nel 1314, quando gli Svittesi saccheggiano l'abbazia di Einsiedeln.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-19",
+    "type": "mc",
+    "q": "Al Morgarten, il 15 novembre 1315, gli Svittesi mettono in fuga le truppe di chi?",
+    "options": [
+      "Dell'imperatore Enrico VII",
+      "Del conte Werner von Homberg",
+      "Del duca Leopoldo d'Austria",
+      "Dell'imperatore Rodolfo d'Asburgo"
+    ],
+    "answer": 2,
+    "why": "Al Morgarten gli Svittesi tendono un'imboscata alle truppe del duca Leopoldo d'Austria e le mettono in fuga.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-20",
+    "type": "tf",
+    "q": "Nel dicembre 1315, a Brunnen, i tre rinnovano l'alleanza in tedesco e in pubblico, e per la prima volta si chiamano confederati.",
+    "answer": true,
+    "why": "A Brunnen, nel dicembre 1315, i tre si chiamano per la prima volta confederati.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-21",
+    "type": "mc",
+    "q": "Quale città sulla via del Gottardo si allea per prima con i tre, nel 1332?",
+    "options": [
+      "Zurigo",
+      "Berna",
+      "Zugo",
+      "Lucerna"
+    ],
+    "answer": 3,
+    "why": "Lucerna, città sulla via del Gottardo, entra nell'alleanza nel 1332.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-22",
+    "type": "tf",
+    "q": "Nel 1352 Zugo entra nell'alleanza di sua spontanea volontà.",
+    "answer": false,
+    "why": "Nel 1352 Zugo è annessa con la forza.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-23",
+    "type": "match",
+    "q": "Abbina ogni città all'anno in cui entra nell'alleanza.",
+    "pairs": [
+      [
+        "Lucerna",
+        "1332"
+      ],
+      [
+        "Zurigo",
+        "1351"
+      ],
+      [
+        "Glarona",
+        "1352"
+      ],
+      [
+        "Berna",
+        "1353"
+      ]
+    ],
+    "why": "Lucerna entra nel 1332, Zurigo nel 1351, Glarona nel 1352 e Berna nel 1353.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-24",
+    "type": "mc",
+    "q": "Con Lucerna, Zurigo, Glarona, Zugo e Berna, quanti sono i cantoni confederati?",
+    "options": [
+      "Tre",
+      "Otto",
+      "Tredici",
+      "Cinque"
+    ],
+    "answer": 1,
+    "why": "Con le cinque nuove alleate, ai tre Paesi forestali si aggiungono cinque cantoni: sono gli otto cantoni.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-25",
+    "type": "match",
+    "q": "Abbina ogni evento alla sua data.",
+    "pairs": [
+      [
+        "Patto federale",
+        "1291"
+      ],
+      [
+        "Immediatezza imperiale concessa da Enrico VII",
+        "1309"
+      ],
+      [
+        "Saccheggio dell'abbazia di Einsiedeln",
+        "1314"
+      ],
+      [
+        "Battaglia di Sempach",
+        "1386"
+      ],
+      [
+        "Alleanza dei tredici cantoni",
+        "1513"
+      ]
+    ],
+    "why": "Patto federale 1291, immediatezza imperiale 1309, saccheggio di Einsiedeln 1314, Sempach 1386, tredici cantoni 1513.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-26",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Patto federale",
+      "Immediatezza imperiale concessa da Enrico VII",
+      "Battaglia del Morgarten",
+      "Lucerna entra nell'alleanza",
+      "Battaglia di Sempach"
+    ],
+    "why": "1291, 1309, 1315, 1332, 1386.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-27",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Gli Svittesi saccheggiano l'abbazia di Einsiedeln",
+      "Battaglia del Morgarten",
+      "Patto di Brunnen: i tre si chiamano confederati",
+      "Berna entra nell'alleanza",
+      "L'alleanza arriva a tredici cantoni"
+    ],
+    "why": "1314, 15 novembre 1315, dicembre 1315, 1353, 1513.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-28",
+    "type": "mc",
+    "q": "Che cosa diventano i territori conquistati a Sud del Gottardo?",
+    "options": [
+      "Nuovi cantoni con gli stessi diritti",
+      "Baliaggi, cioè territori sudditi governati da balivi mandati a turno dai cantoni",
+      "Città libere con una carta di libertà",
+      "Terre dirette dell'imperatore"
+    ],
+    "answer": 1,
+    "why": "I territori a Sud del Gottardo non diventano cantoni ma baliaggi, governati da balivi mandati a turno dai cantoni sovrani.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-29",
+    "type": "mc",
+    "q": "Quale territorio a Sud del Gottardo viene conquistato per primo, passando a Uri?",
+    "options": [
+      "Lugano",
+      "Mendrisio",
+      "Locarno",
+      "La Leventina"
+    ],
+    "answer": 3,
+    "why": "Fra il 1400 e il 1515 i confederati conquistano prima la Leventina, che passa a Uri, poi Bellinzona, Blenio e la Riviera.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-30",
+    "type": "mc",
+    "q": "Che cosa mostrano le testimonianze sul mito del «piccolo popolo pacifico»?",
+    "options": [
+      "Il mito non regge: le fonti descrivono gli Svizzeri come brutali, insolenti e imbattibili",
+      "Le fonti confermano che gli Svizzeri evitavano la guerra",
+      "Le fonti parlano solo del commercio di formaggi",
+      "Le fonti dicono che gli Svizzeri facevano molti prigionieri"
+    ],
+    "answer": 0,
+    "why": "Il mito del «piccolo popolo pacifico» non regge alla prova delle fonti, che descrivono gli Svizzeri come brutali, insolenti e imbattibili.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-31",
+    "type": "mc",
+    "q": "Chi, ne «Il Principe», definisce i Confederati «armatissimi e liberissimi»?",
+    "options": [
+      "Francesco Guicciardini",
+      "Jakob Wimpfeling",
+      "Niccolò Machiavelli",
+      "Petermann Etterlin"
+    ],
+    "answer": 2,
+    "why": "Niccolò Machiavelli, ne «Il Principe», definisce i Confederati «armatissimi e liberissimi».",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-32",
+    "type": "match",
+    "q": "Abbina ogni testimone a ciò che scrive sugli Svizzeri.",
+    "pairs": [
+      [
+        "Niccolò Machiavelli",
+        "«Bestiali, vittoriosi e insolenti»"
+      ],
+      [
+        "Francesco Guicciardini",
+        "Esercitano la milizia fuori dal paese «con somma laude»"
+      ],
+      [
+        "Jakob Wimpfeling",
+        "«Selvaggi delle foreste», peggio dei Turchi"
+      ],
+      [
+        "Johannes von Winterthur",
+        "Il Morgarten «non è una battaglia, ma una carneficina»"
+      ]
+    ],
+    "why": "Machiavelli li chiama «bestiali», Guicciardini loda la loro milizia, Wimpfeling li chiama «selvaggi delle foreste» e Johannes von Winterthur descrive il Morgarten come una carneficina.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-33",
+    "type": "mc",
+    "q": "Chi paga l'equipaggiamento e le armi di un soldato mercenario?",
+    "options": [
+      "Il cantone da cui parte",
+      "Il soldato stesso, con il suo salario",
+      "La Dieta dei confederati",
+      "Il balivo"
+    ],
+    "answer": 1,
+    "why": "Il mercenario lavora per un salario e deve provvedere lui stesso alle spese per l'equipaggiamento e l'armamento.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-34",
+    "type": "tf",
+    "q": "Il servizio mercenario, importante attività economica dei cantoni svizzeri, è abolito nel 1859.",
+    "answer": true,
+    "why": "Dal Cinquecento fino al 1859, anno della sua abolizione, il servizio mercenario è un'importante attività economica.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  },
+  {
+    "id": "confederazione-35",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Battaglia del Morgarten",
+      "Battaglia di Morat",
+      "Cronaca illustrata di Petermann Etterlin",
+      "Abolizione del servizio mercenario"
+    ],
+    "why": "1315, 1476, 1507, 1859.",
+    "src": "§1 · Dai tre cantoni ai tredici"
+  }
+]
