@@ -1,1 +1,10 @@
-window.QUIZZES = [{"id":"storia-medioevo-esplorazioni","path":"storia-medioevo-esplorazioni/","title":"Storia: Medioevo ed esplorazioni","subtitle":"3ª media · §1 Città, mercanti e passi alpini · §2 I confini del mondo si allargano","decks":5,"questions":0}];
+window.QUIZZES = [
+ {
+  "id": "storia-medioevo-esplorazioni",
+  "path": "storia-medioevo-esplorazioni/",
+  "title": "Storia: Medioevo ed esplorazioni",
+  "subtitle": "3ª media · §1 Città, mercanti e passi alpini · §2 I confini del mondo si allargano",
+  "decks": 5,
+  "questions": 168
+ }
+];
