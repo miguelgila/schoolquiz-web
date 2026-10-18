@@ -110,7 +110,7 @@ window.QUIZ = {
     {
      "id": "citta-09",
      "type": "order",
-     "q": "Metti in ordine i passaggi che fanno tornare le città dopo l'anno Mille.",
+     "q": "Metti in ordine, dal primo all'ultimo, i passaggi che fanno tornare le città dopo l'anno Mille.",
      "items": [
       "Il clima si fa più mite e si produce più cibo",
       "Al contadino avanza qualcosa e lo vende",
@@ -454,7 +454,7 @@ window.QUIZ = {
     {
      "id": "citta-34",
      "type": "order",
-     "q": "Metti in ordine come cambia il modo di pagare con l'aumento degli scambi.",
+     "q": "Metti in ordine, dal primo all'ultimo, come cambia il modo di pagare con l'aumento degli scambi.",
      "items": [
       "Il baratto non basta più",
       "Torna la moneta",
@@ -1812,7 +1812,7 @@ window.QUIZ = {
     {
      "id": "moderna-30",
      "type": "order",
-     "q": "Metti in ordine le conseguenze della caduta di Costantinopoli per i mercanti europei.",
+     "q": "Metti in ordine, dalla causa alle conseguenze, gli effetti della caduta di Costantinopoli per i mercanti europei.",
      "items": [
       "Maometto II conquista Costantinopoli",
       "Le vie di terra verso l'Asia passano sotto controllo ottomano",
