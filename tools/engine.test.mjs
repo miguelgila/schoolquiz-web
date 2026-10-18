@@ -72,6 +72,9 @@ test('sampleRound all shares across decks and respects n', () => {
     assert.equal(new Set(out.map((q) => q.id)).size, 10);
     const small = out.filter((q) => q.deck === 'd2');
     assert.ok(small.length <= 3);
+    for (const deck of quiz.decks) {
+      assert.ok(out.filter((q) => q.deck === deck.id).length <= Math.ceil(10 / 3), 'share of ' + deck.id);
+    }
     assert.ok(out.every((q) => q.id.startsWith(q.deck + '-')));
   }
 });
@@ -125,6 +128,8 @@ test('grade mc / tf / match / order right and wrong cases', () => {
   assert.equal(Q.grade(MATCH, { 0: 1, 1: 0, 2: 2 }).ok, false);
   assert.equal(Q.grade(MATCH, { 0: 0, 1: 1 }).ok, false);
   assert.equal(Q.grade(MATCH, {}).ok, false);
+  assert.equal(Q.grade(MATCH, { 0: 0, 1: 1, 2: 2, 3: 0 }).ok, false);
+  assert.equal(Q.grade(MATCH, { 0: '0', 1: '1', 2: '2' }).ok, true);
   assert.equal(Q.grade(ORDER, [0, 1, 2]).ok, true);
   assert.equal(Q.grade(ORDER, [1, 0, 2]).ok, false);
   assert.equal(Q.grade(ORDER, [0, 1]).ok, false);
@@ -173,6 +178,9 @@ test('readBest ignores garbage and throwing storage; writeBest keeps the max', (
   assert.equal(w.data.b, '8');
   w.data.b = 'garbage';
   Q.writeBest(w, 'b', 0);
+  assert.equal(w.data.b, '0');
+  Q.writeBest(w, 'b', NaN);
+  Q.writeBest(w, 'b', Infinity);
   assert.equal(w.data.b, '0');
   assert.doesNotThrow(() => Q.writeBest(throwing, 'b', 4));
   assert.doesNotThrow(() => Q.writeBest(null, 'b', 4));

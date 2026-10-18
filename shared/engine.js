@@ -56,6 +56,7 @@ const QuizCore = {
   },
 
   // response: mc original index, tf boolean, match {leftIdx: rightIdx}, order array of original indices.
+  // mc and order responses must be numbers (compared strictly); match values may be numeric strings.
   // correctText for tf is 'true'/'false'; the UI translates it.
   grade(q, response) {
     switch (q.type) {
@@ -65,7 +66,9 @@ const QuizCore = {
         return { ok: response === q.answer, correctText: String(q.answer) };
       case 'match': {
         const r = response || {};
-        const ok = q.pairs.every((_, i) => String(r[i]) === String(i)); // select values may be strings
+        // select values may be strings; an extra mapping beyond the pairs is wrong
+        const ok = Object.keys(r).length === q.pairs.length &&
+          q.pairs.every((_, i) => String(r[i]) === String(i));
         return { ok, correctText: q.pairs.map((p) => p[0] + ' → ' + p[1]).join(' · ') };
       }
       case 'order': {
@@ -94,6 +97,7 @@ const QuizCore = {
 
   // Store value only when it beats the stored best; storage errors are ignored.
   writeBest(storage, key, value) {
+    if (!Number.isFinite(value)) return;
     try {
       const best = QuizCore.readBest(storage, key);
       if (best === null || best < value) storage.setItem(key, String(value));
