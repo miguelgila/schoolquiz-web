@@ -244,8 +244,23 @@ class LoadAndMainTest(unittest.TestCase):
         broken["id"] = "fixture"
         broken["decks"][0]["questions"] = []
         self.write_quiz("tools/fixture", broken)  # skipped by the scan
-        self.write_registry([{"id": "quiz-a", "path": "quiz-a/", "title": "T", "subtitle": "S"}])
+        self.write_registry([{"id": "quiz-a", "path": "quiz-a/", "title": "T", "subtitle": "S",
+                              "decks": 1, "questions": 10}])
         self.assertEqual(self.run_main([]), (0, ""))
+
+    def test_main_scan_reports_registry_count_mismatch(self):
+        self.write_quiz("quiz-a", valid_quiz())
+        self.write_registry([{"id": "quiz-a", "path": "quiz-a/", "title": "T", "subtitle": "S",
+                              "decks": 2, "questions": 9}])
+        code, err = self.run_main([])
+        self.assertEqual(code, 1)
+        self.assertIn("'decks' is 2 but the quiz has 1", err)
+        self.assertIn("'questions' is 9 but the quiz has 10", err)
+        # missing counts are a mismatch too: the landing card shows them
+        self.write_registry([{"id": "quiz-a", "path": "quiz-a/", "title": "T", "subtitle": "S"}])
+        code, err = self.run_main([])
+        self.assertEqual(code, 1)
+        self.assertIn("'decks' is None", err)
 
     def test_main_scan_reports_errors(self):
         quiz = valid_quiz()

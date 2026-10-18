@@ -29,7 +29,7 @@ To check a deck on its own, stored as a bare JSON array of question objects
 its extension, and the same deck and question rules apply as for a full quiz:
 
 ```sh
-python3 tools/check_questions.py --deck decks/citta.json
+python3 tools/check_questions.py --deck storia-medioevo-esplorazioni/decks/citta.json
 ```
 
 What it checks:
@@ -45,8 +45,9 @@ What it checks:
   `pairs` with distinct lefts and distinct rights. `order`: 3-5 distinct
   `items`, in the correct order.
 - `quizzes.js`: one entry per quiz folder, each with `id`, `path` (equal to
-  `id + "/"`), `title` and `subtitle`. Extra keys such as `decks` and
-  `questions` counts are allowed.
+  `id + "/"`), `title` and `subtitle`. In the folder scan, its `decks` and
+  `questions` counts must equal the real counts of that quiz (refresh them
+  with `tools/merge_decks.py`).
 
 ## Fixture quiz page
 

@@ -4,7 +4,8 @@
 Usage:
   python3 tools/check_questions.py
       Scan every <folder>/questions.js under the repo root (skipping tools/)
-      and check quizzes.js against the quiz folders found.
+      and check quizzes.js against the quiz folders found, including its
+      "decks" and "questions" counts.
   python3 tools/check_questions.py <path/to/questions.js> <folder>
       Validate one file against the given folder name (its last component).
       quizzes.js is not read.
@@ -193,6 +194,31 @@ def validate_registry(registry, quiz_ids):
     return errors
 
 
+def quiz_counts(quiz):
+    """(decks, questions) of a loaded quiz, or None when its decks are malformed."""
+    decks = quiz.get("decks") if isinstance(quiz, dict) else None
+    if not isinstance(decks, list) or not all(
+            isinstance(d, dict) and isinstance(d.get("questions"), list) for d in decks):
+        return None
+    return len(decks), sum(len(d["questions"]) for d in decks)
+
+
+def validate_registry_counts(registry, counts):
+    """Compare each entry's decks/questions with counts {quiz id: (decks, questions)}."""
+    if not isinstance(registry, list):
+        return []
+    errors = []
+    for entry in registry:
+        if not isinstance(entry, dict) or entry.get("id") not in counts:
+            continue
+        label = "quizzes.js entry %s" % entry["id"]
+        for field, real in zip(("decks", "questions"), counts[entry["id"]]):
+            if entry.get(field) != real:
+                errors.append("%s: '%s' is %r but the quiz has %d (run tools/merge_decks.py)"
+                              % (label, field, entry.get(field), real))
+    return errors
+
+
 def _check_file(path, folder):
     try:
         return validate_quiz(load_quiz(path), folder)
@@ -215,12 +241,21 @@ def _check_deck_file(path):
 def _scan(root):
     errors = []
     quiz_ids = set()
+    counts = {}
     for name in sorted(os.listdir(root)):
         path = os.path.join(root, name, "questions.js")
         if name in SKIP_DIRS or name.startswith(".") or not os.path.isfile(path):
             continue
         quiz_ids.add(name)
-        errors.extend(_check_file(path, name))
+        try:
+            quiz = load_quiz(path)
+        except (OSError, ValueError) as exc:  # json.JSONDecodeError is a ValueError
+            errors.append("%s: cannot load: %s" % (path, exc))
+            continue
+        errors.extend(validate_quiz(quiz, name))
+        real = quiz_counts(quiz)
+        if real is not None:
+            counts[name] = real
     registry_path = os.path.join(root, "quizzes.js")
     try:
         registry = load_registry(registry_path)
@@ -228,6 +263,7 @@ def _scan(root):
         errors.append("%s: cannot load: %s" % (registry_path, exc))
     else:
         errors.extend(validate_registry(registry, quiz_ids))
+        errors.extend(validate_registry_counts(registry, counts))
     return errors
 
 

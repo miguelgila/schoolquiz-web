@@ -31,7 +31,7 @@ window.I18N = {
       "review": "Da ripassare",
       "restart": "Ricomincia",
       "matchHelp": "Per ogni voce a sinistra scegli quella giusta a destra.",
-      "orderHelp": "Metti in ordine cronologico con le frecce, poi premi \"Verifica\".",
+      "orderHelp": "Metti in ordine con le frecce, poi premi \"Verifica\".",
       "moveUp": "Sposta su",
       "moveDown": "Sposta giù",
       "pick": "Scegli…",

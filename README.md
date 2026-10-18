@@ -49,8 +49,8 @@ See [tools/README.md](tools/README.md) for what the checker validates, its singl
 1. Create a folder named after the quiz id, e.g. `geografia-ticino/`.
 2. Copy `index.html` from an existing quiz into it and change only the `<title>` and the meta description. The page reads everything else from its data file.
 3. Write `questions.js` as `window.QUIZ = <JSON>;`. The JSON must be strict (double quotes, no comments, no trailing commas) so the Python checker can parse it. Its `id` must equal the folder name; it needs a `title`, a `subtitle` and a list of `decks`, each with `id`, `label` and at least 10 `questions`.
-4. Optionally keep each deck as a bare JSON array in `<folder>/decks/<deck id>.json`, which is easier to edit and to check on its own (`python3 tools/check_questions.py --deck <file>`). Then run `python3 tools/merge_decks.py <folder>` to copy the decks into `questions.js` and refresh the counts in `quizzes.js`.
-5. Add a line to `quizzes.js`: `{"id", "path": "<id>/", "title", "subtitle", "decks", "questions"}`.
+4. Add a line to `quizzes.js`: `{"id", "path": "<id>/", "title", "subtitle", "decks", "questions"}`.
+5. Optionally keep each deck as a bare JSON array in `<folder>/decks/<deck id>.json`, which is easier to edit and to check on its own (`python3 tools/check_questions.py --deck <file>`). Then run `python3 tools/merge_decks.py <folder>` to copy the decks into `questions.js` and refresh the counts of the existing `quizzes.js` entry (the merge does not add a missing entry).
 6. Run the checks above.
 
 ## Question format
