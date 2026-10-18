@@ -18,7 +18,7 @@ from `main` / root, no build step, no backend, no dependencies, Italian by
 default. The owner repeats the exercise for later lessons by adding a folder
 with a data file; the engine and the look stay the same.
 
-The source material is two scanned PDFs (a worksheet booklet "Storia 3ªB"
+The source material is two scanned PDFs (a worksheet booklet from the class
 from the class, based on *La Svizzera nella storia 2*, and the boy's
 handwritten notes). They were read in full on 2026-10-18 in the session that wrote this
 document. Distilling them into the facts sheet

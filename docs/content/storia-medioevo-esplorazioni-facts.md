@@ -1,6 +1,6 @@
 # Fatti — Storia 3ª media: Medioevo, Confederazione, esplorazioni
 
-Scheda dei fatti ricavata dalle schede di classe «Storia 3ªB» (basate su *La
+Scheda dei fatti ricavata dalle schede di classe di storia (basate su *La
 Svizzera nella storia 2*) e dagli appunti dello studente, settembre 2026.
 È l'**unica** fonte ammessa per scrivere le domande del quiz
 `storia-medioevo-esplorazioni`. Un fatto che non è qui non si usa.
