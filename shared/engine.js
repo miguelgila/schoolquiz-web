@@ -467,7 +467,8 @@ const QuizCore = {
     const box = mk('div', 'feedback ' + (ok ? 'ok' : 'bad'));
     box.setAttribute('role', 'status');
     box.appendChild(mk('h2', null, ok ? t('ok') : t('bad')));
-    box.appendChild(mk('p', 'correct', t('correctWas', correctText)));
+    // on a right answer the highlighted option already shows it
+    if (!ok) box.appendChild(mk('p', 'correct', t('correctWas', correctText)));
     if (q.why) box.appendChild(mk('p', 'why', q.why));
     if (q.src) box.appendChild(mk('p', 'src', q.src));
     card.appendChild(box);
