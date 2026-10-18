@@ -1,0 +1,473 @@
+[
+  {
+    "id": "citta-01",
+    "type": "mc",
+    "q": "Chi dipinse l'affresco «Effetti del Buon Governo» nel Palazzo Pubblico di Siena?",
+    "options": [
+      "Matthäus Merian",
+      "Ambrogio Lorenzetti",
+      "Il conte Ulrico",
+      "Il cancelliere Aymond"
+    ],
+    "answer": 1,
+    "why": "L'affresco «Effetti del Buon Governo» è di Ambrogio Lorenzetti, dipinto nel 1338-1339.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-02",
+    "type": "mc",
+    "q": "Perché il governo di Siena pagava il pittore dell'affresco del Buon Governo?",
+    "options": [
+      "Per decorare una chiesa",
+      "Per insegnare la geografia ai mercanti",
+      "Per convincere i cittadini che quel governo era buono",
+      "Per mostrare le rotte di bussola"
+    ],
+    "answer": 2,
+    "why": "Il pittore era pagato dal governo di Siena e doveva convincere i cittadini che quel governo era buono.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-03",
+    "type": "mc",
+    "q": "Quali due porzioni mostra l'affresco «Effetti del Buon Governo»?",
+    "options": [
+      "Il mare e il porto",
+      "La montagna e il passo",
+      "Il castello e la chiesa",
+      "La città e la campagna"
+    ],
+    "answer": 3,
+    "why": "L'affresco mostra due porzioni: la città, con commercio e operai sui tetti, e la campagna.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-04",
+    "type": "tf",
+    "q": "L'affresco «Effetti del Buon Governo» si trova nel Palazzo Pubblico di Siena ed è lungo quattordici metri.",
+    "answer": true,
+    "why": "L'affresco di Lorenzetti si trova nel Palazzo Pubblico di Siena ed è lungo quattordici metri.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-05",
+    "type": "mc",
+    "q": "Dove sorgono quasi tutte le città medievali?",
+    "options": [
+      "In cima a una montagna",
+      "Su un fiume o su un lago, spesso vicino a un ponte o a un guado",
+      "In mezzo a un bosco",
+      "Lontano da ogni strada"
+    ],
+    "answer": 1,
+    "why": "Quasi tutte le città sorgono su un fiume o su un lago, spesso dove c'è un ponte o un guado.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-06",
+    "type": "mc",
+    "q": "Attorno al 1300, a quanti abitanti arriva la popolazione europea?",
+    "options": [
+      "Circa trenta milioni",
+      "Circa cinquanta milioni",
+      "Circa settanta milioni",
+      "Circa cento milioni"
+    ],
+    "answer": 2,
+    "why": "Dopo l'anno Mille la popolazione europea passa da circa trenta a circa settanta milioni di abitanti attorno al 1300.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-07",
+    "type": "mc",
+    "q": "Che cosa fa il contadino con il cibo che gli avanza dopo l'anno Mille?",
+    "options": [
+      "Lo vende",
+      "Lo butta",
+      "Lo regala al signore",
+      "Lo porta in un monastero"
+    ],
+    "answer": 0,
+    "why": "Il contadino non consuma più tutto quello che produce, e quello che avanza si vende.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-08",
+    "type": "tf",
+    "q": "In città, dopo «un mese e un giorno», chi era servo diventa libero.",
+    "answer": false,
+    "why": "In città chi era servo diventa libero dopo «un anno e un giorno».",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-09",
+    "type": "order",
+    "q": "Metti in ordine i passaggi che fanno tornare le città dopo l'anno Mille.",
+    "items": [
+      "Il clima si fa più mite e si produce più cibo",
+      "Al contadino avanza qualcosa e lo vende",
+      "Nascono i mercati settimanali e le fiere",
+      "Chi non trova terra parte per la città"
+    ],
+    "why": "Più cibo porta a un'eccedenza da vendere, poi nascono mercati e fiere e chi non trova terra va in città.",
+    "src": "§1 · Perché tornano le città"
+  },
+  {
+    "id": "citta-10",
+    "type": "mc",
+    "q": "Chi fondò Berna nel 1191?",
+    "options": [
+      "Il conte Ulrico",
+      "Il vescovo di Losanna",
+      "I duchi di Zähringen",
+      "Il governo di Siena"
+    ],
+    "answer": 2,
+    "why": "Berna è fondata nel 1191 dai duchi di Zähringen.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-11",
+    "type": "tf",
+    "q": "Friburgo fu fondata nel 1157.",
+    "answer": true,
+    "why": "Friburgo è fondata nel 1157, Berna nel 1191.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-12",
+    "type": "mc",
+    "q": "Che cosa offre il signore per attirare abitanti nella città che ha fondato?",
+    "options": [
+      "Terre da coltivare in campagna",
+      "Un titolo da nobile",
+      "Un posto nel suo esercito",
+      "Libertà in cambio di popolamento e di tasse sui commerci"
+    ],
+    "answer": 3,
+    "why": "Il signore attira abitanti offrendo libertà in cambio di popolamento e di tasse sui commerci.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-13",
+    "type": "mc",
+    "q": "Che cosa concedono le carte di libertà alle città?",
+    "options": [
+      "Il diritto di battere moneta",
+      "Delle autonomie, cioè il diritto di decidere da sole",
+      "Un nuovo castello",
+      "L'esenzione dalla guerra per sempre"
+    ],
+    "answer": 1,
+    "why": "Le carte di libertà concedono autonomie: il diritto di decidere da sole senza obbedire sempre ai signori locali.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-14",
+    "type": "mc",
+    "q": "Che cos'è la libertà nel Medioevo?",
+    "options": [
+      "Un diritto di tutti in quanto esseri umani",
+      "Una legge uguale in tutta Europa",
+      "Il diritto di non pagare mai tasse",
+      "Un privilegio scritto, concesso a un gruppo preciso"
+    ],
+    "answer": 3,
+    "why": "La libertà medievale è un privilegio scritto, concesso a un gruppo preciso e valido finché vale il documento.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-15",
+    "type": "mc",
+    "q": "Chi concesse nel 1214 la carta delle libertà ai borghesi di Neuchâtel?",
+    "options": [
+      "Il conte Ulrico",
+      "I duchi di Zähringen",
+      "Il vescovo Berthold",
+      "Ambrogio Lorenzetti"
+    ],
+    "answer": 0,
+    "why": "La carta delle libertà di Neuchâtel è concessa ai borghesi dal conte Ulrico nel 1214.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-16",
+    "type": "tf",
+    "q": "La carta di Neuchâtel è una pergamena con cinque sigilli pendenti in basso.",
+    "answer": true,
+    "why": "La carta di Neuchâtel è una pergamena con cinque sigilli pendenti in basso.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-17",
+    "type": "mc",
+    "q": "A che cosa servono i sigilli in fondo alla carta di Neuchâtel?",
+    "options": [
+      "A rendere più bello il documento",
+      "A dimostrare che le autorità rendono legale e valido il patto",
+      "A indicare il prezzo del documento",
+      "A chiudere la pergamena arrotolata"
+    ],
+    "answer": 1,
+    "why": "I sigilli dimostrano che le autorità, il vescovo di Losanna e il conte, rendono legale e valido il patto.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-18",
+    "type": "match",
+    "q": "Abbina ogni elemento della carta di Neuchâtel alla sua categoria.",
+    "pairs": [
+      [
+        "Nessuno in prigione senza processo",
+        "Libertà concessa dal conte"
+      ],
+      [
+        "Aiutare il signore in guerra con armi e denaro",
+        "Obbligo dei borghesi"
+      ],
+      [
+        "Quattro paia di scarpe all'anno per ogni calzolaio",
+        "Tassa che il conte continua a riscuotere"
+      ]
+    ],
+    "why": "Il conte concede libertà come il processo, i borghesi restano obbligati ad aiutarlo in guerra e lui tassa ancora le vendite, come le scarpe dei calzolai.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-19",
+    "type": "tf",
+    "q": "Secondo la carta di Neuchâtel, uno straniero che si rifugia in città e non è cercato da nessuno per un anno e un giorno diventa borghese.",
+    "answer": true,
+    "why": "Lo straniero non cercato da nessuno per un anno e un giorno diventa borghese della città e riceve protezione.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-20",
+    "type": "tf",
+    "q": "La carta di Neuchâtel fu convalidata dai sigilli del vescovo di Basilea.",
+    "answer": false,
+    "why": "La carta è convalidata dai sigilli del vescovo di Losanna Berthold e dai sigilli dei conti.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-21",
+    "type": "mc",
+    "q": "Che cosa vuol dire essere un «borghese» secondo la scheda sulla carta di Neuchâtel?",
+    "options": [
+      "Essere nato da una famiglia nobile",
+      "Possedere molta terra in campagna",
+      "Abitare in città da almeno un anno e un giorno, fare un mestiere ed essere in una corporazione",
+      "Essere un cavaliere al servizio del conte"
+    ],
+    "answer": 2,
+    "why": "Il borghese abita in città da almeno un anno e un giorno, fa un mestiere artigianale o commerciale, è in una corporazione e gode di diritti e libertà.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-22",
+    "type": "mc",
+    "q": "Che cosa guadagna il conte concedendo la carta di Neuchâtel?",
+    "options": [
+      "Niente: la concede solo per generosità",
+      "Un nuovo titolo di duca",
+      "Il diritto di nominare il vescovo",
+      "Le tasse sul mercato, l'aiuto in guerra e una città più popolata"
+    ],
+    "answer": 3,
+    "why": "Il conte guadagna tasse su mercato, fiere, vino e pane, l'aiuto in guerra e una città più popolata.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-23",
+    "type": "order",
+    "q": "Metti in ordine cronologico.",
+    "items": [
+      "Fondazione di Friburgo",
+      "Fondazione di Berna",
+      "Carta delle libertà di Neuchâtel",
+      "Affresco «Effetti del Buon Governo»",
+      "Atlante catalano"
+    ],
+    "why": "Friburgo 1157, Berna 1191, carta di Neuchâtel 1214, affresco di Lorenzetti 1338-1339, Atlante catalano 1375.",
+    "src": "§1 · Le carte di libertà"
+  },
+  {
+    "id": "citta-24",
+    "type": "mc",
+    "q": "Da dove viene la parola «borghese»?",
+    "options": [
+      "Da «borgo», l'abitato dentro le mura",
+      "Da «bottega»",
+      "Da «banco»",
+      "Da «Borgogna»"
+    ],
+    "answer": 0,
+    "why": "Chi abita dentro le mura, il borgo, si chiama borghese.",
+    "src": "§1 · Un ceto nuovo: la borghesia"
+  },
+  {
+    "id": "citta-25",
+    "type": "tf",
+    "q": "Il borghese è legato alla terra e non può spostarsi.",
+    "answer": false,
+    "why": "Il borghese non è legato alla terra: può spostarsi, arricchirsi e partecipare al governo della città.",
+    "src": "§1 · Un ceto nuovo: la borghesia"
+  },
+  {
+    "id": "citta-26",
+    "type": "mc",
+    "q": "Che cos'è la bottega dell'artigiano?",
+    "options": [
+      "Solo un magazzino",
+      "Insieme laboratorio e negozio",
+      "Un ufficio del cambiavalute",
+      "La sala del governo cittadino"
+    ],
+    "answer": 1,
+    "why": "L'artigiano lavora nella bottega, che è insieme laboratorio e negozio.",
+    "src": "§1 · Un ceto nuovo: la borghesia"
+  },
+  {
+    "id": "citta-27",
+    "type": "mc",
+    "q": "Quale di questi compiti spetta alle corporazioni?",
+    "options": [
+      "Coniare la moneta della città",
+      "Concedere le carte di libertà",
+      "Giudicare i ladri e gli assassini",
+      "Decidere chi può diventare maestro"
+    ],
+    "answer": 3,
+    "why": "Le corporazioni controllano qualità e prezzi, decidono chi diventa maestro, assistono le vedove e mandano rappresentanti nel governo.",
+    "src": "§1 · Un ceto nuovo: la borghesia"
+  },
+  {
+    "id": "citta-28",
+    "type": "mc",
+    "q": "Che cosa serve quasi sempre a una donna medievale per un contratto importante?",
+    "options": [
+      "Il permesso della corporazione",
+      "Una lettera di cambio",
+      "Un sigillo del vescovo",
+      "L'autorizzazione del marito o di un tutore"
+    ],
+    "answer": 3,
+    "why": "Il diritto tratta le donne come minori: per un contratto importante serve l'autorizzazione del marito o di un tutore.",
+    "src": "§1 · Un ceto nuovo: la borghesia"
+  },
+  {
+    "id": "citta-29",
+    "type": "mc",
+    "q": "A chi serve l'Atlante catalano del 1375?",
+    "options": [
+      "A chi studia geografia",
+      "A chi commercia",
+      "Ai contadini",
+      "Ai cavalieri in guerra"
+    ],
+    "answer": 1,
+    "why": "L'Atlante catalano, disegnato a Maiorca nel 1375, non serve per studiare geografia ma a chi commercia.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-30",
+    "type": "mc",
+    "q": "Che cosa sono le linee che si incrociano sull'Atlante catalano?",
+    "options": [
+      "I confini dei regni",
+      "Le strade per i cammelli",
+      "Le rotte di bussola per navigare tra un porto e l'altro",
+      "I fiumi d'Europa"
+    ],
+    "answer": 2,
+    "why": "Le linee che si incrociano sono le rotte di bussola, che orientano la navigazione tra un porto e l'altro.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-31",
+    "type": "match",
+    "q": "Abbina ogni zona o luogo a chi vi commercia o comanda.",
+    "pairs": [
+      [
+        "Baltico",
+        "Città della Lega Anseatica"
+      ],
+      [
+        "Mediterraneo",
+        "Venezia e Genova"
+      ],
+      [
+        "Fiere della Champagne",
+        "Lana del Nord incontra spezie e seta"
+      ]
+    ],
+    "why": "Nel Baltico comanda la Lega Anseatica, nel Mediterraneo Venezia e Genova, e alle fiere della Champagne la lana del Nord incontra spezie e seta.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-32",
+    "type": "mc",
+    "q": "Perché nel Medioevo servono i cambiavalute?",
+    "options": [
+      "Perché ogni città, vescovo e abbazia conia la propria moneta",
+      "Perché non esiste più la moneta",
+      "Perché si usa solo il baratto",
+      "Perché l'oro è vietato"
+    ],
+    "answer": 0,
+    "why": "Ogni città, vescovo e abbazia conia la propria moneta, e servono specialisti che sappiano cambiarle.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-33",
+    "type": "match",
+    "q": "Abbina ogni parola al suo significato.",
+    "pairs": [
+      [
+        "Banca",
+        "Viene dal banco dove siedono i cambiavalute"
+      ],
+      [
+        "Lettera di cambio",
+        "Foglio per versare denaro in una città e ritirarlo in un'altra"
+      ],
+      [
+        "Corporazione",
+        "Associazione degli artigiani dello stesso mestiere"
+      ],
+      [
+        "Carta di libertà",
+        "Documento che concede autonomie a una città"
+      ]
+    ],
+    "why": "La banca prende il nome dal banco dei cambiavalute, la lettera di cambio sposta denaro tra città, la corporazione riunisce gli artigiani e la carta di libertà concede autonomie.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-34",
+    "type": "order",
+    "q": "Metti in ordine come cambia il modo di pagare con l'aumento degli scambi.",
+    "items": [
+      "Il baratto non basta più",
+      "Torna la moneta",
+      "Servono i cambiavalute per cambiare le monete",
+      "I cambiavalute inventano la lettera di cambio"
+    ],
+    "why": "Con tanti scambi il baratto non basta, torna la moneta, nascono i cambiavalute e poi la lettera di cambio.",
+    "src": "§1 · Le strade e le merci"
+  },
+  {
+    "id": "citta-35",
+    "type": "mc",
+    "q": "Perché la lettera di cambio è utile ai mercanti?",
+    "options": [
+      "Permette di non portarsi dietro l'oro sulle strade dei briganti",
+      "Permette di non pagare le tasse al mercato",
+      "Sostituisce la carta di libertà",
+      "Serve a coniare nuove monete"
+    ],
+    "answer": 0,
+    "why": "La lettera di cambio permette di versare denaro in una città e ritirarlo in un'altra senza portare l'oro sulle strade infestate dai briganti.",
+    "src": "§1 · Le strade e le merci"
+  }
+]
