@@ -1,0 +1,499 @@
+[
+  {
+    "id": "ambiente-01",
+    "type": "mc",
+    "q": "Quale galleria è costata 12 miliardi di franchi?",
+    "options": [
+      "La galleria di base del San Gottardo",
+      "La galleria ferroviaria del San Gottardo",
+      "Il tunnel autostradale del San Gottardo",
+      "La galleria di base del Monte Ceneri"
+    ],
+    "answer": 0,
+    "why": "La galleria di base del San Gottardo, aperta nel 2016, è costata 12 miliardi di franchi.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-02",
+    "type": "match",
+    "q": "Abbina ogni galleria alla sua lunghezza.",
+    "pairs": [
+      [
+        "Galleria ferroviaria del San Gottardo",
+        "15 chilometri"
+      ],
+      [
+        "Galleria di base del Monte Ceneri",
+        "15,4 chilometri"
+      ],
+      [
+        "Tunnel autostradale del San Gottardo",
+        "17 chilometri"
+      ],
+      [
+        "Galleria di base del San Gottardo",
+        "57 chilometri"
+      ]
+    ],
+    "why": "La ferroviaria del San Gottardo misura 15 chilometri, la base del Ceneri 15,4, l'autostradale 17 e la base del San Gottardo 57, la più lunga al mondo.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-03",
+    "type": "order",
+    "q": "Metti le gallerie in ordine di apertura, dalla più vecchia alla più recente.",
+    "items": [
+      "Galleria ferroviaria del San Gottardo",
+      "Tunnel autostradale del San Gottardo",
+      "Galleria di base del San Gottardo",
+      "Galleria di base del Monte Ceneri"
+    ],
+    "why": "La ferroviaria fu finita nel 1882, l'autostradale nel 1980, la base del San Gottardo aprì nel 2016 e quella del Ceneri nel 2020.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-04",
+    "type": "mc",
+    "q": "Grazie alla galleria di base del Monte Ceneri, in quanti minuti si va da Lugano a Locarno?",
+    "options": [
+      "13 minuti",
+      "21 minuti",
+      "23 minuti",
+      "50 minuti"
+    ],
+    "answer": 2,
+    "why": "Con la galleria di base del Ceneri da Lugano si arriva a Locarno in 23 minuti, invece dei 50 di prima.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-05",
+    "type": "mc",
+    "q": "Che cosa è stato introdotto nel 2002 nella galleria autostradale del San Gottardo per far passare meno camion?",
+    "options": [
+      "Una terza corsia dinamica",
+      "Le corsie d'emergenza",
+      "Il sistema di dosaggio semaforico"
+    ],
+    "answer": 2,
+    "why": "Dal 2002 il dosaggio semaforico rende il transito più scorrevole e sicuro, con meno camion e Tir.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-06",
+    "type": "mc",
+    "q": "Quanti veicoli pesanti transitano oggi ogni anno nella galleria autostradale del San Gottardo?",
+    "options": [
+      "400'000",
+      "700'000",
+      "1,2 milioni"
+    ],
+    "answer": 1,
+    "why": "Oggi i veicoli pesanti sono 700'000 all'anno, mentre nel 2000 erano circa 1,2 milioni.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-07",
+    "type": "tf",
+    "q": "Il raddoppio della galleria autostradale del San Gottardo è stato accettato in votazione popolare dal 57% dei votanti.",
+    "answer": true,
+    "why": "Nel febbraio 2016 il 57% dei votanti ha accettato il raddoppio della galleria autostradale.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-08",
+    "type": "order",
+    "q": "Metti in ordine le tappe del raddoppio della galleria autostradale del San Gottardo, dalla più vecchia alla più recente.",
+    "items": [
+      "Scontro fra due camion nella galleria",
+      "Votazione popolare che accetta il raddoppio",
+      "Inizio dei lavori per il raddoppio",
+      "Fine dei lavori della nuova galleria",
+      "Vero raddoppio, con il tunnel attuale risanato e riaperto"
+    ],
+    "why": "L'incidente è dell'ottobre 2001, la votazione del febbraio 2016, i lavori iniziano nell'autunno 2021 e finiscono nel 2029, il vero raddoppio arriva nel 2032.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-09",
+    "type": "order",
+    "q": "Metti in ordine cronologico, dalla più vecchia alla più recente, le tappe della protezione delle Alpi dal traffico.",
+    "items": [
+      "Nasce l'associazione Iniziativa delle Alpi",
+      "La popolazione approva il trasferimento delle merci dalla strada alla ferrovia",
+      "Il trasferimento delle merci alla ferrovia diventa legge"
+    ],
+    "why": "L'Iniziativa delle Alpi nasce nel 1989, la votazione popolare è del febbraio 1994 e la legge arriva nel 2001.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-10",
+    "type": "tf",
+    "q": "Il Brennero è il più utilizzato asse transalpino in Europa, e lì la maggior parte delle merci viaggia su rotaia.",
+    "answer": false,
+    "why": "Al Brennero, l'asse più usato d'Europa, domina ancora la strada, al contrario della Svizzera dove circa il 70% delle merci va su rotaia.",
+    "src": "Ambiente · Trasporti"
+  },
+  {
+    "id": "ambiente-11",
+    "type": "mc",
+    "q": "Quale di questi aeroporti NON è uno dei tre principali aeroporti svizzeri con voli intercontinentali?",
+    "options": [
+      "Basilea-Mulhouse",
+      "Zurigo-Kloten",
+      "Ginevra-Cointrin",
+      "Lugano-Agno"
+    ],
+    "answer": 3,
+    "why": "I tre principali aeroporti svizzeri sono Zurigo-Kloten, Ginevra-Cointrin e Basilea-Mulhouse.",
+    "src": "Ambiente · Aviazione"
+  },
+  {
+    "id": "ambiente-12",
+    "type": "order",
+    "q": "Metti in ordine cronologico, dal più vecchio al più recente, questi fatti dell'aviazione svizzera.",
+    "items": [
+      "Nasce la compagnia di bandiera Swissair",
+      "Swissair entra in crisi finanziaria",
+      "Attacchi terroristici dell'11 settembre",
+      "Nasce la Swiss International Air Lines SA"
+    ],
+    "why": "Swissair nasce nel 1931, va in crisi negli anni Novanta, riceve il colpo di grazia dopo l'11 settembre 2001 e dopo il suo fallimento nasce la Swiss.",
+    "src": "Ambiente · Aviazione"
+  },
+  {
+    "id": "ambiente-13",
+    "type": "mc",
+    "q": "Sulla base di quale ex affiliata di Swissair è stata creata la Swiss?",
+    "options": [
+      "Darwin",
+      "Adria",
+      "Crossair",
+      "FlyBaboo"
+    ],
+    "answer": 2,
+    "why": "La Swiss è nata, con l'aiuto dello Stato, sulla base di Crossair, ex affiliata di Swissair.",
+    "src": "Ambiente · Aviazione"
+  },
+  {
+    "id": "ambiente-14",
+    "type": "mc",
+    "q": "Quanti passeggeri all'anno sfiorava lo scalo di Lugano-Agno a metà degli anni Novanta?",
+    "options": [
+      "400'000",
+      "700'000",
+      "1,2 milioni"
+    ],
+    "answer": 0,
+    "why": "Al suo apice, a metà degli anni Novanta, Lugano-Agno sfiorava i 400'000 passeggeri all'anno con oltre 50 voli al giorno.",
+    "src": "Ambiente · Aviazione"
+  },
+  {
+    "id": "ambiente-15",
+    "type": "tf",
+    "q": "Dal 2018 non ci sono più voli da Lugano-Agno per Zurigo.",
+    "answer": false,
+    "why": "Dal 2018 sono finiti i voli per Ginevra, mentre i voli per Zurigo li ha sospesi Swiss nel 2019.",
+    "src": "Ambiente · Aviazione"
+  },
+  {
+    "id": "ambiente-16",
+    "type": "mc",
+    "q": "Che cosa prevede il progetto di potenziamento dell'A2 tra Lugano e Mendrisio?",
+    "options": [
+      "Il sistema di dosaggio semaforico",
+      "Una terza corsia, verosimilmente dinamica",
+      "Il collegamento con l'aeroporto di Magadino"
+    ],
+    "answer": 1,
+    "why": "Il progetto prevede modifiche alle rampe autostradali e una terza corsia, verosimilmente dinamica.",
+    "src": "Ambiente · Traffico in Ticino"
+  },
+  {
+    "id": "ambiente-17",
+    "type": "tf",
+    "q": "Del collegamento tra l'uscita autostradale di Bellinzona sud e l'aeroporto di Magadino si parlava già all'inizio degli anni Novanta.",
+    "answer": true,
+    "why": "Il collegamento tra Bellinzona sud e l'aeroporto di Magadino era al centro dell'attenzione dei media già all'inizio degli anni Novanta.",
+    "src": "Ambiente · Traffico in Ticino"
+  },
+  {
+    "id": "ambiente-18",
+    "type": "mc",
+    "q": "In che data l'elettorato svizzero ha approvato la nuova legge sull'energia?",
+    "options": [
+      "21 maggio 2017",
+      "4 settembre 2020",
+      "11 agosto 2003",
+      "12 gennaio 1987"
+    ],
+    "answer": 0,
+    "why": "La nuova legge sull'energia è stata approvata dall'elettorato il 21 maggio 2017.",
+    "src": "Ambiente · Strategia energetica 2050"
+  },
+  {
+    "id": "ambiente-19",
+    "type": "match",
+    "q": "Abbina ogni misura della Strategia energetica 2050 a ciò che prevede.",
+    "pairs": [
+      [
+        "Efficienza energetica",
+        "Incentivi per consumare meno in edifici, trasporti e apparecchi"
+      ],
+      [
+        "Energie rinnovabili",
+        "Rafforzare il mercato indigeno delle rinnovabili"
+      ],
+      [
+        "Abbandono dell'energia nucleare",
+        "Divieto di costruire nuove centrali"
+      ],
+      [
+        "Reti elettriche",
+        "Sviluppare reti adeguate alle nuove esigenze"
+      ]
+    ],
+    "why": "L'efficienza dà incentivi per consumare meno, le rinnovabili rafforzano il mercato indigeno, il nucleare viene abbandonato vietando nuove centrali e le reti vanno adeguate alle nuove esigenze.",
+    "src": "Ambiente · Misure energetiche"
+  },
+  {
+    "id": "ambiente-20",
+    "type": "mc",
+    "q": "Quale di queste NON è una delle «nuove» fonti rinnovabili?",
+    "options": [
+      "La biomassa",
+      "La geotermia",
+      "La legna",
+      "L'energia nucleare"
+    ],
+    "answer": 3,
+    "why": "Le «nuove» fonti rinnovabili sono sole, legna, biomassa, vento e geotermia, mentre l'energia nucleare verrà abbandonata.",
+    "src": "Ambiente · Misure energetiche"
+  },
+  {
+    "id": "ambiente-21",
+    "type": "mc",
+    "q": "Perché il rinnovo delle reti elettriche procede a rilento?",
+    "options": [
+      "Spesso per la lentezza della burocrazia",
+      "Per il divieto di nuove centrali nucleari",
+      "Per la dipendenza dalle energie fossili"
+    ],
+    "answer": 0,
+    "why": "Il rinnovo delle reti è lento soprattutto per la burocrazia, e la Strategia energetica 2050 vuole accelerare le procedure.",
+    "src": "Ambiente · Misure energetiche"
+  },
+  {
+    "id": "ambiente-22",
+    "type": "match",
+    "q": "Abbina ogni record di temperatura alla località.",
+    "pairs": [
+      [
+        "Temperatura più alta mai rilevata (41.5 gradi)",
+        "Grono"
+      ],
+      [
+        "Temperatura più bassa mai rilevata (-41.8 gradi)",
+        "La Brévine"
+      ],
+      [
+        "Media annuale più calda (11.5 gradi)",
+        "Locarno-Monti"
+      ],
+      [
+        "Media annuale più fredda (-7.5 gradi)",
+        "Jungfraujoch"
+      ]
+    ],
+    "why": "Il record di caldo è di Grono e quello di freddo di La Brévine, mentre Locarno-Monti ha la media annuale più calda e lo Jungfraujoch la più fredda.",
+    "src": "Ambiente · Clima"
+  },
+  {
+    "id": "ambiente-23",
+    "type": "match",
+    "q": "Abbina ogni luogo e mese alla sua temperatura media.",
+    "pairs": [
+      [
+        "Pianure a nord delle Alpi, gennaio",
+        "Circa 1 grado"
+      ],
+      [
+        "Pianure a nord delle Alpi, luglio",
+        "Circa 17 gradi"
+      ],
+      [
+        "Circa 1500 metri di quota, gennaio",
+        "Circa -5 gradi"
+      ],
+      [
+        "Circa 1500 metri di quota, luglio",
+        "Circa 11 gradi"
+      ]
+    ],
+    "why": "Nelle pianure a nord delle Alpi gennaio ha circa 1 grado e luglio circa 17, mentre a 1500 metri gennaio ha circa -5 gradi e luglio circa 11.",
+    "src": "Ambiente · Clima"
+  },
+  {
+    "id": "ambiente-24",
+    "type": "tf",
+    "q": "La collocazione geografica della Svizzera determina le differenze climatiche tra una regione e l'altra.",
+    "answer": false,
+    "why": "Le differenze climatiche regionali dipendono dalla conformazione orografica complessa, mentre la collocazione geografica influenza le situazioni meteorologiche predominanti.",
+    "src": "Ambiente · Clima"
+  },
+  {
+    "id": "ambiente-25",
+    "type": "tf",
+    "q": "Lo Jungfraujoch si trova a 3580 metri sul livello del mare.",
+    "answer": true,
+    "why": "Lo Jungfraujoch è situato a 3580 metri s.l.m.",
+    "src": "Ambiente · Clima"
+  },
+  {
+    "id": "ambiente-26",
+    "type": "mc",
+    "q": "Quale di questi NON è uno dei quattro oggetti principali della politica sociale svizzera?",
+    "options": [
+      "La politica familiare",
+      "La politica fiscale",
+      "La copertura sociale e integrazione",
+      "La politica della vecchiaia e delle generazioni"
+    ],
+    "answer": 1,
+    "why": "I quattro oggetti sono politica familiare, politica dell'infanzia e della gioventù, politica della vecchiaia e delle generazioni, copertura sociale e integrazione.",
+    "src": "Politica · Politica sociale"
+  },
+  {
+    "id": "ambiente-27",
+    "type": "mc",
+    "q": "In base ai principi di federalismo e sussidiarietà, chi si occupa della politica familiare?",
+    "options": [
+      "La Confederazione",
+      "La SECO",
+      "I cantoni e i comuni",
+      "Il Consiglio nazionale"
+    ],
+    "answer": 2,
+    "why": "Per il federalismo e la sussidiarietà la politica familiare spetta ai cantoni e ai comuni.",
+    "src": "Politica · Politica familiare"
+  },
+  {
+    "id": "ambiente-28",
+    "type": "tf",
+    "q": "I quattro obiettivi della politica familiare della Confederazione nascono da un postulato depositato nel 2013 in Consiglio nazionale.",
+    "answer": true,
+    "why": "Nel 2013 un postulato in Consiglio nazionale chiese al Consiglio federale di definire gli obiettivi della politica familiare.",
+    "src": "Politica · Politica familiare"
+  },
+  {
+    "id": "ambiente-29",
+    "type": "mc",
+    "q": "A livello federale, chi gestisce la politica dell'infanzia e della gioventù?",
+    "options": [
+      "La Segreteria di Stato dell'economia (SECO)",
+      "La Divisione dell'azione sociale e delle famiglie (DASF)",
+      "L'Amministrazione federale delle contribuzioni",
+      "L'Ufficio federale delle assicurazioni sociali (UFAS)"
+    ],
+    "answer": 3,
+    "why": "A livello federale se ne occupa l'UFAS, mentre in Ticino la responsabilità è della DASF.",
+    "src": "Politica · Infanzia e gioventù"
+  },
+  {
+    "id": "ambiente-30",
+    "type": "mc",
+    "q": "Su che cosa si basa la previdenza per la vecchiaia?",
+    "options": [
+      "Sull'assicurazione malattie",
+      "Sul sistema dei tre pilastri",
+      "Sulle cure di lunga durata",
+      "Sul reddito di base incondizionato"
+    ],
+    "answer": 1,
+    "why": "La previdenza per la vecchiaia si basa sui tre pilastri, mentre l'assicurazione malattie e le cure di lunga durata fanno parte della previdenza sanitaria.",
+    "src": "Politica · Vecchiaia e generazioni"
+  },
+  {
+    "id": "ambiente-31",
+    "type": "mc",
+    "q": "Quale di questi è un ambito d'intervento a sostegno della copertura sociale e dell'integrazione?",
+    "options": [
+      "La conciliabilità tra famiglia e lavoro",
+      "La promozione della salute",
+      "L'efficienza energetica",
+      "Il monitoraggio nazionale della povertà"
+    ],
+    "answer": 3,
+    "why": "Il monitoraggio della povertà a livello nazionale è uno degli ambiti d'intervento per la copertura sociale e l'integrazione.",
+    "src": "Politica · Copertura sociale"
+  },
+  {
+    "id": "ambiente-32",
+    "type": "mc",
+    "q": "Per garantire l'accesso a merci e attività produttive, quanti accordi ha sottoscritto la Confederazione e con quanti partner commerciali?",
+    "options": [
+      "43 accordi con 33 partner",
+      "57 accordi con 70 partner",
+      "33 accordi con 43 partner"
+    ],
+    "answer": 2,
+    "why": "La Svizzera ha sottoscritto 33 accordi con 43 partner commerciali, tra cui l'AELS e l'UE.",
+    "src": "Politica · Libero scambio"
+  },
+  {
+    "id": "ambiente-33",
+    "type": "mc",
+    "q": "Attraverso quale ente la Svizzera s'impegna a favorire un'economia aperta e il commercio libero ed equo?",
+    "options": [
+      "L'UFAS",
+      "La DASF",
+      "L'AELS",
+      "La SECO"
+    ],
+    "answer": 3,
+    "why": "È la Segreteria di Stato dell'economia (SECO) a tutelare gli interessi svizzeri all'estero e a promuovere il commercio libero ed equo.",
+    "src": "Politica · Libero scambio"
+  },
+  {
+    "id": "ambiente-34",
+    "type": "mc",
+    "q": "Da quale anno la Svizzera ha aderito allo scambio automatico d'informazioni fiscali a livello internazionale?",
+    "options": [
+      "2016",
+      "2018",
+      "2013",
+      "2001"
+    ],
+    "answer": 1,
+    "why": "Dal 2018 la Svizzera partecipa allo scambio automatico d'informazioni fiscali, e questo ha messo fine al segreto bancario.",
+    "src": "Politica · Politica fiscale"
+  },
+  {
+    "id": "ambiente-35",
+    "type": "tf",
+    "q": "L'accordo sull'imposta minima per le imprese attive a livello internazionale è stato sottoscritto dagli Stati dell'Unione europea.",
+    "answer": false,
+    "why": "L'accordo sull'imposta minima è stato sottoscritto dagli Stati del G20.",
+    "src": "Politica · Politica fiscale"
+  },
+  {
+    "id": "ambiente-36",
+    "type": "match",
+    "q": "Abbina ogni livello impositivo alla sua regola per riscuotere le imposte.",
+    "pairs": [
+      [
+        "Confederazione",
+        "Solo le imposte concesse espressamente dalla Costituzione"
+      ],
+      [
+        "Cantoni",
+        "Liberi di scegliere, salvo divieti della Costituzione"
+      ],
+      [
+        "Comuni",
+        "Solo dove lo consente il proprio cantone"
+      ]
+    ],
+    "why": "La Confederazione riscuote solo le imposte permesse dalla Costituzione, i cantoni scelgono liberamente salvo divieti e i comuni solo dove il cantone lo consente.",
+    "src": "Politica · Politica fiscale"
+  }
+]

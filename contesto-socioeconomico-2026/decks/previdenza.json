@@ -1,0 +1,429 @@
+[
+  {
+    "id": "previdenza-01",
+    "type": "match",
+    "q": "Abbina ogni pilastro al suo nome.",
+    "pairs": [
+      [
+        "Primo pilastro",
+        "Previdenza statale"
+      ],
+      [
+        "Secondo pilastro",
+        "Previdenza professionale"
+      ],
+      [
+        "Terzo pilastro",
+        "Previdenza individuale"
+      ]
+    ],
+    "why": "Il primo pilastro è la previdenza statale, il secondo quella professionale e il terzo quella individuale.",
+    "src": "Previdenza · Sicurezza sociale"
+  },
+  {
+    "id": "previdenza-02",
+    "type": "match",
+    "q": "Abbina ogni pilastro al suo scopo.",
+    "pairs": [
+      [
+        "Primo pilastro",
+        "Garantire il fabbisogno minimo vitale"
+      ],
+      [
+        "Secondo pilastro",
+        "Mantenere il tenore di vita abituale"
+      ],
+      [
+        "Terzo pilastro",
+        "Coprire il fabbisogno personale"
+      ]
+    ],
+    "why": "Il primo pilastro garantisce il minimo vitale, il secondo il tenore di vita abituale dopo il pensionamento, il terzo il fabbisogno personale.",
+    "src": "Previdenza · Sicurezza sociale"
+  },
+  {
+    "id": "previdenza-03",
+    "type": "mc",
+    "q": "Che cosa succederebbe se uno dei tre pilastri crollasse, per esempio per una bancarotta?",
+    "options": [
+      "La rendita AVS verrebbe posticipata di cinque anni",
+      "Gli altri due garantirebbero un minimo vitale",
+      "Il terzo pilastro diventerebbe obbligatorio per tutti"
+    ],
+    "answer": 1,
+    "why": "Il finanziamento è diviso su tre sistemi per ridurre i rischi: se uno crolla, gli altri due garantiscono un minimo vitale.",
+    "src": "Previdenza · Sicurezza sociale"
+  },
+  {
+    "id": "previdenza-04",
+    "type": "mc",
+    "q": "Che cosa ricevono i pensionati che non hanno unicamente la rendita AVS?",
+    "options": [
+      "Solo la rendita della cassa pensioni",
+      "Solo le prestazioni complementari",
+      "Solo il capitale della previdenza libera 3b",
+      "La combinazione dei tre pilastri"
+    ],
+    "answer": 3,
+    "why": "Chi non riceve solo la rendita AVS ha un importo che nasce dalla combinazione dei tre pilastri.",
+    "src": "Previdenza · Sicurezza sociale"
+  },
+  {
+    "id": "previdenza-05",
+    "type": "match",
+    "q": "Abbina ogni sigla del primo pilastro al suo significato.",
+    "pairs": [
+      [
+        "AVS",
+        "Assicurazione vecchiaia e superstiti"
+      ],
+      [
+        "AI",
+        "Assicurazione per l'invalidità"
+      ],
+      [
+        "IPG",
+        "Indennità per perdita di guadagno"
+      ],
+      [
+        "PC",
+        "Prestazioni complementari"
+      ]
+    ],
+    "why": "Il primo pilastro comprende AVS, AI, IPG e le prestazioni complementari (PC).",
+    "src": "Previdenza · Primo pilastro"
+  },
+  {
+    "id": "previdenza-06",
+    "type": "mc",
+    "q": "Per chi è obbligatoria l'AVS?",
+    "options": [
+      "Solo per i lavoratori indipendenti",
+      "Solo per i salariati con un certo reddito",
+      "Per chi risiede o lavora in Svizzera",
+      "Solo per chi ha più di 45 anni"
+    ],
+    "answer": 2,
+    "why": "L'AVS è obbligatoria per tutte le persone che risiedono in Svizzera o che vi esercitano un'attività lucrativa.",
+    "src": "Previdenza · Primo pilastro"
+  },
+  {
+    "id": "previdenza-07",
+    "type": "mc",
+    "q": "In quale di questi casi l'IPG versa un'indennità per perdita di guadagno?",
+    "options": [
+      "Per l'acquisto di un'abitazione primaria",
+      "Per l'avvio di un'attività indipendente",
+      "Per una partenza definitiva all'estero",
+      "Durante il servizio militare"
+    ],
+    "answer": 3,
+    "why": "L'IPG copre la perdita di guadagno dovuta per esempio a maternità, servizio militare o civile e protezione civile.",
+    "src": "Previdenza · Primo pilastro"
+  },
+  {
+    "id": "previdenza-08",
+    "type": "mc",
+    "q": "Nel primo pilastro, chi versa un contributo maggiore?",
+    "options": [
+      "Chi ha compiuto 21 anni",
+      "Chi lavora come indipendente",
+      "Chi ha figli sotto i 18 anni",
+      "Chi guadagna di più"
+    ],
+    "answer": 3,
+    "why": "I contributi seguono tabelle proporzionali al reddito annuo: chi guadagna di più versa di più.",
+    "src": "Previdenza · Primo pilastro"
+  },
+  {
+    "id": "previdenza-09",
+    "type": "mc",
+    "q": "Che cosa si rischia se i beneficiari dell'AVS aumentano molto rispetto ai contribuenti?",
+    "options": [
+      "Uno squilibrio tra entrate e uscite",
+      "La chiusura delle casse pensioni",
+      "L'obbligo del terzo pilastro per tutti"
+    ],
+    "answer": 0,
+    "why": "Con la ripartizione diretta, troppi beneficiari rispetto ai contribuenti creerebbero uno squilibrio tra entrate e uscite.",
+    "src": "Previdenza · Primo pilastro"
+  },
+  {
+    "id": "previdenza-10",
+    "type": "mc",
+    "q": "Chi paga i contributi AVS/AI/IPG di un salariato?",
+    "options": [
+      "Solo il datore di lavoro, per l'intero importo",
+      "Il datore e il salariato, in parti uguali",
+      "Solo il salariato, con una trattenuta sullo stipendio",
+      "La Confederazione e i cantoni, con le imposte"
+    ],
+    "answer": 1,
+    "why": "I contributi AVS/AI/IPG sono versati metà dal datore di lavoro e metà dal salariato.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-11",
+    "type": "mc",
+    "q": "Con quali soldi la Confederazione partecipa al finanziamento dell'AVS?",
+    "options": [
+      "Con una parte dei contributi versati nella previdenza vincolata 3a",
+      "Con i guadagni degli investimenti fatti dalle casse pensioni",
+      "Con le imposte su alcol e tabacco, l'IVA e le case da gioco"
+    ],
+    "answer": 2,
+    "why": "La Confederazione versa all'AVS una parte di quanto incassa con le imposte su alcol e tabacco, con l'IVA e con le case da gioco.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-12",
+    "type": "order",
+    "q": "Metti in ordine crescente, dalla più bassa alla più alta, queste età legate all'AVS.",
+    "items": [
+      "18 anni: i lavoratori iniziano a versare i contributi",
+      "21 anni: iniziano a versare anche le persone senza attività lucrativa",
+      "65 anni: si ha diritto alla rendita di vecchiaia"
+    ],
+    "why": "I lavoratori contribuiscono dall'anno dei 18 anni, chi non lavora dall'anno dei 21, e la rendita spetta a 65 anni.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-13",
+    "type": "tf",
+    "q": "La rendita di vecchiaia AVS può essere riscossa anche uno o due anni prima dell'età di pensionamento.",
+    "answer": true,
+    "why": "La rendita AVS si può anticipare di uno o due anni.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-14",
+    "type": "mc",
+    "q": "Al massimo, di quanti anni si può posticipare la rendita di vecchiaia AVS?",
+    "options": [
+      "Uno",
+      "Cinque",
+      "Due"
+    ],
+    "answer": 1,
+    "why": "La rendita AVS può essere posticipata fino a un massimo di cinque anni.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-15",
+    "type": "match",
+    "q": "Abbina ogni persona alla sua regola per la rendita per superstiti.",
+    "pairs": [
+      [
+        "Vedove senza figli",
+        "Più di 45 anni e matrimonio di almeno cinque anni"
+      ],
+      [
+        "Vedovi",
+        "Solo se hanno figli sotto i 18 anni"
+      ],
+      [
+        "Figli orfani",
+        "Rendita per orfani fino ai 18 anni"
+      ],
+      [
+        "Partner registrati",
+        "Gli stessi diritti del vedovo"
+      ]
+    ],
+    "why": "Ogni categoria di superstiti ha condizioni diverse: età e durata del matrimonio per le vedove senza figli, figli minorenni per i vedovi, i 18 anni per gli orfani.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-16",
+    "type": "mc",
+    "q": "Da quali due fattori dipende soprattutto l'importo della rendita AVS?",
+    "options": [
+      "Dall'età anagrafica e dalla media dei tassi d'interesse",
+      "Dalla sostanza e dal reddito annuo conseguito in forma di rendita",
+      "Dalla durata della contribuzione e dal reddito annuo medio"
+    ],
+    "answer": 2,
+    "why": "La rendita AVS dipende dalla durata della contribuzione e dal reddito annuo medio dell'assicurato.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-17",
+    "type": "tf",
+    "q": "Possono avere diritto alla rendita di invalidità anche persone sotto i 20 anni, se hanno un danno alla salute grave già diagnosticato.",
+    "answer": true,
+    "why": "Anche chi ha meno di 20 anni può ricevere la rendita AI se il danno è già diagnosticato e così grave da impedire un futuro lavoro.",
+    "src": "Previdenza · Finanziamento dell'AVS"
+  },
+  {
+    "id": "previdenza-18",
+    "type": "mc",
+    "q": "Per chi è facoltativo il secondo pilastro?",
+    "options": [
+      "Per i lavoratori indipendenti",
+      "Per i dipendenti di un unico datore di lavoro",
+      "Per i salariati già assicurati con l'AVS"
+    ],
+    "answer": 0,
+    "why": "Il secondo pilastro è obbligatorio per molti salariati, ma è facoltativo per i lavoratori indipendenti.",
+    "src": "Previdenza · Secondo pilastro"
+  },
+  {
+    "id": "previdenza-19",
+    "type": "mc",
+    "q": "Chi stabilisce il reddito annuo oltre il quale il secondo pilastro diventa obbligatorio?",
+    "options": [
+      "La cassa pensioni a cui è affiliato il datore di lavoro",
+      "L'Ufficio federale delle assicurazioni sociali (UFAS)",
+      "La Confederazione e i cantoni insieme"
+    ],
+    "answer": 1,
+    "why": "L'obbligo vale per chi supera un certo reddito annuo, stabilito dall'Ufficio federale delle assicurazioni sociali (UFAS).",
+    "src": "Previdenza · Secondo pilastro"
+  },
+  {
+    "id": "previdenza-20",
+    "type": "tf",
+    "q": "La cassa pensioni riceve contributi solo dal datore di lavoro.",
+    "answer": false,
+    "why": "La cassa pensioni riceve un contributo in percentuale dello stipendio sia dal datore di lavoro sia dal dipendente.",
+    "src": "Previdenza · Secondo pilastro"
+  },
+  {
+    "id": "previdenza-21",
+    "type": "mc",
+    "q": "Da chi è gestita la previdenza professionale?",
+    "options": [
+      "Pariteticamente dalle casse pensioni",
+      "Dallo Stato, con tabelle di ripartizione",
+      "Dalla Confederazione e dai cantoni"
+    ],
+    "answer": 0,
+    "why": "La previdenza professionale è gestita pariteticamente dalle casse pensioni, con regole precise fissate dalla legge.",
+    "src": "Previdenza · Secondo pilastro"
+  },
+  {
+    "id": "previdenza-22",
+    "type": "mc",
+    "q": "Su quale sistema si basa il finanziamento della LPP?",
+    "options": [
+      "La ripartizione diretta",
+      "La redistribuzione della ricchezza",
+      "La capitalizzazione"
+    ],
+    "answer": 2,
+    "why": "Il finanziamento della previdenza professionale (LPP) si basa sul sistema della capitalizzazione.",
+    "src": "Previdenza · Finanziamento della LPP"
+  },
+  {
+    "id": "previdenza-23",
+    "type": "order",
+    "q": "Metti in ordine, dal primo all'ultimo, i passaggi del secondo pilastro.",
+    "items": [
+      "L'assicurato versa i contributi alla cassa pensioni",
+      "La cassa pensioni investe i soldi per farli rendere",
+      "Al pensionamento la cassa converte l'investimento in rendita"
+    ],
+    "why": "Prima si versano i contributi, la cassa li investe e al pensionamento li trasforma in rendita.",
+    "src": "Previdenza · Finanziamento della LPP"
+  },
+  {
+    "id": "previdenza-24",
+    "type": "tf",
+    "q": "Si può ricevere la rendita LPP prima del pensionamento anche quando ci si trasferisce definitivamente in uno stato UE/AELS.",
+    "answer": false,
+    "why": "La partenza definitiva per l'estero permette di ricevere la LPP prima, ma non se ci si trasferisce in uno stato UE/AELS.",
+    "src": "Previdenza · Finanziamento della LPP"
+  },
+  {
+    "id": "previdenza-25",
+    "type": "mc",
+    "q": "Nel terzo pilastro, che cosa fa di solito l'assicurato?",
+    "options": [
+      "Paga contributi allo Stato secondo tabelle proporzionali al reddito annuo",
+      "Versa una percentuale dello stipendio alla cassa pensioni del datore",
+      "Risparmia su un conto bancario o con un'assicurazione sulla vita"
+    ],
+    "answer": 2,
+    "why": "Nel terzo pilastro si versa regolarmente denaro su un conto bancario oppure si stipula un'assicurazione sulla vita.",
+    "src": "Previdenza · Terzo pilastro"
+  },
+  {
+    "id": "previdenza-26",
+    "type": "tf",
+    "q": "Nella previdenza vincolata 3a il capitale accumulato può essere usato liberamente quando si vuole.",
+    "answer": false,
+    "why": "Nella previdenza 3a il capitale è vincolato e non si può usare liberamente; è nella 3b che lo si può chiedere quando si desidera.",
+    "src": "Previdenza · Terzo pilastro"
+  },
+  {
+    "id": "previdenza-27",
+    "type": "tf",
+    "q": "Nella previdenza libera 3b non sono previsti contributi minimi o massimi.",
+    "answer": true,
+    "why": "La previdenza libera 3b è più flessibile e non prevede contributi minimi o massimi.",
+    "src": "Previdenza · Terzo pilastro"
+  },
+  {
+    "id": "previdenza-28",
+    "type": "tf",
+    "q": "Le entrate del primo e del secondo pilastro insieme dovrebbero coprire circa il 60-70% dell'ultimo salario percepito.",
+    "answer": true,
+    "why": "Primo e secondo pilastro insieme dovrebbero garantire circa il 60-70% dell'ultimo salario, così da mantenere un tenore di vita simile a prima.",
+    "src": "Previdenza · Secondo pilastro"
+  },
+  {
+    "id": "previdenza-29",
+    "type": "match",
+    "q": "Abbina ogni cifra al suo significato nell'AVS.",
+    "pairs": [
+      [
+        "87'000 franchi",
+        "Contributi di chi guadagna un milione all'anno, con il datore"
+      ],
+      [
+        "29'400 franchi",
+        "Rendita AVS massima nel 2024"
+      ],
+      [
+        "Più di un quinto",
+        "Parte delle uscite AVS coperta dalle autorità"
+      ]
+    ],
+    "why": "Chi guadagna un milione versa con il datore 87'000 franchi ma riceverà al massimo 29'400 franchi, e le autorità coprono più di un quinto delle uscite.",
+    "src": "Previdenza · Solidarietà dell'AVS"
+  },
+  {
+    "id": "previdenza-30",
+    "type": "mc",
+    "q": "Come sono finanziate le prestazioni complementari?",
+    "options": [
+      "In parti uguali dal datore di lavoro e dal salariato",
+      "Con i guadagni degli investimenti delle casse pensioni",
+      "Solo con le imposte, da Confederazione e cantoni"
+    ],
+    "answer": 2,
+    "why": "Le prestazioni complementari sono a carico di Confederazione e cantoni e sono pagate interamente con le imposte.",
+    "src": "Previdenza · Solidarietà dell'AVS"
+  },
+  {
+    "id": "previdenza-31",
+    "type": "tf",
+    "q": "Come l'AVS, anche la previdenza professionale prevede una ridistribuzione tra ricchi e poveri.",
+    "answer": false,
+    "why": "La previdenza professionale non prevede alcuna ridistribuzione né tra generazioni né tra ricchi e poveri.",
+    "src": "Previdenza · Solidarietà dell'AVS"
+  },
+  {
+    "id": "previdenza-32",
+    "type": "mc",
+    "q": "Perché il secondo pilastro conviene più che investire ognuno per conto proprio?",
+    "options": [
+      "Perché redistribuisce la ricchezza tra ricchi e poveri",
+      "Perché i rischi d'investimento sono assunti da tutti",
+      "Perché le autorità coprono più di un quinto delle uscite"
+    ],
+    "answer": 1,
+    "why": "Nel secondo pilastro i rischi d'investimento sono condivisi da tutti in modo solidale.",
+    "src": "Previdenza · Solidarietà dell'AVS"
+  }
+]

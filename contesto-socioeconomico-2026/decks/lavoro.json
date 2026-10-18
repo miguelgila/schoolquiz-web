@@ -1,0 +1,457 @@
+[
+  {
+    "id": "lavoro-01",
+    "type": "mc",
+    "q": "Chi sono le due parti che firmano un contratto collettivo di lavoro?",
+    "options": [
+      "Il Consiglio federale e il Gran Consiglio ticinese",
+      "I datori di lavoro (o le loro associazioni) e le associazioni di lavoratori",
+      "La Commissione tripartita e l'Ufficio per la sorveglianza del mercato del lavoro",
+      "La SECO e l'Ufficio federale di statistica"
+    ],
+    "answer": 1,
+    "why": "Nel contratto collettivo di lavoro si accordano da una parte i datori di lavoro o le loro associazioni e dall'altra le associazioni di lavoratori.",
+    "src": "Lavoro · Contratti collettivi"
+  },
+  {
+    "id": "lavoro-02",
+    "type": "mc",
+    "q": "L'articolo 1a della Loccl è stato inserito come misura di accompagnamento a quale accordo?",
+    "options": [
+      "Ai Mutual Recognition Agreements (MRA) con l'Unione europea",
+      "Agli accordi di libero scambio con la Cina",
+      "Alla libera circolazione delle persone con UE/AELS"
+    ],
+    "answer": 2,
+    "why": "L'articolo 1a della Loccl accompagna l'Accordo sulla libera circolazione delle persone tra la Svizzera e i Paesi UE/AELS.",
+    "src": "Lavoro · Contratti collettivi"
+  },
+  {
+    "id": "lavoro-03",
+    "type": "tf",
+    "q": "Se un contratto collettivo di lavoro ottiene il carattere obbligatorio generale, vale solo per chi lo ha firmato.",
+    "answer": false,
+    "why": "Con il carattere obbligatorio generale le sue regole valgono per tutte le imprese e tutte le persone che lavorano in quel settore.",
+    "src": "Lavoro · Contratti collettivi"
+  },
+  {
+    "id": "lavoro-04",
+    "type": "order",
+    "q": "Metti in ordine, dal primo all'ultimo, i passaggi previsti dall'articolo 1a della Loccl.",
+    "items": [
+      "In un ramo si offrono ripetutamente salari inferiori a quelli usuali",
+      "La Commissione tripartita, con il consenso delle parti, chiede il carattere obbligatorio generale",
+      "L'autorità cantonale rende vincolanti i minimi salariali in tutto il settore"
+    ],
+    "why": "Se in un ramo i salari sono ripetutamente troppo bassi, la Commissione tripartita chiede il carattere obbligatorio generale e l'autorità cantonale fissa minimi salariali vincolanti.",
+    "src": "Lavoro · Contratti collettivi"
+  },
+  {
+    "id": "lavoro-05",
+    "type": "match",
+    "q": "Abbina ogni sigla al suo significato.",
+    "pairs": [
+      [
+        "CO",
+        "Codice delle obbligazioni"
+      ],
+      [
+        "Loccl",
+        "Legge federale sul conferimento del carattere obbligatorio generale al contratto collettivo di lavoro"
+      ],
+      [
+        "CNL",
+        "Contratti normali di lavoro"
+      ]
+    ],
+    "why": "CO è il Codice delle obbligazioni, la Loccl è la legge sul carattere obbligatorio generale dei contratti collettivi e CNL sono i contratti normali di lavoro.",
+    "src": "Lavoro · Contratti collettivi"
+  },
+  {
+    "id": "lavoro-06",
+    "type": "mc",
+    "q": "In quali settori vale il salario minimo cantonale ticinese?",
+    "options": [
+      "Nei settori non coperti da contratti collettivi di lavoro",
+      "Solo nel settore turistico e para-alberghiero",
+      "Solo nelle piccole e medie imprese che occupano tra 1 e 50 persone",
+      "Solo per i frontalieri con permesso G"
+    ],
+    "answer": 0,
+    "why": "Il salario minimo cantonale vale nei settori dove non c'è un contratto collettivo di lavoro.",
+    "src": "Lavoro · Salario minimo"
+  },
+  {
+    "id": "lavoro-07",
+    "type": "tf",
+    "q": "Il salario minimo orario ticinese è compreso tra i 19,75 e i 20,25 franchi.",
+    "answer": true,
+    "why": "Le forze politiche si sono accordate per un salario minimo orario tra 19,75 e 20,25 franchi.",
+    "src": "Lavoro · Salario minimo"
+  },
+  {
+    "id": "lavoro-08",
+    "type": "tf",
+    "q": "I frontalieri contati dalla statistica sono lavoratori stranieri con permesso G.",
+    "answer": true,
+    "why": "La statistica dei frontalieri considera le lavoratrici e i lavoratori stranieri con permesso G attivi in tutta la Svizzera.",
+    "src": "Lavoro · Frontalieri"
+  },
+  {
+    "id": "lavoro-09",
+    "type": "mc",
+    "q": "Chi conta il dato amministrativo dei disoccupati?",
+    "options": [
+      "Tutte le persone dai 15 ai 74 anni che non lavorano, iscritte o no a un ufficio",
+      "Solo i lavoratori stranieri con permesso G",
+      "Chi ha cercato attivamente un lavoro nelle quattro settimane precedenti",
+      "Chi è iscritto a un Ufficio regionale di collocamento e riceve indennità"
+    ],
+    "answer": 3,
+    "why": "Il dato amministrativo conta chi è iscritto a un Ufficio regionale di collocamento e percepisce indennità di disoccupazione.",
+    "src": "Lavoro · Disoccupazione"
+  },
+  {
+    "id": "lavoro-10",
+    "type": "mc",
+    "q": "Quale di queste NON è una delle tre condizioni dell'ILO per essere considerati disoccupati?",
+    "options": [
+      "Non essere occupati nella settimana di riferimento",
+      "Essere iscritti a un Ufficio regionale di collocamento",
+      "Aver cercato attivamente un lavoro nelle quattro settimane precedenti",
+      "Essere disposti a iniziare un'attività"
+    ],
+    "answer": 1,
+    "why": "Per l'ILO una persona è disoccupata che sia registrata o no presso un Ufficio regionale di collocamento.",
+    "src": "Lavoro · Disoccupazione"
+  },
+  {
+    "id": "lavoro-11",
+    "type": "tf",
+    "q": "Secondo il dato amministrativo, il tasso di disoccupazione in Svizzera e in Ticino appare molto alto.",
+    "answer": false,
+    "why": "Secondo il dato amministrativo la disoccupazione in Svizzera e in Ticino appare molto bassa.",
+    "src": "Lavoro · Disoccupazione"
+  },
+  {
+    "id": "lavoro-12",
+    "type": "mc",
+    "q": "Il turismo alpino svizzero portava le persone a seguire le orme di quali due personaggi?",
+    "options": [
+      "Alexander Seiler e Franz Josef Bucher",
+      "Ami Chessex e Alexander Emery",
+      "Goethe e lord Byron"
+    ],
+    "answer": 2,
+    "why": "I turisti delle Alpi seguivano le orme di Johann Wolfgang von Goethe e di lord George Gordon Byron.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-13",
+    "type": "mc",
+    "q": "Quale di queste fu una delle prime aree della Svizzera scoperte dai turisti?",
+    "options": [
+      "Zurigo",
+      "Il Luganese",
+      "La Leventina",
+      "L'Oberland bernese"
+    ],
+    "answer": 3,
+    "why": "Le prime aree scoperte furono l'arco lemanico, l'Oberland bernese, il Vallese e la zona del lago dei Quattro Cantoni.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-14",
+    "type": "mc",
+    "q": "Chi investiva soprattutto nel settore turistico durante la Belle Époque?",
+    "options": [
+      "I ricchi milanesi in villeggiatura",
+      "Gli aristocratici nordeuropei",
+      "Ricchi industriali e banchieri",
+      "Le associazioni di lavoratori"
+    ],
+    "answer": 2,
+    "why": "Nella Belle Époque investivano nel turismo soprattutto ricchi industriali e banchieri, che diventarono anche albergatori.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-15",
+    "type": "mc",
+    "q": "Durante il boom del turismo ticinese, quale parte del reddito cantonale era generata dai turisti?",
+    "options": [
+      "Circa 1/5",
+      "Quasi la metà",
+      "Quasi i 3/4",
+      "Circa due terzi"
+    ],
+    "answer": 0,
+    "why": "Negli anni Cinquanta e Sessanta circa un quinto del reddito del Cantone Ticino veniva dai turisti.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-16",
+    "type": "tf",
+    "q": "Tra il 1888 e il 1914 in Svizzera furono costruite 40 funicolari.",
+    "answer": true,
+    "why": "Tra il 1888 e il 1914 in Svizzera si costruirono 40 funicolari.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-17",
+    "type": "order",
+    "q": "Metti in ordine cronologico, dal più antico al più recente, queste fasi del turismo svizzero.",
+    "items": [
+      "Primi turisti d'élite attratti dalle Alpi e dal Romanticismo",
+      "Belle Époque, con funicolari e grand hotel",
+      "Crisi del turismo durante le due Guerre mondiali",
+      "Turismo di massa, aperto anche ad altri ceti sociali"
+    ],
+    "why": "Il turismo nasce nel XIX secolo con le élite, cresce nella Belle Époque (1880-1914), va in crisi con le guerre (1914-45) e diventa di massa dagli anni Cinquanta e Sessanta.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-18",
+    "type": "order",
+    "q": "Metti in ordine cronologico, dal più antico al più recente, queste tappe del turismo ticinese.",
+    "items": [
+      "A Lugano e Locarno nascono i primi grandi alberghi",
+      "Boom del turismo: il Ticino diventa la Sonnenstube della Svizzera",
+      "Il para-alberghiero supera l'alberghiero nei pernottamenti"
+    ],
+    "why": "I primi grandi alberghi nascono nella Belle Époque, il boom arriva negli anni Cinquanta e Sessanta e nel 1975 il para-alberghiero supera l'alberghiero.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-19",
+    "type": "match",
+    "q": "Abbina ogni albergatore al luogo dove lavorava.",
+    "pairs": [
+      [
+        "Alexander Seiler",
+        "Zermatt"
+      ],
+      [
+        "Ami Chessex",
+        "Riviera vodese"
+      ],
+      [
+        "Franz Josef Bucher",
+        "Regione di Lucerna"
+      ]
+    ],
+    "why": "Seiler era albergatore a Zermatt, Chessex nella Riviera vodese e Bucher nella regione di Lucerna.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-20",
+    "type": "match",
+    "q": "Abbina ogni località ticinese al suo ruolo nella storia del turismo.",
+    "pairs": [
+      [
+        "Faido",
+        "Centro di villeggiatura in Leventina"
+      ],
+      [
+        "Tesserete",
+        "Centro di villeggiatura nel Luganese"
+      ],
+      [
+        "Agra",
+        "Sanatorio sopra Lugano"
+      ],
+      [
+        "Piotta",
+        "Sanatorio in Leventina"
+      ]
+    ],
+    "why": "Faido e Tesserete diventarono centri di villeggiatura, mentre ad Agra e a Piotta furono costruiti dei sanatori.",
+    "src": "Lavoro · Storia del turismo"
+  },
+  {
+    "id": "lavoro-21",
+    "type": "mc",
+    "q": "Quasi la metà dei pernottamenti registrati in Svizzera riguarda turisti di quale provenienza?",
+    "options": [
+      "Svizzeri",
+      "Tedeschi",
+      "Nordeuropei",
+      "Milanesi"
+    ],
+    "answer": 0,
+    "why": "Quasi la metà dei pernottamenti sono di turisti svizzeri; tra gli stranieri la Germania è di gran lunga al primo posto.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-22",
+    "type": "mc",
+    "q": "Approvando la Lex Weber, quali autorità hanno sconfessato i cittadini svizzeri?",
+    "options": [
+      "Il Gran Consiglio ticinese e la Commissione tripartita",
+      "La SECO e l'Ufficio federale di statistica",
+      "Il Consiglio federale e il Consiglio nazionale"
+    ],
+    "answer": 2,
+    "why": "Con il voto sulla Lex Weber i cittadini hanno dato torto al Consiglio federale e al Consiglio nazionale.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-23",
+    "type": "mc",
+    "q": "Che cosa impone l'art. 75b della Costituzione federale a tutti i comuni?",
+    "options": [
+      "Di stilare ogni anno un inventario delle abitazioni",
+      "Di introdurre un salario minimo orario entro il 2024",
+      "Di contare i frontalieri con permesso G attivi sul loro territorio",
+      "Di costruire alberghi invece di residenze di vacanza"
+    ],
+    "answer": 0,
+    "why": "L'art. 75b, in vigore dal 1° gennaio 2016, obbliga ogni comune a fare ogni anno un inventario delle abitazioni.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-24",
+    "type": "tf",
+    "q": "In Ticino la stagione turistica è concentrata principalmente tra Pasqua e novembre.",
+    "answer": true,
+    "why": "In Ticino il turismo resta legato alla bella stagione, soprattutto tra Pasqua e novembre.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-25",
+    "type": "match",
+    "q": "Abbina ogni cifra a ciò che indica.",
+    "pairs": [
+      [
+        "50,6%",
+        "Cittadini che hanno approvato la Lex Weber"
+      ],
+      [
+        "20%",
+        "Limite di case secondarie per comune con la Lex Weber"
+      ],
+      [
+        "Oltre 30'000",
+        "Residenze private di vacanza in Ticino"
+      ],
+      [
+        "Quasi 3/4",
+        "Pernottamenti ticinesi fatti nel Locarnese e nel Luganese"
+      ],
+      [
+        "Oltre il 50%",
+        "Quota di residenze di vacanza in comuni come il Gambarogno"
+      ]
+    ],
+    "why": "La Lex Weber fu approvata dal 50,6% e limita le case secondarie al 20%; il Ticino ha oltre 30'000 residenze di vacanza, oltre il 50% in comuni come il Gambarogno, e Locarnese e Luganese fanno quasi i 3/4 dei pernottamenti.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-26",
+    "type": "order",
+    "q": "Metti in ordine cronologico, dal più antico al più recente.",
+    "items": [
+      "Il popolo svizzero vota la Lex Weber",
+      "Entra in vigore l'art. 75b della Costituzione federale",
+      "Il Gran Consiglio ticinese vota la legge sul salario minimo",
+      "Scade il termine per introdurre il salario minimo orario in Ticino"
+    ],
+    "why": "Marzo 2012, 1° gennaio 2016, 11 dicembre 2019, 31 dicembre 2024.",
+    "src": "Lavoro · Cifre del turismo"
+  },
+  {
+    "id": "lavoro-27",
+    "type": "mc",
+    "q": "Che cosa permettono i Mutual Recognition Agreements (MRA)?",
+    "options": [
+      "Ai lavoratori frontalieri di essere attivi su tutto il territorio con il permesso G",
+      "Alle merci svizzere di ricevere un riconoscimento ufficiale di conformità",
+      "Di applicare un contratto collettivo a tutte le imprese di un settore",
+      "Ai comuni di limitare le case secondarie al 20%"
+    ],
+    "answer": 1,
+    "why": "Gli MRA fanno riconoscere ufficialmente che le merci svizzere rispettano le norme sui prodotti dei partner commerciali, e così semplificano le esportazioni.",
+    "src": "Lavoro · Commercio estero"
+  },
+  {
+    "id": "lavoro-28",
+    "type": "mc",
+    "q": "Quale area rappresenta il mercato di scambio più grande al mondo?",
+    "options": [
+      "La Cina",
+      "L'AELS",
+      "L'Unione europea"
+    ],
+    "answer": 2,
+    "why": "L'Unione europea, partner degli MRA, è il mercato di scambio più grande al mondo.",
+    "src": "Lavoro · Commercio estero"
+  },
+  {
+    "id": "lavoro-29",
+    "type": "tf",
+    "q": "La Svizzera ha un'eccedenza di importazione.",
+    "answer": false,
+    "why": "La Svizzera ha un'eccedenza di esportazione: crea buona parte del suo benessere vendendo beni e servizi all'estero.",
+    "src": "Lavoro · Commercio estero"
+  },
+  {
+    "id": "lavoro-30",
+    "type": "mc",
+    "q": "Come è organizzata la strategia del Consiglio federale per la crescita economica?",
+    "options": [
+      "Sei ambiti d'intervento in dodici progetti",
+      "Dodici ambiti d'intervento in sei progetti",
+      "Tre ambiti d'intervento in quattro progetti"
+    ],
+    "answer": 0,
+    "why": "La strategia per la crescita prevede sei ambiti d'intervento, suddivisi in dodici progetti.",
+    "src": "Lavoro · Crescita economica"
+  },
+  {
+    "id": "lavoro-31",
+    "type": "mc",
+    "q": "Quali misure della Confederazione hanno aiutato a salvare posti di lavoro e redditi durante la crisi sanitaria?",
+    "options": [
+      "Il salario minimo cantonale e i contratti normali di lavoro",
+      "Gli accordi di libero scambio e i Mutual Recognition Agreements",
+      "La Lex Weber e l'inventario annuale delle abitazioni",
+      "Le indennità per lavoro ridotto e per perdita di guadagno Corona"
+    ],
+    "answer": 3,
+    "why": "L'indennità per lavoro ridotto e l'indennità per perdita di guadagno Corona hanno protetto posti di lavoro e redditi.",
+    "src": "Lavoro · Crescita economica"
+  },
+  {
+    "id": "lavoro-32",
+    "type": "tf",
+    "q": "La Svizzera ha un PIL pro capite tra i più alti di tutta l'area OCSE.",
+    "answer": true,
+    "why": "Nonostante il rallentamento della crisi sanitaria, la Svizzera ha un PIL pro capite tra i più alti dell'area OCSE.",
+    "src": "Lavoro · Crescita economica"
+  },
+  {
+    "id": "lavoro-33",
+    "type": "mc",
+    "q": "Circa quale parte delle aziende svizzere occupa tra 1 e 50 persone?",
+    "options": [
+      "Il 20% circa",
+      "La metà circa",
+      "Il 98% circa"
+    ],
+    "answer": 2,
+    "why": "Circa il 98% delle aziende svizzere ha tra 1 e 50 persone: l'economia si basa su micro- e piccole imprese.",
+    "src": "Lavoro · Piccole e medie imprese"
+  },
+  {
+    "id": "lavoro-34",
+    "type": "mc",
+    "q": "Quanti lavoratori occupano circa le PMI (piccole e medie imprese) in Svizzera?",
+    "options": [
+      "Due lavoratori su tre",
+      "Un lavoratore su cinque",
+      "Quasi la metà dei lavoratori"
+    ],
+    "answer": 0,
+    "why": "In Svizzera le piccole e medie imprese danno lavoro a circa due lavoratori su tre.",
+    "src": "Lavoro · Piccole e medie imprese"
+  }
+]

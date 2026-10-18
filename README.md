@@ -7,6 +7,7 @@ A static hub of school-revision quizzes in Italian, hosted at [schoolquiz.giar.d
 | Quiz | Folder | Decks | Questions |
 |---|---|---|---|
 | Storia: Medioevo ed esplorazioni | `storia-medioevo-esplorazioni/` | 5: Città e mercanti, Passi alpini e commerci, Nascita della Confederazione, Età moderna e Rinascimento, Esplorazioni e conquiste | 168 |
+| Contesto Socioeconomico 2026 | `contesto-socioeconomico-2026/` | 5: Settori economici, I tre pilastri, Lavoro, turismo e commercio, Società e innovazione, Ambiente e politica | 168 |
 
 Every quiz also has a **Tutto** deck that mixes all its decks, with an equal share from each.
 
@@ -103,6 +104,8 @@ Every question has an `id` that is unique in the quiz and stable (e.g. `citta-07
 ## Content
 
 Le domande sono scritte a partire dalle schede di classe basate su *La Svizzera nella storia 2* e dagli appunti dello studente; nessun testo o immagine del libro è riprodotto.
+
+Le domande di *Contesto Socioeconomico 2026* sono scritte a partire da appunti di studio sul contesto socioeconomico svizzero e ticinese; nessun testo originale è riprodotto.
 
 The facts sheet each quiz is written from is in [docs/content/](docs/content/). It is the only source used for the questions; the scanned worksheets and notes are not part of the repo.
 

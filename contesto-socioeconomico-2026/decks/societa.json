@@ -1,0 +1,478 @@
+[
+  {
+    "id": "societa-01",
+    "type": "mc",
+    "q": "Quale di queste è una causa dell'invecchiamento della popolazione svizzera?",
+    "options": [
+      "La formazione duale",
+      "L'aumento della speranza di vita",
+      "L'estensione dell'obbligo formativo",
+      "La presenza di comunità straniere"
+    ],
+    "answer": 1,
+    "why": "Le persone vivono più a lungo: l'aumento della speranza di vita è una delle cause dell'invecchiamento, insieme a meno nascite e a una buona salute in tarda età.",
+    "src": "Società · Invecchiamento"
+  },
+  {
+    "id": "societa-02",
+    "type": "mc",
+    "q": "Su quali due dimensioni ha avuto un impatto molto importante l'invecchiamento della popolazione?",
+    "options": [
+      "La ricerca e l'innovazione",
+      "Il volontariato e le quattro lingue nazionali",
+      "La previdenza per la vecchiaia e i servizi sanitari",
+      "La scuola media e la formazione professionale superiore"
+    ],
+    "answer": 2,
+    "why": "L'invecchiamento pesa soprattutto sulla previdenza per la vecchiaia e sui servizi ospedalieri, sanitari e di assistenza.",
+    "src": "Società · Invecchiamento"
+  },
+  {
+    "id": "societa-03",
+    "type": "mc",
+    "q": "Chi ha preparato gli scenari della popolazione svizzera per il 2050?",
+    "options": [
+      "L'Ufficio federale di statistica",
+      "La SEFRI",
+      "Il Fondo nazionale svizzero (FNS)",
+      "Il DECS"
+    ],
+    "answer": 0,
+    "why": "I tre scenari per il 2050 sono stati preparati dall'Ufficio federale di statistica.",
+    "src": "Società · Popolazione nel 2050"
+  },
+  {
+    "id": "societa-04",
+    "type": "order",
+    "q": "Metti in ordine dal numero di abitanti più basso al più alto.",
+    "items": [
+      "La Svizzera nel 1990",
+      "Lo scenario «basso» per il 2050",
+      "Lo scenario di riferimento per il 2050",
+      "Lo scenario «alto» per il 2050"
+    ],
+    "why": "Nel 1990 c'erano circa 6.8 milioni di abitanti; per il 2050 lo scenario basso stima 9.5 milioni, quello di riferimento circa 10.4 e quello alto 11.4.",
+    "src": "Società · Popolazione nel 2050"
+  },
+  {
+    "id": "societa-05",
+    "type": "tf",
+    "q": "La formazione duale contribuisce a mantenere un tasso di disoccupazione giovanile relativamente basso rispetto ad altri Paesi.",
+    "answer": true,
+    "why": "Alternando azienda e scuola, la formazione duale facilita il passaggio al lavoro e tiene bassa la disoccupazione giovanile.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-06",
+    "type": "mc",
+    "q": "Secondo l'Ufficio federale di statistica, quante ore alla settimana dedica in media al prossimo una volontaria o un volontario?",
+    "options": [
+      "11 ore",
+      "18 ore",
+      "4.1 ore"
+    ],
+    "answer": 2,
+    "why": "In media una volontaria o un volontario dedica 4.1 ore alla settimana al prossimo.",
+    "src": "Società · Volontariato"
+  },
+  {
+    "id": "societa-07",
+    "type": "mc",
+    "q": "Che cos'è il volontariato informale?",
+    "options": [
+      "Aiutare chi non vive nella propria economia domestica",
+      "Un'attività pianificata dentro un'associazione o un'istituzione",
+      "Un lavoro pagato in un'istituzione pubblica"
+    ],
+    "answer": 0,
+    "why": "Il volontariato informale è l'aiuto dato a persone che non vivono nella propria economia domestica; quello dentro le associazioni è il volontariato organizzato.",
+    "src": "Società · Volontariato"
+  },
+  {
+    "id": "societa-08",
+    "type": "tf",
+    "q": "Le circa 640 milioni di ore di volontariato fornite ogni anno in Svizzera corrispondono a circa 60 miliardi di franchi, che non sono conteggiati nel PIL.",
+    "answer": true,
+    "why": "Il volontariato vale circa 60 miliardi di franchi, ma non entra nel PIL perché è un lavoro non remunerato.",
+    "src": "Società · Volontariato"
+  },
+  {
+    "id": "societa-09",
+    "type": "order",
+    "q": "Metti in ordine i quattro livelli del sistema formativo svizzero, dal primo che si frequenta all'ultimo.",
+    "items": [
+      "Livello primario",
+      "Livello secondario I",
+      "Livello secondario II",
+      "Livello terziario"
+    ],
+    "why": "Il sistema formativo ha quattro livelli: primario, secondario I, secondario II e terziario.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-10",
+    "type": "match",
+    "q": "Abbina ogni livello del sistema formativo alle scuole che comprende.",
+    "pairs": [
+      [
+        "Livello primario",
+        "Scuola dell'infanzia e scuola elementare"
+      ],
+      [
+        "Livello secondario I",
+        "Scuola media"
+      ],
+      [
+        "Livello secondario II",
+        "Formazione professionale di base o scuole di cultura generale"
+      ],
+      [
+        "Livello terziario",
+        "Formazione professionale superiore o scuole universitarie"
+      ]
+    ],
+    "why": "Primario: infanzia ed elementare; secondario I: scuola media; secondario II: formazione professionale di base o cultura generale; terziario: formazione professionale superiore o università.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-11",
+    "type": "mc",
+    "q": "Quanto dura in tutto l'obbligo scolastico in Svizzera?",
+    "options": [
+      "4 anni",
+      "11 anni",
+      "15 anni",
+      "18 anni"
+    ],
+    "answer": 1,
+    "why": "L'obbligo scolastico dura 11 anni e comprende il livello primario, con la scuola dell'infanzia, e il livello secondario I.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-12",
+    "type": "order",
+    "q": "Metti in ordine questi momenti della formazione in Ticino, dal più precoce al più tardivo (secondo l'età).",
+    "items": [
+      "Si può iniziare la scuola dell'infanzia in modo facoltativo",
+      "Inizia l'obbligo scolastico",
+      "Finisce l'obbligo scolastico"
+    ],
+    "why": "In Ticino la scuola dell'infanzia è facoltativa dai 3 anni, poi la scuola è obbligatoria dai quattro ai quindici anni.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-13",
+    "type": "mc",
+    "q": "In Ticino, quale ente si occupa della formazione obbligatoria, post-obbligatoria e continua?",
+    "options": [
+      "La Segreteria di Stato per la formazione, la ricerca e l'innovazione",
+      "L'Ufficio federale di statistica",
+      "La Conferenza delle Rettrici e dei Rettori",
+      "Il Dipartimento dell'educazione, della cultura e dello sport"
+    ],
+    "answer": 3,
+    "why": "In Ticino se ne occupa il DECS, il Dipartimento dell'educazione, della cultura e dello sport, che promuove anche la cultura.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-14",
+    "type": "mc",
+    "q": "Qual è in Ticino la base legale di riferimento per la scuola?",
+    "options": [
+      "L'articolo 64 della Costituzione federale",
+      "La legge sulla promozione della ricerca e dell'innovazione",
+      "La Legge della scuola del 1° febbraio 1990"
+    ],
+    "answer": 2,
+    "why": "In Ticino la scuola si basa sulla Legge della scuola del 1° febbraio 1990.",
+    "src": "Società · Sistema formativo"
+  },
+  {
+    "id": "societa-15",
+    "type": "match",
+    "q": "In Ticino, abbina ogni tipo di scuola a chi la organizza o ne è responsabile.",
+    "pairs": [
+      [
+        "Scuola dell'infanzia ed elementare",
+        "Il cantone e i comuni"
+      ],
+      [
+        "Scuola media",
+        "Solo il cantone"
+      ],
+      [
+        "Formazione post-obbligatoria",
+        "La Confederazione e i cantoni"
+      ]
+    ],
+    "why": "Infanzia ed elementare sono gestite da cantone e comuni, la scuola media è solo cantonale, la formazione post-obbligatoria spetta a Confederazione e cantoni.",
+    "src": "Società · Scuola dell'obbligo"
+  },
+  {
+    "id": "societa-16",
+    "type": "tf",
+    "q": "Il livello primario e il livello secondario I sono obbligatori e gratuiti.",
+    "answer": true,
+    "why": "Primario e secondario I sono obbligatori e gratuiti; la maggior parte degli allievi va in una scuola pubblica.",
+    "src": "Società · Scuola dell'obbligo"
+  },
+  {
+    "id": "societa-17",
+    "type": "tf",
+    "q": "Al livello secondario II circa 2/3 degli allievi ticinesi si iscrivono a una scuola di maturità.",
+    "answer": false,
+    "why": "Solo circa 1/3 sceglie una scuola di maturità; gli altri 2/3 scelgono una formazione professionale.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-18",
+    "type": "match",
+    "q": "Abbina ogni sigla della formazione al suo significato.",
+    "pairs": [
+      [
+        "CFP",
+        "Certificato di formazione pratica"
+      ],
+      [
+        "AFC",
+        "Attestato federale di capacità"
+      ],
+      [
+        "APF",
+        "Attestato professionale federale"
+      ],
+      [
+        "SSS",
+        "Scuola specializzata superiore"
+      ],
+      [
+        "SUP",
+        "Scuole universitarie professionali"
+      ]
+    ],
+    "why": "CFP e AFC sono titoli del secondario II, APF e SSS del terziario B, le SUP fanno parte del terziario A.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-19",
+    "type": "mc",
+    "q": "Secondo l'Ufficio federale di statistica, quale parte dei giovani adulti consegue oggi una certificazione al livello secondario II?",
+    "options": [
+      "Circa il 40%",
+      "Circa il 71%",
+      "Circa il 91%"
+    ],
+    "answer": 2,
+    "why": "Circa il 91% dei giovani adulti, cioè delle persone tra 18 e 25 anni, ottiene un diploma del secondario II.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-20",
+    "type": "tf",
+    "q": "La Città dei mestieri è stata inaugurata a Bellinzona il 25 gennaio 2020.",
+    "answer": true,
+    "why": "La Città dei mestieri, una novità per il Ticino, è stata inaugurata a Bellinzona il 25 gennaio 2020.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-21",
+    "type": "mc",
+    "q": "Quale di questi è uno dei quattro ambiti di consulenza della Città dei mestieri?",
+    "options": [
+      "Fare la spesa per chi è isolato",
+      "Promuovere la cultura",
+      "Attuare la ricerca programmatica",
+      "Vivere l'apprendistato"
+    ],
+    "answer": 3,
+    "why": "I quattro ambiti sono: orientarsi, vivere l'apprendistato, trovare lavoro, perfezionarsi e riqualificarsi.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-22",
+    "type": "mc",
+    "q": "In quali città si trovano i due politecnici federali svizzeri?",
+    "options": [
+      "Bellinzona e Zurigo",
+      "Zurigo e Losanna",
+      "Losanna e Bellinzona"
+    ],
+    "answer": 1,
+    "why": "I due politecnici federali, che fanno parte del terziario A, si trovano a Zurigo e a Losanna.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-23",
+    "type": "tf",
+    "q": "In Svizzera una persona su due ha completato una formazione terziaria.",
+    "answer": false,
+    "why": "Ha completato una formazione terziaria una persona su tre, e la tendenza è in costante crescita.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-24",
+    "type": "mc",
+    "q": "Quali sono i due principali punti di forza del sistema formativo svizzero?",
+    "options": [
+      "L'elevata permeabilità e la formazione duale",
+      "La sussidiarietà e il principio della concorrenza",
+      "Le scuole private e gli esami federali",
+      "L'obbligo formativo e le dieci università"
+    ],
+    "answer": 0,
+    "why": "I punti di forza sono l'elevata permeabilità, cioè molte strade per formarsi, e la formazione duale, tra azienda e scuola.",
+    "src": "Società · Dopo la scuola dell'obbligo"
+  },
+  {
+    "id": "societa-25",
+    "type": "mc",
+    "q": "Quale di queste è una delle quattro lingue nazionali della Svizzera?",
+    "options": [
+      "Il portoghese",
+      "L'albanese",
+      "Lo spagnolo",
+      "Il romancio"
+    ],
+    "answer": 3,
+    "why": "Le lingue nazionali sono tedesco, francese, italiano e romancio; portoghese, albanese e spagnolo sono parlati dalle comunità straniere.",
+    "src": "Società · Multiculturalità"
+  },
+  {
+    "id": "societa-26",
+    "type": "mc",
+    "q": "Quale di questi è un indicatore del World Happiness Report?",
+    "options": [
+      "La generosità",
+      "Il numero di lingue nazionali",
+      "La forza della moneta",
+      "Il numero di scuole private"
+    ],
+    "answer": 0,
+    "why": "Tra gli indicatori ci sono reddito pro capite, sostegno sociale, aspettativa di vita sana, libertà di scelta, generosità e fiducia nelle istituzioni.",
+    "src": "Società · Multiculturalità"
+  },
+  {
+    "id": "societa-27",
+    "type": "mc",
+    "q": "Di quale dipartimento fa parte la SEFRI?",
+    "options": [
+      "Del DEFR",
+      "Del DECS",
+      "Della DFP"
+    ],
+    "answer": 0,
+    "why": "La SEFRI fa parte del DEFR, il Dipartimento federale dell'economia, della formazione e della ricerca: segno che formazione, ricerca e innovazione contano molto per l'economia e il benessere.",
+    "src": "Società · Innovazione"
+  },
+  {
+    "id": "societa-28",
+    "type": "tf",
+    "q": "La SEFRI conta circa 300 collaboratori e dispone di un budget di circa 60 miliardi di franchi.",
+    "answer": false,
+    "why": "La SEFRI ha circa 300 collaboratori, ma il suo budget è di circa 4.5 miliardi di franchi.",
+    "src": "Società · Innovazione"
+  },
+  {
+    "id": "societa-29",
+    "type": "tf",
+    "q": "Del totale investito in Svizzera nella ricerca e sviluppo, il 91% proviene dall'economia privata.",
+    "answer": false,
+    "why": "Dall'economia privata viene il 71% degli investimenti in ricerca e sviluppo, soprattutto nei settori farmaceutico, chimico e tecnologico.",
+    "src": "Società · Innovazione"
+  },
+  {
+    "id": "societa-30",
+    "type": "match",
+    "q": "Abbina ogni sigla della ricerca e dell'innovazione al suo significato.",
+    "pairs": [
+      [
+        "SEFRI",
+        "Segreteria di Stato per la formazione, la ricerca e l'innovazione"
+      ],
+      [
+        "DEFR",
+        "Dipartimento federale dell'economia, della formazione e della ricerca"
+      ],
+      [
+        "FNS",
+        "Fondo nazionale svizzero per la ricerca scientifica"
+      ],
+      [
+        "PRN",
+        "Poli di ricerca nazionali"
+      ],
+      [
+        "PNR",
+        "Programmi nazionali di ricerca"
+      ]
+    ],
+    "why": "La SEFRI fa parte del DEFR; il FNS usa i PRN e i PNR per la ricerca programmatica.",
+    "src": "Società · Ricerca"
+  },
+  {
+    "id": "societa-31",
+    "type": "mc",
+    "q": "Che cos'è Innosuisse?",
+    "options": [
+      "Un centro di ricerca del Settore dei politecnici federali",
+      "Un'accademia svizzera delle scienze",
+      "La Conferenza delle scuole universitarie svizzere",
+      "L'agenzia svizzera per la promozione dell'innovazione"
+    ],
+    "answer": 3,
+    "why": "Innosuisse è l'agenzia federale per l'innovazione: promuove l'imprenditoria, le nuove imprese e la ricerca applicata e sviluppo.",
+    "src": "Società · Ricerca"
+  },
+  {
+    "id": "societa-32",
+    "type": "match",
+    "q": "Abbina ogni compito della ricerca a chi se ne occupa soprattutto.",
+    "pairs": [
+      [
+        "Ricerca di base",
+        "Politecnici federali e università"
+      ],
+      [
+        "Ricerca applicata e sviluppo",
+        "Economia privata e scuole universitarie professionali"
+      ],
+      [
+        "Ricerca programmatica",
+        "Il Fondo nazionale svizzero (FNS)"
+      ],
+      [
+        "Responsabilità di università e SUP",
+        "I cantoni"
+      ]
+    ],
+    "why": "La ricerca di base si fa nei politecnici e nelle università, quella applicata nell'economia privata e nelle SUP; il FNS attua la ricerca programmatica e i cantoni sono responsabili di università e SUP.",
+    "src": "Società · Ricerca"
+  },
+  {
+    "id": "societa-33",
+    "type": "mc",
+    "q": "Su quali due caratteristiche della politica svizzera si basa la suddivisione dei compiti nella ricerca?",
+    "options": [
+      "La sussidiarietà e l'ordinamento economico liberale",
+      "L'elevata permeabilità e la formazione duale",
+      "L'equilibrio tra sviluppo economico e coesione sociale"
+    ],
+    "answer": 0,
+    "why": "La divisione dei compiti tra privati ed enti pubblici si basa sulla sussidiarietà e sull'ordinamento economico liberale.",
+    "src": "Società · Ricerca"
+  },
+  {
+    "id": "societa-34",
+    "type": "mc",
+    "q": "Quale di questi è uno dei quattro centri di ricerca del Settore dei PF?",
+    "options": [
+      "L'Istituto Paul Scherrer",
+      "Innosuisse",
+      "La Città dei mestieri della Svizzera italiana",
+      "swissuniversities"
+    ],
+    "answer": 0,
+    "why": "Il Settore dei PF comprende i politecnici di Zurigo e Losanna e quattro centri di ricerca, tra cui l'Istituto Paul Scherrer.",
+    "src": "Società · Ricerca"
+  }
+]

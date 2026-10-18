@@ -1,0 +1,429 @@
+[
+  {
+    "id": "economia-01",
+    "type": "mc",
+    "q": "Che cos'è il PIL (prodotto interno lordo)?",
+    "options": [
+      "La ricchezza totale della popolazione di un Paese",
+      "La somma dei beni e servizi finali prodotti da un Paese in un dato periodo",
+      "Ciò che producono all'estero le sole imprese nazionali, senza le imprese estere",
+      "Il livello di benessere e di educazione di un Paese"
+    ],
+    "answer": 1,
+    "why": "Il PIL è la somma dei beni e dei servizi finali prodotti da un Paese in un dato periodo di tempo.",
+    "src": "Economia · Il PIL e i settori"
+  },
+  {
+    "id": "economia-02",
+    "type": "mc",
+    "q": "Perché il PIL si dice «interno»?",
+    "options": [
+      "Perché conta solo le imprese nazionali, anche quelle che producono all'estero",
+      "Perché misura il benessere interno della popolazione",
+      "Perché conta solo il settore dei servizi",
+      "Perché conta ciò che è prodotto sul territorio, da imprese nazionali ed estere"
+    ],
+    "answer": 3,
+    "why": "Il PIL è «interno» perché si riferisce a ciò che viene prodotto sul territorio del Paese, sia da imprese nazionali sia da imprese estere.",
+    "src": "Economia · Il PIL e i settori"
+  },
+  {
+    "id": "economia-03",
+    "type": "mc",
+    "q": "A che cosa si riferisce il PNL (prodotto nazionale lordo)?",
+    "options": [
+      "Solo a ciò che è prodotto da imprese nazionali",
+      "Solo a ciò che è prodotto da imprese estere in Svizzera",
+      "A tutto ciò che è prodotto sul territorio del Paese",
+      "Solo ai servizi offerti dal volontariato"
+    ],
+    "answer": 0,
+    "why": "Il PNL toglie dal PIL ciò che producono in Svizzera le imprese estere e aggiunge ciò che producono all'estero le imprese nazionali: conta solo le imprese nazionali.",
+    "src": "Economia · Il PIL e i settori"
+  },
+  {
+    "id": "economia-04",
+    "type": "tf",
+    "q": "I servizi prodotti dal volontariato sono calcolati nel PIL.",
+    "answer": false,
+    "why": "Il volontariato produce servizi spesso di pubblica utilità che non sono calcolati nel PIL: è uno dei limiti del PIL come misura del benessere.",
+    "src": "Economia · Il PIL e i settori"
+  },
+  {
+    "id": "economia-05",
+    "type": "order",
+    "q": "Metti in ordine i settori dell'economia svizzera secondo la parte di PIL che producono, dalla più piccola alla più grande.",
+    "items": [
+      "Agricoltura",
+      "Industria",
+      "Servizi"
+    ],
+    "why": "L'agricoltura produce meno dell'1% del PIL svizzero, l'industria circa 1/4 e i servizi circa 3/4.",
+    "src": "Economia · Il PIL e i settori"
+  },
+  {
+    "id": "economia-06",
+    "type": "mc",
+    "q": "Perché il settore primario si chiama così?",
+    "options": [
+      "Perché produce circa 3/4 del PIL svizzero",
+      "Perché le sue attività riguardano i bisogni primari, legati alla sopravvivenza",
+      "Perché occupa la maggior parte della forza lavoro nel mondo occidentale",
+      "Perché è nato con la rivoluzione industriale"
+    ],
+    "answer": 1,
+    "why": "Il settore primario (agricoltura, allevamento, pesca, estrazione mineraria) è legato ai bisogni primari dell'uomo, cioè alla sopravvivenza.",
+    "src": "Economia · Settore primario"
+  },
+  {
+    "id": "economia-07",
+    "type": "mc",
+    "q": "Quale parte della superficie totale della Svizzera è coperta dall'agricoltura, alpeggi compresi?",
+    "options": [
+      "Circa un quarto",
+      "Circa la metà",
+      "Circa tre quarti",
+      "Circa un terzo"
+    ],
+    "answer": 3,
+    "why": "L'agricoltura, alpeggi compresi, copre circa un terzo della superficie della Svizzera.",
+    "src": "Economia · Settore primario"
+  },
+  {
+    "id": "economia-08",
+    "type": "tf",
+    "q": "In Svizzera le aziende agricole diminuiscono di numero, ma diventano più grandi.",
+    "answer": true,
+    "why": "Il numero di aziende agricole svizzere diminuisce, mentre le loro dimensioni aumentano.",
+    "src": "Economia · Settore primario"
+  },
+  {
+    "id": "economia-09",
+    "type": "match",
+    "q": "Abbina ogni industria svizzera alla sua origine.",
+    "pairs": [
+      [
+        "Industria tessile",
+        "Artigianato nato nella Svizzera orientale"
+      ],
+      [
+        "Industria MEM",
+        "Meccanizzazione della produzione di tessuti nel XIX secolo"
+      ],
+      [
+        "Industria chimico-farmaceutica",
+        "Produzione di coloranti per l'industria tessile"
+      ],
+      [
+        "Industria orologiera",
+        "Divieto di Calvino di indossare gioielli, a Ginevra"
+      ]
+    ],
+    "why": "Il tessile nasce nella Svizzera orientale, la MEM dalla meccanizzazione dei tessuti, la chimica dai coloranti per il tessile e l'orologeria dal divieto di Calvino sui gioielli.",
+    "src": "Economia · Settore secondario"
+  },
+  {
+    "id": "economia-10",
+    "type": "mc",
+    "q": "All'inizio del XX secolo, quale parte della produzione mondiale di ricami rappresentava il ricamo di San Gallo?",
+    "options": [
+      "Il 50 percento",
+      "Il 6 percento",
+      "Il 99 percento",
+      "Il 75 percento"
+    ],
+    "answer": 0,
+    "why": "All'inizio del Novecento il ricamo di San Gallo era il 50 percento della produzione mondiale.",
+    "src": "Economia · Industria tessile"
+  },
+  {
+    "id": "economia-11",
+    "type": "order",
+    "q": "Metti in ordine cronologico questi fatti dell'industria tessile svizzera, dal più antico al più recente.",
+    "items": [
+      "Le dame nobili d'Europa amano i merletti a fuselli di Neuchâtel",
+      "L'industria dei pizzi della Svizzera orientale si industrializza",
+      "La vendita di ricami a mano di Appenzello Interno comincia a calare"
+    ],
+    "why": "I merletti di Neuchâtel erano amati già nel XVII secolo, i pizzi della Svizzera orientale si industrializzano tra il 1865 e il 1913 e i ricami di Appenzello calano dalla metà degli anni Cinquanta.",
+    "src": "Economia · Industria tessile"
+  },
+  {
+    "id": "economia-12",
+    "type": "tf",
+    "q": "L'industria MEM (meccanica, elettrotecnica e metallurgica) è la prima industria esportatrice svizzera.",
+    "answer": false,
+    "why": "L'industria MEM è la seconda industria esportatrice svizzera; il primo posto spetta alla chimico-farmaceutica.",
+    "src": "Economia · Industria metalmeccanica"
+  },
+  {
+    "id": "economia-13",
+    "type": "mc",
+    "q": "Qual è il settore più importante dell'economia d'esportazione svizzera?",
+    "options": [
+      "L'industria alimentare",
+      "L'industria orologiera",
+      "L'industria chimico-farmaceutica",
+      "L'industria tessile"
+    ],
+    "answer": 2,
+    "why": "L'industria chimico-farmaceutica è il settore più importante dell'economia d'esportazione svizzera.",
+    "src": "Economia · Industria chimico-farmaceutica"
+  },
+  {
+    "id": "economia-14",
+    "type": "tf",
+    "q": "Il settore chimico-farmaceutico svizzero ha vissuto una crisi e profonde ristrutturazioni negli anni Duemila.",
+    "answer": false,
+    "why": "La crisi e le ristrutturazioni sono arrivate negli anni Novanta; negli anni Duemila il settore farmaceutico è invece cresciuto molto.",
+    "src": "Economia · Industria chimico-farmaceutica"
+  },
+  {
+    "id": "economia-15",
+    "type": "mc",
+    "q": "Che cosa sono i cibi funzionali?",
+    "options": [
+      "Cibi semi-pronti e precotti, come il convenience food, da scaldare soltanto",
+      "Alimenti che proteggono anche la salute, per esempio grazie ai probiotici",
+      "Alimenti di origine biologica",
+      "Alimenti da allevamenti conformi alle specie"
+    ],
+    "answer": 1,
+    "why": "I cibi funzionali svolgono anche un'azione preventiva sulla salute grazie ai probiotici, cioè microorganismi salutari, e ad altri additivi.",
+    "src": "Economia · Industria alimentare"
+  },
+  {
+    "id": "economia-16",
+    "type": "mc",
+    "q": "Nel mondo occidentale e industrializzato, quale settore occupa la maggior parte della forza lavoro?",
+    "options": [
+      "Il settore primario",
+      "Il settore secondario",
+      "Il settore terziario"
+    ],
+    "answer": 2,
+    "why": "Nel mondo occidentale e industrializzato è il settore terziario, quello dei servizi, a occupare la maggior parte dei lavoratori.",
+    "src": "Economia · Settore terziario"
+  },
+  {
+    "id": "economia-17",
+    "type": "mc",
+    "q": "Qual è la sfida per gli attori della piazza finanziaria ticinese?",
+    "options": [
+      "Orientarsi sulla produzione invece che sul servizio e sulla vendita",
+      "Gestire le 14 agenzie della Banca nazionale",
+      "Unirsi in conglomerati specializzati per Paese o regione",
+      "Sostituire la FINMA nella vigilanza sui mercati"
+    ],
+    "answer": 2,
+    "why": "Le nuove norme chiedono di conoscere bene i Paesi dei clienti, perciò la sfida è unirsi in conglomerati specializzati per Paese o regione.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-18",
+    "type": "match",
+    "q": "Abbina ogni nome della piazza finanziaria svizzera alla sua descrizione.",
+    "pairs": [
+      [
+        "FINMA",
+        "Autorità federale di vigilanza sui mercati finanziari"
+      ],
+      [
+        "Banca nazionale svizzera",
+        "Banca centrale che governa la politica monetaria"
+      ],
+      [
+        "Basilea III",
+        "Accordo internazionale per la stabilità e la trasparenza dei mercati"
+      ],
+      [
+        "LBN",
+        "Legge sulla Banca nazionale"
+      ]
+    ],
+    "why": "La FINMA sorveglia i mercati finanziari, la Banca nazionale guida la politica monetaria, Basilea III è un accordo internazionale e la LBN è la legge sulla Banca nazionale.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-19",
+    "type": "tf",
+    "q": "La FINMA ha sede a Berna e tutela creditori, investitori e assicurati.",
+    "answer": true,
+    "why": "La FINMA, con sede a Berna, è un'autorità indipendente che tutela creditori, investitori e assicurati.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-20",
+    "type": "order",
+    "q": "Metti in ordine cronologico questi fatti della piazza finanziaria svizzera, dal più antico al più recente.",
+    "items": [
+      "Viene fondata la Banca nazionale svizzera",
+      "Le banche svizzere risentono della crisi finanziaria",
+      "La FINMA comincia la sua attività"
+    ],
+    "why": "La Banca nazionale è fondata nel 1907, la crisi finanziaria colpisce le banche nel 2007-2008 e la FINMA è attiva dal primo gennaio 2009.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-21",
+    "type": "mc",
+    "q": "Qual è l'obiettivo prioritario della Banca nazionale svizzera?",
+    "options": [
+      "La stabilità dei prezzi",
+      "Concedere autorizzazioni a banche e assicurazioni",
+      "La gestione patrimoniale transfrontaliera",
+      "Ridurre le disparità tra i cantoni"
+    ],
+    "answer": 0,
+    "why": "Secondo la Costituzione e la legge, la Banca nazionale ha come obiettivo prioritario la stabilità dei prezzi.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-22",
+    "type": "mc",
+    "q": "Quali sono le due sedi della Banca nazionale svizzera?",
+    "options": [
+      "Basilea e Ginevra",
+      "Lugano e San Gallo",
+      "Berna e Zurigo",
+      "Losanna e Lucerna"
+    ],
+    "answer": 2,
+    "why": "La Banca nazionale ha sede a Berna e a Zurigo; Basilea, Ginevra, Losanna, Lucerna, Lugano e San Gallo sono solo rappresentanze.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-23",
+    "type": "mc",
+    "q": "Secondo l'art. 31 LBN, come si divide l'utile residuo della Banca nazionale, dopo il dividendo?",
+    "options": [
+      "Due terzi alla Confederazione e un terzo ai cantoni",
+      "Un terzo alla Confederazione e due terzi ai cantoni",
+      "Metà alla Confederazione e metà ai cantoni",
+      "Tutto ai cantoni con meno capacità finanziaria"
+    ],
+    "answer": 1,
+    "why": "Dopo un dividendo di al massimo il 6 per cento del capitale azionario, l'utile residuo va per un terzo alla Confederazione e per due terzi ai cantoni.",
+    "src": "Economia · Banche e finanza"
+  },
+  {
+    "id": "economia-24",
+    "type": "mc",
+    "q": "Per quale parte contribuisce il settore dei servizi al valore aggiunto lordo dell'economia svizzera?",
+    "options": [
+      "Meno dell'1%",
+      "Circa 1/4",
+      "Circa la metà",
+      "Oltre il 70%"
+    ],
+    "answer": 3,
+    "why": "I servizi contribuiscono per oltre il 70% al valore aggiunto lordo dell'economia svizzera.",
+    "src": "Economia · Servizi"
+  },
+  {
+    "id": "economia-25",
+    "type": "mc",
+    "q": "In quale settore è più marcata la domanda dell'offerta turistica ticinese?",
+    "options": [
+      "Nel settore alberghiero",
+      "Nel settore para-alberghiero",
+      "Nella ristorazione"
+    ],
+    "answer": 1,
+    "why": "In Ticino la domanda turistica è più forte nel settore para-alberghiero, che comprende anche i soggiorni nelle seconde case.",
+    "src": "Economia · Turismo e ospitalità"
+  },
+  {
+    "id": "economia-26",
+    "type": "mc",
+    "q": "Quale di questi NON è una delle sette grandi regioni turistiche della Svizzera?",
+    "options": [
+      "Lemano",
+      "Mittelland",
+      "Svizzera centrale",
+      "Arco giurassiano"
+    ],
+    "answer": 3,
+    "why": "Le sette regioni turistiche sono Lemano, Mittelland, Svizzera nordoccidentale, Zurigo, Svizzera orientale, Svizzera centrale e Ticino; l'Arco giurassiano non è tra queste.",
+    "src": "Economia · Turismo e ospitalità"
+  },
+  {
+    "id": "economia-27",
+    "type": "tf",
+    "q": "La permanenza media dei turisti in Ticino è maggiore di quella svizzera, per tutti i tipi di alloggio.",
+    "answer": true,
+    "why": "In Ticino i turisti restano in media più a lungo che nel resto della Svizzera, in tutte le tipologie d'alloggio.",
+    "src": "Economia · Turismo e ospitalità"
+  },
+  {
+    "id": "economia-28",
+    "type": "match",
+    "q": "Abbina ogni fattore esterno all'effetto che ha sui servizi educativi.",
+    "pairs": [
+      [
+        "Demografia del territorio",
+        "Numero di persone da istruire e finanziamento della formazione"
+      ],
+      [
+        "Struttura delle famiglie",
+        "Bisogni ed esigenze delle persone in formazione"
+      ],
+      [
+        "Fattori economici",
+        "Dimensione del mercato del lavoro e risorse del sistema formativo"
+      ]
+    ],
+    "why": "La demografia conta per il numero di allievi e il finanziamento, le famiglie per i bisogni di chi studia, l'economia per il mercato del lavoro e le risorse della scuola.",
+    "src": "Economia · Servizi educativi"
+  },
+  {
+    "id": "economia-29",
+    "type": "mc",
+    "q": "Qual è la principale voce d'uscita del Cantone Ticino?",
+    "options": [
+      "La formazione",
+      "La previdenza sociale",
+      "La salute pubblica"
+    ],
+    "answer": 1,
+    "why": "La previdenza sociale è la prima voce di spesa del Ticino, seguita da formazione e salute pubblica.",
+    "src": "Economia · Finanze pubbliche"
+  },
+  {
+    "id": "economia-30",
+    "type": "tf",
+    "q": "Durante il periodo pandemico le uscite della Svizzera sono diminuite sensibilmente.",
+    "answer": false,
+    "why": "Durante la pandemia le uscite sono aumentate sensibilmente, mentre le entrate hanno tenuto, calando solo di poco.",
+    "src": "Economia · Finanze pubbliche"
+  },
+  {
+    "id": "economia-31",
+    "type": "match",
+    "q": "Abbina ogni elemento delle finanze pubbliche svizzere alla sua descrizione.",
+    "pairs": [
+      [
+        "Articolo 126 della Costituzione federale",
+        "Stabilisce il freno all'indebitamento"
+      ],
+      [
+        "Perequazione delle risorse",
+        "Compensa i cantoni con capacità finanziaria sotto la media"
+      ],
+      [
+        "Compensazione degli oneri",
+        "Sostiene i cantoni con costi elevati per motivi geografici, demografici o strutturali"
+      ]
+    ],
+    "why": "L'art. 126 fissa il freno all'indebitamento; la perequazione delle risorse aiuta i cantoni finanziariamente più deboli e la compensazione degli oneri quelli con costi particolarmente alti.",
+    "src": "Economia · Finanze pubbliche"
+  },
+  {
+    "id": "economia-32",
+    "type": "tf",
+    "q": "I fondi della perequazione finanziaria provengono sia dalla Confederazione sia dai cantoni con maggiore capacità contributiva.",
+    "answer": true,
+    "why": "I soldi della perequazione arrivano dalla Confederazione e dai cantoni più forti finanziariamente.",
+    "src": "Economia · Finanze pubbliche"
+  }
+]
