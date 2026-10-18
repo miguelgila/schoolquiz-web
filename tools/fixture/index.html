@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+  Quiz page shell. This is the template Task 7 copies into each <quiz-id>/index.html:
+  copy it verbatim and change only the asset paths from ../../shared/ to ../shared/
+  and the back link from ../../ to ../ (this fixture sits two levels deep).
+  All visible text comes from shared/i18n.js (data-i18n / data-i18n-aria) and questions.js.
+-->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title></title>
+<meta name="theme-color" content="#1F5FA8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../shared/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z" fill="#fff"/></svg></div>
+      <div><h1 id="qTitle"></h1><p class="sub" id="qSub"></p></div>
+    </div>
+    <div class="hnav">
+      <a id="backLink" class="back" href="../../" data-i18n="back"></a>
+      <select id="langSel" class="lang" data-i18n-aria="langAria"></select>
+    </div>
+  </header>
+
+  <nav class="seg" id="decks" data-i18n-aria="decksAria"></nav>
+
+  <div class="row"><div class="tools"><label for="roundLen" data-i18n="roundLen"></label><select id="roundLen"></select><span class="progress" id="progress" aria-live="polite"></span></div></div>
+
+  <main class="panel" id="card"></main>
+  <section class="result panel" id="result" aria-live="polite"></section>
+
+  <footer><a href="https://github.com/miguelgila/schoolquiz-web" rel="noopener" data-i18n="footCode"></a> (<span data-i18n="footLicence"></span>)<br><span data-i18n="coffeeQ"></span> <a href="https://ko-fi.com/miguelgila" rel="noopener" data-i18n="coffee"></a></footer>
+</div>
+
+<script src="../../shared/i18n.js"></script>
+<script src="questions.js"></script>
+<script src="../../shared/engine.js"></script>
+</body>
+</html>

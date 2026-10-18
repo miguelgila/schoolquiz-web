@@ -40,6 +40,25 @@ What it checks:
   `id + "/"`), `title` and `subtitle`. Extra keys such as `decks` and
   `questions` counts are allowed.
 
+## Fixture quiz page
+
+`tools/fixture/` holds a small test quiz (`"id": "fixture"`, one deck "Prova",
+10 easy questions covering `mc`, `tf`, `match` and `order`) and a quiz page
+(`index.html`) that loads the shared engine with `../../shared/` paths. It is
+not listed in `quizzes.js`, and the checker's folder scan skips `tools/`, so
+check it explicitly as shown above. Its `index.html` is the page shell every
+quiz page copies.
+
+To play it in a browser, serve the repo root and open the fixture page:
+
+```sh
+python3 -m http.server 8000
+# then open http://localhost:8000/tools/fixture/
+```
+
+Best scores and the round length are kept in `localStorage` under
+`schoolquiz.fixture.*`; clear site data to reset them.
+
 ## Test suites
 
 Python tests (checker and other tools):

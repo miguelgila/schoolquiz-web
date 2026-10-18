@@ -8,7 +8,8 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 I18N_PATH = os.path.join(REPO_ROOT, "shared", "i18n.js")
 I18N_PREFIX = "window.I18N = "
 ENGINE_PATH = os.path.join(REPO_ROOT, "shared", "engine.js")
-JS_FILES = [ENGINE_PATH, os.path.join(REPO_ROOT, "shared", "landing.js")]
+LANDING_PATH = os.path.join(REPO_ROOT, "shared", "landing.js")
+JS_FILES = [ENGINE_PATH, LANDING_PATH]
 
 EXPECTED_IT = {
     "siteTitle": "Quiz scolastici",
@@ -118,8 +119,12 @@ class I18nTest(unittest.TestCase):
         self.assertEqual(missing, {}, "keys used but not defined in ui.it")
 
     def test_every_key_is_used(self):
+        # Landing-only keys (siteSub, landingQuizzes, ...) are used by shared/landing.js,
+        # so this check only makes sense once both the engine and the landing page exist.
         if not os.path.isfile(ENGINE_PATH) or not JS_KEY_RE.search(_read(ENGINE_PATH)):
             self.skipTest("shared/engine.js has no UI strings yet")
+        if not os.path.isfile(LANDING_PATH):
+            self.skipTest("shared/landing.js does not exist yet")
         unused = sorted(set(self.it) - set(used_keys()))
         self.assertEqual(unused, [], "keys defined in ui.it but never used")
 
