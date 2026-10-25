@@ -10,9 +10,10 @@ root, and run it before every push.
 python3 tools/check_questions.py
 ```
 
-Scans every `<quiz-id>/questions.js` in the repo root (skipping `tools/` and
-folders without a `questions.js`) and checks `quizzes.js` against the quiz
-folders it found. Exits 0 when all is valid; otherwise prints one error per
+Scans every `<quiz-id>/questions.js` and `<quiz-id>/diagram.js` in the repo
+root (skipping `tools/`, `shared/` and folders with neither file) and checks
+`quizzes.js` against the quiz folders it found. A folder with both files is an
+error. Exits 0 when all is valid; otherwise prints one error per
 line to stderr, naming the quiz, deck and question id, and exits 1.
 
 To check a single file against a folder name (for example the test fixture,
@@ -22,7 +23,13 @@ which is not listed in `quizzes.js`):
 python3 tools/check_questions.py tools/fixture/questions.js tools/fixture
 ```
 
-The quiz `id` must equal the last component of the folder name.
+The quiz `id` must equal the last component of the folder name. A file named
+`diagram.js` is checked as a diagram quiz, with its images looked up next to
+it:
+
+```sh
+python3 tools/check_questions.py scienze-ossa/diagram.js scienze-ossa
+```
 
 To check a deck on its own, stored as a bare JSON array of question objects
 (no `window.QUIZ` prefix), use `--deck`. The deck id is the file name without
@@ -44,10 +51,20 @@ What it checks:
   them. `tf`: `answer` is `true` or `false`. `match`: 3-5 `[left, right]`
   `pairs` with distinct lefts and distinct rights. `order`: 3-5 distinct
   `items`, in the correct order.
+- `diagram.js` (labelling board) is `window.DIAGRAM = <strict JSON>;`. Quiz:
+  `id` equals its folder, non-empty `title` and `subtitle`, at least one
+  deck. Deck: non-empty unique `id` and `label`, positive numbers `w`, `h`
+  and `cw` with `2 * cw < w`, an `img` with a non-empty `src` (the file must
+  exist in the quiz folder) and a numeric `x`, `y`, `w`, `h` box inside the
+  canvas, and at least 3 `targets`. Target: `id` unique in its deck (the same
+  id may appear in another deck), non-empty `name` (two targets may share
+  one), numeric `x`, `y` inside the canvas, `side` `"l"` or `"r"`, numeric
+  `ly` in `0..h`; slots on the same side are at least 40 units apart.
 - `quizzes.js`: one entry per quiz folder, each with `id`, `path` (equal to
   `id + "/"`), `title` and `subtitle`. In the folder scan, its `decks` and
   `questions` counts must equal the real counts of that quiz (refresh them
-  with `tools/merge_decks.py`).
+  with `tools/merge_decks.py`); for a diagram quiz `questions` is the number
+  of targets across all decks.
 
 ## Fixture quiz page
 
@@ -105,3 +122,9 @@ pure `QuizCore` part: shuffling, round sampling per deck and across all decks,
 the shuffled question views from `prepare`, grading with the `correctText`
 formats, and the best-score helpers `readBest`/`writeBest`. It uses a seeded
 random generator, so results are reproducible.
+
+`tools/diagram.test.mjs` loads `shared/engine.js` and `shared/diagram.js` the
+same way and tests the pure `DiagramCore` part of the labelling board:
+`place` (moving a card, replacing a slot's card, emptying a slot, input left
+untouched) and `grade` (`ok`/`bad`/`none` statuses and the count, cards with
+the same name being interchangeable, unknown card ids counting as empty).

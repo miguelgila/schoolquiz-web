@@ -118,8 +118,9 @@ const QuizCore = {
 
 // ---------- DOM layer: one question at a time ----------
 // Expects the page shell (see tools/fixture/index.html) and window.I18N / window.QUIZ loaded first.
+// A labelling page (shared/diagram.js) loads this file only for QuizCore and has no window.QUIZ.
 (function () {
-  if (typeof document === 'undefined') return;
+  if (typeof document === 'undefined' || !window.QUIZ) return;
 
   const I = window.I18N;
   const QUIZ = window.QUIZ;

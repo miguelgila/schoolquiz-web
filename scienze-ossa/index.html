@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scienze: le ossa</title>
+<meta name="description" content="Quiz di scienze: metti i nomi delle ossa sullo scheletro e sul cranio.">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<meta name="theme-color" content="#1F5FA8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z" fill="#fff"/></svg></div>
+      <div><h1 id="qTitle"></h1><p class="sub" id="qSub"></p></div>
+    </div>
+    <div class="hnav">
+      <a id="backLink" class="back" href="../" data-i18n="back"></a>
+      <select id="langSel" class="lang" data-i18n-aria="langAria"></select>
+    </div>
+  </header>
+
+  <nav class="seg" id="decks" data-i18n-aria="decksAria"></nav>
+
+  <section class="result panel" id="result" aria-live="polite"></section>
+
+  <main class="panel boardPanel" data-i18n-aria="boardAria">
+    <div class="board" id="board"></div>
+  </main>
+
+  <aside class="panel tray" data-i18n-aria="trayAria">
+    <div class="trayHead">
+      <h2 data-i18n="trayTitle"></h2>
+      <span class="count" id="trayCount"></span>
+      <div class="actions">
+        <button class="btn" id="resetBtn" type="button" data-i18n="restart"></button>
+        <button class="btn primary" id="checkBtn" type="button" data-i18n="check"></button>
+      </div>
+    </div>
+    <p class="help" id="trayHelp" aria-live="polite"></p>
+    <p class="help" id="trayEmpty" data-i18n="trayEmpty" hidden></p>
+    <div class="cards" id="cards"></div>
+  </aside>
+
+  <footer><span data-i18n="footImages"></span> <a href="https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg" rel="noopener" data-i18n="imgSkeleton"></a>, <a href="https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones).svg" rel="noopener" data-i18n="imgSkull"></a><br><a href="https://github.com/miguelgila/schoolquiz-web" rel="noopener" data-i18n="footCode"></a> (<span data-i18n="footLicence"></span>)<br><span data-i18n="coffeeQ"></span> <a href="https://ko-fi.com/miguelgila" rel="noopener" data-i18n="coffee"></a></footer>
+</div>
+
+<script src="../shared/i18n.js"></script>
+<script src="diagram.js"></script>
+<script src="../shared/engine.js"></script>
+<script src="../shared/diagram.js"></script>
+</body>
+</html>

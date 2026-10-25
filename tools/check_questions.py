@@ -3,12 +3,16 @@
 
 Usage:
   python3 tools/check_questions.py
-      Scan every <folder>/questions.js under the repo root (skipping tools/)
-      and check quizzes.js against the quiz folders found, including its
-      "decks" and "questions" counts.
+      Scan every <folder>/questions.js and <folder>/diagram.js under the repo
+      root (skipping tools/ and shared/) and check quizzes.js against the
+      quiz folders found, including its "decks" and "questions" counts (for
+      a diagram quiz, its decks and targets).
   python3 tools/check_questions.py <path/to/questions.js> <folder>
       Validate one file against the given folder name (its last component).
       quizzes.js is not read.
+  python3 tools/check_questions.py <path/to/diagram.js> <folder>
+      The same for a diagram (labelling board) quiz, detected by the file
+      name diagram.js. The images are looked up next to the file.
   python3 tools/check_questions.py --deck <path/to/deck.json>
       Validate one deck stored as a bare JSON array of questions. The deck id
       is the file name without its extension.
@@ -21,10 +25,13 @@ import os
 import sys
 
 QUIZ_PREFIX = "window.QUIZ = "
+DIAGRAM_PREFIX = "window.DIAGRAM = "
 REGISTRY_PREFIX = "window.QUIZZES = "
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKIP_DIRS = {"tools"}
+SKIP_DIRS = {"tools", "shared"}  # shared/diagram.js is the board engine, not a quiz
 MIN_DECK_QUESTIONS = 10
+MIN_DECK_TARGETS = 3
+MIN_SLOT_GAP = 40
 
 
 def _load_prefixed(path, prefix):
@@ -42,12 +49,20 @@ def load_quiz(path):
     return _load_prefixed(path, QUIZ_PREFIX)
 
 
+def load_diagram(path):
+    return _load_prefixed(path, DIAGRAM_PREFIX)
+
+
 def load_registry(path):
     return _load_prefixed(path, REGISTRY_PREFIX)
 
 
 def _is_text(value):
     return isinstance(value, str) and value.strip() != ""
+
+
+def _is_number(value):
+    return isinstance(value, (int, float)) and not isinstance(value, bool)
 
 
 def _distinct_texts(values):
@@ -166,6 +181,117 @@ def validate_deck(questions, deck_id):
     return _check_decks([deck], "deck file")
 
 
+def _check_image(img, w, h, deck_label, folder_path):
+    if not isinstance(img, dict):
+        return ["%s: 'img' must be an object" % deck_label]
+    errors = []
+    src = img.get("src")
+    if not _is_text(src):
+        errors.append("%s: missing or empty 'img.src'" % deck_label)
+    elif folder_path is not None and not os.path.isfile(os.path.join(folder_path, src)):
+        errors.append("%s: image %s not found in %s" % (deck_label, src, folder_path))
+    box = [img.get(f) for f in ("x", "y", "w", "h")]
+    if not all(_is_number(v) for v in box):
+        errors.append("%s: 'img' needs numeric x, y, w and h" % deck_label)
+    elif _is_number(w) and _is_number(h):
+        x, y, iw, ih = box
+        if iw <= 0 or ih <= 0 or x < 0 or y < 0 or x + iw > w or y + ih > h:
+            errors.append("%s: 'img' box %r is not inside the %rx%r canvas"
+                          % (deck_label, box, w, h))
+    return errors
+
+
+def _check_targets(targets, w, h, deck_label):
+    if not isinstance(targets, list) or len(targets) < MIN_DECK_TARGETS:
+        return ["%s: 'targets' must be a list of at least %d targets" % (deck_label, MIN_DECK_TARGETS)]
+    errors = []
+    ids = set()
+    slots = {"l": [], "r": []}
+    sized = _is_number(w) and _is_number(h)
+    for t_index, target in enumerate(targets):
+        if not isinstance(target, dict):
+            errors.append("%s, target #%d: must be an object" % (deck_label, t_index + 1))
+            continue
+        tid = target.get("id")
+        where = "%s, target %s" % (deck_label, tid if _is_text(tid) else "#%d" % (t_index + 1))
+        if not _is_text(tid):
+            errors.append("%s: missing or empty 'id'" % where)
+        elif tid in ids:
+            errors.append("%s: duplicate target id %r" % (where, tid))
+        else:
+            ids.add(tid)
+        if not _is_text(target.get("name")):
+            errors.append("%s: missing or empty 'name'" % where)
+        x, y = target.get("x"), target.get("y")
+        if not _is_number(x) or not _is_number(y):
+            errors.append("%s: 'x' and 'y' must be numbers" % where)
+        elif sized and not (0 <= x <= w and 0 <= y <= h):
+            errors.append("%s: point (%r, %r) is not inside the %rx%r canvas" % (where, x, y, w, h))
+        side = target.get("side")
+        if side not in slots:
+            errors.append("%s: 'side' must be \"l\" or \"r\", got %r" % (where, side))
+        ly = target.get("ly")
+        if not _is_number(ly):
+            errors.append("%s: 'ly' must be a number" % where)
+        elif sized and not 0 <= ly <= h:
+            errors.append("%s: 'ly' %r is not inside 0..%r" % (where, ly, h))
+        elif side in slots:
+            slots[side].append((ly, where))
+    for side in sorted(slots):
+        ordered = sorted(slots[side], key=lambda s: s[0])
+        for (ly_a, _), (ly_b, where) in zip(ordered, ordered[1:]):
+            if ly_b - ly_a < MIN_SLOT_GAP:
+                errors.append("%s: slot at ly %r is closer than %d to the one at ly %r (side %s)"
+                              % (where, ly_b, MIN_SLOT_GAP, ly_a, side))
+    return errors
+
+
+def validate_diagram(quiz, folder_name, folder_path=None):
+    """Validate a loaded diagram quiz; with folder_path, its images must exist there."""
+    folder = os.path.basename(os.path.normpath(folder_name))
+    if not isinstance(quiz, dict):
+        return ["diagram in %s: top level must be an object" % folder]
+    quiz_id = quiz.get("id")
+    label = "diagram %s" % (quiz_id if _is_text(quiz_id) else "<no id>")
+    errors = []
+    if quiz_id != folder:
+        errors.append("%s: id %r does not match folder %r" % (label, quiz_id, folder))
+    for field in ("title", "subtitle"):
+        if not _is_text(quiz.get(field)):
+            errors.append("%s: missing or empty '%s'" % (label, field))
+    decks = quiz.get("decks")
+    if not isinstance(decks, list) or not decks:
+        errors.append("%s: needs at least one deck" % label)
+        return errors
+
+    deck_ids = set()
+    for d_index, deck in enumerate(decks):
+        if not isinstance(deck, dict):
+            errors.append("%s, deck #%d: must be an object" % (label, d_index + 1))
+            continue
+        deck_id = deck.get("id")
+        deck_label = "%s, deck %s" % (label, deck_id if _is_text(deck_id) else "#%d" % (d_index + 1))
+        if not _is_text(deck_id):
+            errors.append("%s: missing or empty 'id'" % deck_label)
+        elif deck_id in deck_ids:
+            errors.append("%s: duplicate deck id %r" % (deck_label, deck_id))
+        else:
+            deck_ids.add(deck_id)
+        if not _is_text(deck.get("label")):
+            errors.append("%s: missing or empty 'label'" % deck_label)
+        w, h, cw = deck.get("w"), deck.get("h"), deck.get("cw")
+        for field, value in (("w", w), ("h", h), ("cw", cw)):
+            if not _is_number(value) or value <= 0:
+                errors.append("%s: '%s' must be a positive number, got %r" % (deck_label, field, value))
+        if all(_is_number(v) and v > 0 for v in (w, h, cw)) and 2 * cw >= w:
+            errors.append("%s: two side columns (2 x cw = %r) do not fit in w %r" % (deck_label, 2 * cw, w))
+        if not (_is_number(w) and w > 0 and _is_number(h) and h > 0):
+            w = h = None
+        errors.extend(_check_image(deck.get("img"), w, h, deck_label, folder_path))
+        errors.extend(_check_targets(deck.get("targets"), w, h, deck_label))
+    return errors
+
+
 def validate_registry(registry, quiz_ids):
     if not isinstance(registry, list):
         return ["quizzes.js: must be an array"]
@@ -188,7 +314,8 @@ def validate_registry(registry, quiz_ids):
             errors.append("%s: duplicate entry" % label)
         seen.add(entry_id)
         if entry_id not in quiz_ids:
-            errors.append("%s: no quiz folder %s/questions.js" % (label, entry_id))
+            errors.append("%s: no quiz folder %s/questions.js or %s/diagram.js"
+                          % (label, entry_id, entry_id))
     for quiz_id in sorted(set(quiz_ids) - seen):
         errors.append("quiz %s: missing from quizzes.js" % quiz_id)
     return errors
@@ -201,6 +328,15 @@ def quiz_counts(quiz):
             isinstance(d, dict) and isinstance(d.get("questions"), list) for d in decks):
         return None
     return len(decks), sum(len(d["questions"]) for d in decks)
+
+
+def diagram_counts(quiz):
+    """(decks, targets) of a loaded diagram quiz, or None when its decks are malformed."""
+    decks = quiz.get("decks") if isinstance(quiz, dict) else None
+    if not isinstance(decks, list) or not all(
+            isinstance(d, dict) and isinstance(d.get("targets"), list) for d in decks):
+        return None
+    return len(decks), sum(len(d["targets"]) for d in decks)
 
 
 def validate_registry_counts(registry, counts):
@@ -221,6 +357,8 @@ def validate_registry_counts(registry, counts):
 
 def _check_file(path, folder):
     try:
+        if os.path.basename(path) == "diagram.js":
+            return validate_diagram(load_diagram(path), folder, os.path.dirname(path))
         return validate_quiz(load_quiz(path), folder)
     except (OSError, ValueError) as exc:  # json.JSONDecodeError is a ValueError
         return ["%s: cannot load: %s" % (path, exc)]
@@ -243,17 +381,30 @@ def _scan(root):
     quiz_ids = set()
     counts = {}
     for name in sorted(os.listdir(root)):
-        path = os.path.join(root, name, "questions.js")
-        if name in SKIP_DIRS or name.startswith(".") or not os.path.isfile(path):
+        if name in SKIP_DIRS or name.startswith("."):
+            continue
+        folder_path = os.path.join(root, name)
+        quiz_path = os.path.join(folder_path, "questions.js")
+        diagram_path = os.path.join(folder_path, "diagram.js")
+        has_quiz, has_diagram = os.path.isfile(quiz_path), os.path.isfile(diagram_path)
+        if not has_quiz and not has_diagram:
             continue
         quiz_ids.add(name)
+        if has_quiz and has_diagram:
+            errors.append("%s: has both questions.js and diagram.js, keep only one" % folder_path)
+            continue
+        path = diagram_path if has_diagram else quiz_path
         try:
-            quiz = load_quiz(path)
+            quiz = load_diagram(path) if has_diagram else load_quiz(path)
         except (OSError, ValueError) as exc:  # json.JSONDecodeError is a ValueError
             errors.append("%s: cannot load: %s" % (path, exc))
             continue
-        errors.extend(validate_quiz(quiz, name))
-        real = quiz_counts(quiz)
+        if has_diagram:
+            errors.extend(validate_diagram(quiz, name, folder_path))
+            real = diagram_counts(quiz)
+        else:
+            errors.extend(validate_quiz(quiz, name))
+            real = quiz_counts(quiz)
         if real is not None:
             counts[name] = real
     registry_path = os.path.join(root, "quizzes.js")
@@ -276,7 +427,8 @@ def main(argv, root=REPO_ROOT):
     elif len(argv) == 2:
         errors = _check_file(argv[0], argv[1])
     else:
-        print("usage: check_questions.py [<path/to/questions.js> <folder> | --deck <path/to/deck.json>]", file=sys.stderr)
+        print("usage: check_questions.py [<path/to/questions.js|diagram.js> <folder> | --deck <path/to/deck.json>]",
+              file=sys.stderr)
         return 1
     for error in errors:
         print(error, file=sys.stderr)

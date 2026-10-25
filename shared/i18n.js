@@ -39,7 +39,23 @@ window.I18N = {
       "footLicence": "MIT",
       "coffeeQ": "Ti è utile?",
       "coffee": "Offrimi un caffè",
-      "langAria": "Lingua"
+      "langAria": "Lingua",
+      "boardAria": "Disegno",
+      "trayAria": "Nomi da mettere",
+      "trayTitle": "Nomi",
+      "trayLeft": "{0} da mettere",
+      "trayEmpty": "Tutti i nomi sono sul disegno. Premi \"Verifica\" per vedere com'è andata.",
+      "boardHelp": "Scegli un nome, poi tocca il suo riquadro sul disegno (o prima il riquadro, poi il nome).",
+      "boardHelpCard": "Dove va \"{0}\"? Tocca il suo riquadro sul disegno.",
+      "boardHelpSlot": "Ora scegli il nome per il riquadro evidenziato.",
+      "boardHelpChecked": "Verde: giusto. Rosso: sbagliato, con il nome giusto accanto. Grigio: vuoto.",
+      "slotEmpty": "?",
+      "slotAria": "Riquadro {0}: {1}",
+      "youPut": "Hai messo: {0}",
+      "notPlaced": "Riquadro lasciato vuoto",
+      "footImages": "Disegni da Wikimedia Commons, pubblico dominio:",
+      "imgSkeleton": "scheletro",
+      "imgSkull": "cranio"
     }
   }
 };

@@ -9,7 +9,8 @@ I18N_PATH = os.path.join(REPO_ROOT, "shared", "i18n.js")
 I18N_PREFIX = "window.I18N = "
 ENGINE_PATH = os.path.join(REPO_ROOT, "shared", "engine.js")
 LANDING_PATH = os.path.join(REPO_ROOT, "shared", "landing.js")
-JS_FILES = [ENGINE_PATH, LANDING_PATH]
+DIAGRAM_PATH = os.path.join(REPO_ROOT, "shared", "diagram.js")
+JS_FILES = [ENGINE_PATH, LANDING_PATH, DIAGRAM_PATH]
 
 EXPECTED_IT = {
     "siteTitle": "Quiz scolastici",

@@ -14,5 +14,13 @@ window.QUIZZES = [
   "subtitle": "Economia, previdenza, lavoro, società, ambiente e politica in Svizzera e in Ticino",
   "decks": 5,
   "questions": 168
+ },
+ {
+  "id": "scienze-ossa",
+  "path": "scienze-ossa/",
+  "title": "Scienze: le ossa",
+  "subtitle": "3ª media · Metti i nomi delle ossa sullo scheletro e sul cranio",
+  "decks": 2,
+  "questions": 26
  }
 ];

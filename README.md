@@ -8,12 +8,15 @@ A static hub of school-revision quizzes in Italian, hosted at [schoolquiz.giar.d
 |---|---|---|---|
 | Storia: Medioevo ed esplorazioni | `storia-medioevo-esplorazioni/` | 5: Città e mercanti, Passi alpini e commerci, Nascita della Confederazione, Età moderna e Rinascimento, Esplorazioni e conquiste | 168 |
 | Contesto Socioeconomico 2026 | `contesto-socioeconomico-2026/` | 5: Settori economici, I tre pilastri, Lavoro, turismo e commercio, Società e innovazione, Ambiente e politica | 168 |
+| Scienze: le ossa | `scienze-ossa/` | 2 boards: Scheletro (19 slots), Cranio (7 slots) | 26 |
 
-Every quiz also has a **Tutto** deck that mixes all its decks, with an equal share from each.
+Every question quiz also has a **Tutto** deck that mixes all its decks, with an equal share from each. *Scienze: le ossa* is a labelling quiz (see below), with no **Tutto**.
 
 ## How to play
 
 Pick a deck and a round length (10, 20 or all questions), then answer one question at a time: the feedback shows right or wrong, the correct answer, a one-line explanation and the lesson section. At the end the score comes with a **Da ripassare** list of the missed questions; the best score per deck is kept in the browser, for 10-question rounds only.
+
+A labelling quiz works like the eugeo and chgeo maps: each deck is a drawing with empty slots joined to the parts by leader lines. Pick a name from the tray, then tap its slot (or the slot first, then the name); tapping a filled slot gives the name back. **Verifica** colours every slot green or red, shows the right name next to each wrong one and lists the misses under **Da ripassare**; the best score per board is kept in the browser.
 
 ## Run locally
 
@@ -38,9 +41,9 @@ Quiz pages live in subfolders, so every shared asset is referenced relatively (`
 The checks use the Python 3 and node (20 or newer) standard libraries only, with nothing to install. Run them from the repo root, locally, before every push:
 
 ```sh
-python3 tools/check_questions.py                      # validates every */questions.js and quizzes.js
+python3 tools/check_questions.py                      # validates every */questions.js, */diagram.js and quizzes.js
 python3 -m unittest discover -s tools -p 'test_*.py'  # checker tests and the i18n key check
-node --test tools/                                    # tests for the engine's pure logic
+node --test tools/                                    # tests for the pure logic of the engine and the board
 ```
 
 See [tools/README.md](tools/README.md) for what the checker validates, its single-file and `--deck` modes, the fixture quiz page and the icon export.
@@ -53,6 +56,8 @@ See [tools/README.md](tools/README.md) for what the checker validates, its singl
 4. Add a line to `quizzes.js`: `{"id", "path": "<id>/", "title", "subtitle", "decks", "questions"}`.
 5. Optionally keep each deck as a bare JSON array in `<folder>/decks/<deck id>.json`, which is easier to edit and to check on its own (`python3 tools/check_questions.py --deck <file>`). Then run `python3 tools/merge_decks.py <folder>` to copy the decks into `questions.js` and refresh the counts of the existing `quizzes.js` entry (the merge does not add a missing entry).
 6. Run the checks above.
+
+A labelling quiz has `diagram.js` instead of `questions.js`: copy `scienze-ossa/` (page, data file and `img/`). `window.DIAGRAM = <JSON>;` holds `id`, `title`, `subtitle` and `decks`, each `{id, label, w, h, cw, img: {src, x, y, w, h}, targets}`. The board is a `w`×`h` canvas with the drawing at `img` and a `cw`-wide slot column on each side; each target is `{id, name, x, y, side, ly}`: the point on the drawing, the column (`"l"` or `"r"`) and the slot's height. Targets with the same `name` (the two *Falangi*) are interchangeable. Its `quizzes.js` count is the number of targets. Images must be free to reuse (public domain or similar), credited in the page footer, never from the textbook or worksheets.
 
 ## Question format
 
@@ -104,6 +109,8 @@ Every question has an `id` that is unique in the quiz and stable (e.g. `citta-07
 ## Content
 
 Le domande sono scritte a partire dalle schede di classe basate su *La Svizzera nella storia 2* e dagli appunti dello studente; nessun testo o immagine del libro è riprodotto.
+
+I nomi di *Scienze: le ossa* vengono dalla scheda di classe; i disegni sono di Wikimedia Commons, in pubblico dominio ([scheletro](https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg), [cranio](https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones).svg)), ritagliati e senza le scritte inglesi.
 
 Le domande di *Contesto Socioeconomico 2026* sono scritte a partire da appunti di studio sul contesto socioeconomico svizzero e ticinese; nessun testo originale è riprodotto.
 
