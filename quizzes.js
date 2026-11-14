@@ -28,7 +28,7 @@ window.QUIZZES = [
   "path": "latino-primi-passi/",
   "title": "Latino: primi passi",
   "subtitle": "3ª media · Nomi della 1ª declinazione, paradigmi, indicativo presente e prime traduzioni",
-  "decks": 4,
-  "questions": 98
+  "decks": 5,
+  "questions": 146
  }
 ];

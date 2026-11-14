@@ -22,6 +22,7 @@ Exit code 0 when everything is valid, 1 otherwise (errors go to stderr).
 
 import json
 import os
+import re
 import sys
 import unicodedata
 
@@ -67,9 +68,12 @@ def _is_number(value):
 
 
 def normalize_answer(text):
-    """Same comparison as QuizCore.normalize: no case, accents/macrons, extra spaces or final full stop."""
+    """Same comparison as QuizCore.normalize: no case, accents/macrons, extra spaces or final full stop;
+    curly apostrophes count as straight ones and spaces around an apostrophe are dropped."""
     text = "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c))
-    text = " ".join(text.lower().split())
+    text = re.sub(r"[\u2018\u2019\u02bc`\u00b4]", "'", text.lower())
+    text = re.sub(r"\s*'\s*", "'", text)
+    text = " ".join(text.split())
     return text[:-1].rstrip() if text.endswith(".") else text
 
 

@@ -12,8 +12,8 @@ da scrivere il quiz non chiede di scriverle: «laudamus» vale come «laudāmus�
 
 ## VOC.1 · Nomi della 1ª declinazione
 
-Tutti i nomi di questa lista hanno il genitivo singolare in **-ae**. Ogni nome
-è dato come nominativo, genitivo, genere.
+Ogni nome è dato come nominativo, genitivo, genere. Il genitivo **non si
+studia ancora**: il quiz non lo chiede.
 
 | Latino | Genere | Significato |
 |---|---|---|
@@ -167,3 +167,56 @@ singolare. **Da far controllare al genitore**: non sono sulle schede.
 | Nautam agricola audit. | Agricola audit nautam | Il contadino ode (sente) il marinaio. |
 | Epistulam discipula legit. | Discipula legit epistulam | L'allieva legge la lettera. |
 | Deam poeta laudat. | Poeta laudat deam | Il poeta loda la dea. |
+
+## Traduci tu · tutti i nomi e i verbi del vocabolario
+
+Il mazzo «Traduci tu» fa tradurre per iscritto, nei due sensi, con **tutti** i
+nomi di VOC.1 e **tutti** i verbi di VOC.2. **Da far controllare al genitore**:
+le forme dei sette verbi che non sono nella tabella di GR.6 sono ricavate dal
+verbo modello della stessa coniugazione (stesse desinenze -o, -s, -t, -mus,
+-tis, -nt).
+
+| Coniugazione | Verbo | io | tu | egli/ella | noi | voi | essi/esse |
+|---|---|---|---|---|---|---|---|
+| 1ª (come laudo) | amo | amo | amas | amat | amāmus | amātis | amant |
+| 1ª (come laudo) | pugno | pugno | pugnas | pugnat | pugnāmus | pugnātis | pugnant |
+| 2ª (come moneo) | habeo | habeo | habes | habet | habēmus | habētis | habent |
+| 2ª (come moneo) | video | video | vides | videt | vidēmus | vidētis | vident |
+| 3ª (come lego) | ago | ago | agis | agit | agĭmus | agĭtis | agunt |
+| 3ª (come lego) | dico | dico | dicis | dicit | dicĭmus | dicĭtis | dicunt |
+| 4ª (come audio) | venio | venio | venis | venit | venīmus | venītis | veniunt |
+
+- Nelle risposte in italiano valgono tutti i significati di VOC.1 e VOC.2
+  (contadino o agricoltore, bosco, selva o foresta, ode o sente…), con
+  l'articolo; il pronome soggetto si può mettere o no.
+- Nelle risposte in latino vale ogni ordine delle parole, perché conta la
+  desinenza; senza soggetto nominato si può aggiungere il pronome (nos, vos,
+  illi/illae…).
+- Pugno (combattere) e venio (venire) si usano senza complemento oggetto. Ago
+  e dico si chiedono solo come forme isolate: con questi nomi non danno una
+  frase naturale.
+
+| Latino | Traduzione |
+|---|---|
+| Agricola silvam amat. | Il contadino ama il bosco. |
+| Nauta pugnat. | Il marinaio combatte. |
+| Domina pecuniam habet. | La padrona ha il denaro. |
+| Ancilla aram videt. | La serva vede l'ara. |
+| Poeta Romam laudat. | Il poeta loda Roma. |
+| Puella dominam audit. | La ragazza ode la padrona. |
+| Discipula epistulam legit. | L'allieva legge la lettera. |
+| Dea nautam monet. | La dea ammonisce il marinaio. |
+| Poeta venit. | Il poeta viene. |
+| Agricola pugnam videt. | Il contadino vede la battaglia. |
+| Puella poetam amat. | La ragazza ama il poeta. |
+| Domina discipulam monet. | La padrona ammonisce l'allieva. |
+| Pecuniam habemus. | (Noi) abbiamo il denaro. |
+| Insulam videtis. | (Voi) vedete l'isola. |
+| Epistulam legis. | (Tu) leggi la lettera. |
+| Deam laudant. | (Essi) lodano la dea. |
+| Pugnamus. | (Noi) combattiamo. |
+| Venio. | (Io) vengo. |
+| Puellam audio. | (Io) odo la ragazza. |
+| Romam amant. | (Essi) amano Roma. |
+| dicit, dicunt, dicimus | dice, dicono, diciamo |
+| agit, agitis, agunt | agisce/fa/spinge, agite/fate/spingete, agiscono/fanno/spingono |

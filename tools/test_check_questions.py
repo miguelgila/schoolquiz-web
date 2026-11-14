@@ -172,6 +172,8 @@ class ValidateQuizTest(unittest.TestCase):
     def test_normalize_answer(self):
         self.assertEqual(cq.normalize_answer("  Legĭmus . "), "legimus")
         self.assertEqual(cq.normalize_answer("Agricola  deam"), "agricola deam")
+        self.assertEqual(cq.normalize_answer("L\u2019allieva legge"), "l'allieva legge")
+        self.assertEqual(cq.normalize_answer("l' isola"), "l'isola")
 
     def test_order_needs_three_items(self):
         quiz = valid_quiz()

@@ -153,6 +153,8 @@ test('normalize drops case, accents/macrons, extra spaces and a final full stop'
   assert.equal(Q.normalize('  Laudāmus . '), 'laudamus');
   assert.equal(Q.normalize('Agricola   DEAM'), 'agricola deam');
   assert.equal(Q.normalize(null), '');
+  assert.equal(Q.normalize('L\u2019allieva legge'), "l'allieva legge");
+  assert.equal(Q.normalize("l' isola"), "l'isola");
 });
 
 test('grade write accepts any listed answer after normalizing', () => {

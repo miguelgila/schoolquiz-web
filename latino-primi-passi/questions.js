@@ -64,40 +64,6 @@ window.QUIZ = {
      "src": "VOC.1 · Nomi della 1ª declinazione"
     },
     {
-     "id": "nomi-06",
-     "type": "mc",
-     "q": "In che cosa esce il genitivo singolare di tutti i nomi della lista?",
-     "options": [
-      "-a",
-      "-is",
-      "-ae",
-      "-as"
-     ],
-     "answer": 2,
-     "why": "Tutti i nomi della 1ª declinazione della lista hanno il genitivo singolare in -ae.",
-     "src": "VOC.1 · Nomi della 1ª declinazione"
-    },
-    {
-     "id": "nomi-07",
-     "type": "write",
-     "q": "Scrivi il genitivo singolare di «puella».",
-     "answers": [
-      "puellae"
-     ],
-     "why": "Il genitivo singolare di «puella» è «puellae», con la terminazione -ae.",
-     "src": "VOC.1 · Nomi della 1ª declinazione"
-    },
-    {
-     "id": "nomi-08",
-     "type": "write",
-     "q": "Scrivi il genitivo singolare di «dea».",
-     "answers": [
-      "deae"
-     ],
-     "why": "Il genitivo singolare di «dea» è «deae».",
-     "src": "VOC.1 · Nomi della 1ª declinazione"
-    },
-    {
      "id": "nomi-09",
      "type": "tf",
      "q": "«Nauta» significa marinaio, navigatore.",
@@ -251,14 +217,6 @@ window.QUIZ = {
      ],
      "answer": 2,
      "why": "«Domina» significa padrona, signora.",
-     "src": "VOC.1 · Nomi della 1ª declinazione"
-    },
-    {
-     "id": "nomi-20",
-     "type": "tf",
-     "q": "Anche i nomi maschili della lista, come «nauta», hanno il genitivo singolare in -ae.",
-     "answer": true,
-     "why": "Tutti i nomi della lista, maschili compresi, hanno il genitivo singolare in -ae.",
      "src": "VOC.1 · Nomi della 1ª declinazione"
     },
     {
@@ -1273,6 +1231,718 @@ window.QUIZ = {
      ],
      "why": "Nella 1ª declinazione l'accusativo singolare esce in -am: insulam.",
      "src": "GR.8 · … e ora traduciamo!"
+    }
+   ]
+  },
+  {
+   "id": "traduci",
+   "label": "Traduci tu",
+   "questions": [
+    {
+     "id": "traduci-01",
+     "type": "write",
+     "q": "Traduci in italiano: «Agricola silvam amat».",
+     "answers": [
+      "Il contadino ama il bosco",
+      "Il contadino ama la selva",
+      "Il contadino ama la foresta",
+      "L'agricoltore ama il bosco",
+      "L'agricoltore ama la selva",
+      "L'agricoltore ama la foresta"
+     ],
+     "why": "Agricola è al nominativo (soggetto), silvam all'accusativo (complemento oggetto), amat è il predicato verbale. «Il contadino ama il bosco».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-02",
+     "type": "write",
+     "q": "Scrivi in latino: «Il contadino ama il bosco».",
+     "answers": [
+      "Agricola silvam amat",
+      "Agricola amat silvam",
+      "Silvam agricola amat",
+      "Silvam amat agricola",
+      "Amat agricola silvam",
+      "Amat silvam agricola"
+     ],
+     "why": "Agricola è al nominativo (soggetto), silvam all'accusativo (complemento oggetto), amat è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-03",
+     "type": "write",
+     "q": "Traduci in italiano: «Nauta pugnat».",
+     "answers": [
+      "Il marinaio combatte",
+      "Il navigatore combatte"
+     ],
+     "why": "Nauta è al nominativo (soggetto), pugnat è il predicato verbale. «Il marinaio combatte».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-04",
+     "type": "write",
+     "q": "Scrivi in latino: «Il marinaio combatte».",
+     "answers": [
+      "Nauta pugnat",
+      "Pugnat nauta"
+     ],
+     "why": "Nauta è al nominativo (soggetto), pugnat è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-05",
+     "type": "write",
+     "q": "Traduci in italiano: «Domina pecuniam habet».",
+     "answers": [
+      "La padrona ha il denaro",
+      "La signora ha il denaro"
+     ],
+     "why": "Domina è al nominativo (soggetto), pecuniam all'accusativo (complemento oggetto), habet è il predicato verbale. «La padrona ha il denaro».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-06",
+     "type": "write",
+     "q": "Scrivi in latino: «La padrona ha il denaro».",
+     "answers": [
+      "Domina pecuniam habet",
+      "Domina habet pecuniam",
+      "Pecuniam domina habet",
+      "Pecuniam habet domina",
+      "Habet domina pecuniam",
+      "Habet pecuniam domina"
+     ],
+     "why": "Domina è al nominativo (soggetto), pecuniam all'accusativo (complemento oggetto), habet è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-07",
+     "type": "write",
+     "q": "Traduci in italiano: «Ancilla aram videt».",
+     "answers": [
+      "La serva vede l'ara",
+      "La serva vede l'altare",
+      "L'ancella vede l'ara",
+      "L'ancella vede l'altare"
+     ],
+     "why": "Ancilla è al nominativo (soggetto), aram all'accusativo (complemento oggetto), videt è il predicato verbale. «La serva vede l'ara».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-08",
+     "type": "write",
+     "q": "Scrivi in latino: «La serva vede l'ara».",
+     "answers": [
+      "Ancilla aram videt",
+      "Ancilla videt aram",
+      "Aram ancilla videt",
+      "Aram videt ancilla",
+      "Videt ancilla aram",
+      "Videt aram ancilla"
+     ],
+     "why": "Ancilla è al nominativo (soggetto), aram all'accusativo (complemento oggetto), videt è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-09",
+     "type": "write",
+     "q": "Traduci in italiano: «Poeta Romam laudat».",
+     "answers": [
+      "Il poeta loda Roma"
+     ],
+     "why": "Poeta è al nominativo (soggetto), Romam all'accusativo (complemento oggetto), laudat è il predicato verbale. «Il poeta loda Roma».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-10",
+     "type": "write",
+     "q": "Scrivi in latino: «Il poeta loda Roma».",
+     "answers": [
+      "Poeta Romam laudat",
+      "Poeta laudat Romam",
+      "Romam poeta laudat",
+      "Romam laudat poeta",
+      "Laudat poeta Romam",
+      "Laudat Romam poeta"
+     ],
+     "why": "Poeta è al nominativo (soggetto), Romam all'accusativo (complemento oggetto), laudat è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-11",
+     "type": "write",
+     "q": "Traduci in italiano: «Puella dominam audit».",
+     "answers": [
+      "La ragazza ode la padrona",
+      "La ragazza ode la signora",
+      "La ragazza sente la padrona",
+      "La ragazza sente la signora",
+      "La fanciulla ode la padrona",
+      "La fanciulla ode la signora",
+      "La fanciulla sente la padrona",
+      "La fanciulla sente la signora"
+     ],
+     "why": "Puella è al nominativo (soggetto), dominam all'accusativo (complemento oggetto), audit è il predicato verbale. «La ragazza ode la padrona».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-12",
+     "type": "write",
+     "q": "Scrivi in latino: «La ragazza ode la padrona».",
+     "answers": [
+      "Puella dominam audit",
+      "Puella audit dominam",
+      "Dominam puella audit",
+      "Dominam audit puella",
+      "Audit puella dominam",
+      "Audit dominam puella"
+     ],
+     "why": "Puella è al nominativo (soggetto), dominam all'accusativo (complemento oggetto), audit è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-13",
+     "type": "write",
+     "q": "Traduci in italiano: «Discipula epistulam legit».",
+     "answers": [
+      "L'allieva legge la lettera"
+     ],
+     "why": "Discipula è al nominativo (soggetto), epistulam all'accusativo (complemento oggetto), legit è il predicato verbale. «L'allieva legge la lettera».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-14",
+     "type": "write",
+     "q": "Scrivi in latino: «L'allieva legge la lettera».",
+     "answers": [
+      "Discipula epistulam legit",
+      "Discipula legit epistulam",
+      "Epistulam discipula legit",
+      "Epistulam legit discipula",
+      "Legit discipula epistulam",
+      "Legit epistulam discipula"
+     ],
+     "why": "Discipula è al nominativo (soggetto), epistulam all'accusativo (complemento oggetto), legit è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-15",
+     "type": "write",
+     "q": "Traduci in italiano: «Dea nautam monet».",
+     "answers": [
+      "La dea ammonisce il marinaio",
+      "La dea ammonisce il navigatore",
+      "La dea avvisa il marinaio",
+      "La dea avvisa il navigatore"
+     ],
+     "why": "Dea è al nominativo (soggetto), nautam all'accusativo (complemento oggetto), monet è il predicato verbale. «La dea ammonisce il marinaio».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-16",
+     "type": "write",
+     "q": "Scrivi in latino: «La dea ammonisce il marinaio».",
+     "answers": [
+      "Dea nautam monet",
+      "Dea monet nautam",
+      "Nautam dea monet",
+      "Nautam monet dea",
+      "Monet dea nautam",
+      "Monet nautam dea"
+     ],
+     "why": "Dea è al nominativo (soggetto), nautam all'accusativo (complemento oggetto), monet è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-17",
+     "type": "write",
+     "q": "Traduci in italiano: «Poeta venit».",
+     "answers": [
+      "Il poeta viene",
+      "Il poeta giunge"
+     ],
+     "why": "Poeta è al nominativo (soggetto), venit è il predicato verbale. «Il poeta viene».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-18",
+     "type": "write",
+     "q": "Scrivi in latino: «Il poeta viene».",
+     "answers": [
+      "Poeta venit",
+      "Venit poeta"
+     ],
+     "why": "Poeta è al nominativo (soggetto), venit è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-19",
+     "type": "write",
+     "q": "Traduci in italiano: «Agricola pugnam videt».",
+     "answers": [
+      "Il contadino vede la battaglia",
+      "L'agricoltore vede la battaglia"
+     ],
+     "why": "Agricola è al nominativo (soggetto), pugnam all'accusativo (complemento oggetto), videt è il predicato verbale. «Il contadino vede la battaglia».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-20",
+     "type": "write",
+     "q": "Scrivi in latino: «Il contadino vede la battaglia».",
+     "answers": [
+      "Agricola pugnam videt",
+      "Agricola videt pugnam",
+      "Pugnam agricola videt",
+      "Pugnam videt agricola",
+      "Videt agricola pugnam",
+      "Videt pugnam agricola"
+     ],
+     "why": "Agricola è al nominativo (soggetto), pugnam all'accusativo (complemento oggetto), videt è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-21",
+     "type": "write",
+     "q": "Traduci in italiano: «Puella poetam amat».",
+     "answers": [
+      "La ragazza ama il poeta",
+      "La fanciulla ama il poeta"
+     ],
+     "why": "Puella è al nominativo (soggetto), poetam all'accusativo (complemento oggetto), amat è il predicato verbale. «La ragazza ama il poeta».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-22",
+     "type": "write",
+     "q": "Scrivi in latino: «La ragazza ama il poeta».",
+     "answers": [
+      "Puella poetam amat",
+      "Puella amat poetam",
+      "Poetam puella amat",
+      "Poetam amat puella",
+      "Amat puella poetam",
+      "Amat poetam puella"
+     ],
+     "why": "Puella è al nominativo (soggetto), poetam all'accusativo (complemento oggetto), amat è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-23",
+     "type": "write",
+     "q": "Traduci in italiano: «Domina discipulam monet».",
+     "answers": [
+      "La padrona ammonisce l'allieva",
+      "La padrona avvisa l'allieva",
+      "La signora ammonisce l'allieva",
+      "La signora avvisa l'allieva"
+     ],
+     "why": "Domina è al nominativo (soggetto), discipulam all'accusativo (complemento oggetto), monet è il predicato verbale. «La padrona ammonisce l'allieva».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-24",
+     "type": "write",
+     "q": "Scrivi in latino: «La padrona ammonisce l'allieva».",
+     "answers": [
+      "Domina discipulam monet",
+      "Domina monet discipulam",
+      "Discipulam domina monet",
+      "Discipulam monet domina",
+      "Monet domina discipulam",
+      "Monet discipulam domina"
+     ],
+     "why": "Domina è al nominativo (soggetto), discipulam all'accusativo (complemento oggetto), monet è il predicato verbale. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-25",
+     "type": "write",
+     "q": "Traduci in italiano: «Pecuniam habemus».",
+     "answers": [
+      "Abbiamo il denaro",
+      "Noi abbiamo il denaro"
+     ],
+     "why": "Habemus è la 1ª persona plurale di habeo: il soggetto è nella desinenza, pecuniam all'accusativo (complemento oggetto). «Abbiamo il denaro».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-26",
+     "type": "write",
+     "q": "Scrivi in latino: «Abbiamo il denaro» (il pronome si può omettere).",
+     "answers": [
+      "Pecuniam habemus",
+      "Nos pecuniam habemus",
+      "Habemus pecuniam",
+      "Nos habemus pecuniam",
+      "Pecuniam nos habemus",
+      "Pecuniam habemus nos",
+      "Habemus nos pecuniam",
+      "Habemus pecuniam nos"
+     ],
+     "why": "Habemus è la 1ª persona plurale di habeo: il soggetto è nella desinenza, pecuniam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-27",
+     "type": "write",
+     "q": "Traduci in italiano: «Insulam videtis».",
+     "answers": [
+      "Vedete l'isola",
+      "Voi vedete l'isola"
+     ],
+     "why": "Videtis è la 2ª persona plurale di video: il soggetto è nella desinenza, insulam all'accusativo (complemento oggetto). «Vedete l'isola».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-28",
+     "type": "write",
+     "q": "Scrivi in latino: «Vedete l'isola» (il pronome si può omettere).",
+     "answers": [
+      "Insulam videtis",
+      "Vos insulam videtis",
+      "Videtis insulam",
+      "Vos videtis insulam",
+      "Insulam vos videtis",
+      "Insulam videtis vos",
+      "Videtis vos insulam",
+      "Videtis insulam vos"
+     ],
+     "why": "Videtis è la 2ª persona plurale di video: il soggetto è nella desinenza, insulam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-29",
+     "type": "write",
+     "q": "Traduci in italiano: «Epistulam legis».",
+     "answers": [
+      "Leggi la lettera",
+      "Tu leggi la lettera"
+     ],
+     "why": "Legis è la 2ª persona singolare di lego: il soggetto è nella desinenza, epistulam all'accusativo (complemento oggetto). «Leggi la lettera».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-30",
+     "type": "write",
+     "q": "Scrivi in latino: «Leggi la lettera» (il pronome si può omettere).",
+     "answers": [
+      "Epistulam legis",
+      "Tu epistulam legis",
+      "Legis epistulam",
+      "Tu legis epistulam",
+      "Epistulam tu legis",
+      "Epistulam legis tu",
+      "Legis tu epistulam",
+      "Legis epistulam tu"
+     ],
+     "why": "Legis è la 2ª persona singolare di lego: il soggetto è nella desinenza, epistulam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-31",
+     "type": "write",
+     "q": "Traduci in italiano: «Deam laudant».",
+     "answers": [
+      "Lodano la dea",
+      "Essi lodano la dea",
+      "Esse lodano la dea"
+     ],
+     "why": "Laudant è la 3ª persona plurale di laudo: il soggetto è nella desinenza, deam all'accusativo (complemento oggetto). «Lodano la dea».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-32",
+     "type": "write",
+     "q": "Scrivi in latino: «Lodano la dea» (il pronome si può omettere).",
+     "answers": [
+      "Deam laudant",
+      "Illi deam laudant",
+      "Illae deam laudant",
+      "Laudant deam",
+      "Illi laudant deam",
+      "Deam illi laudant",
+      "Deam laudant illi",
+      "Laudant illi deam",
+      "Laudant deam illi",
+      "Illae laudant deam",
+      "Deam illae laudant",
+      "Deam laudant illae",
+      "Laudant illae deam",
+      "Laudant deam illae"
+     ],
+     "why": "Laudant è la 3ª persona plurale di laudo: il soggetto è nella desinenza, deam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-33",
+     "type": "write",
+     "q": "Traduci in italiano: «Pugnamus».",
+     "answers": [
+      "Combattiamo",
+      "Noi combattiamo"
+     ],
+     "why": "Pugnamus è la 1ª persona plurale di pugno: il soggetto è nella desinenza. «Combattiamo».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-34",
+     "type": "write",
+     "q": "Scrivi in latino: «Combattiamo» (il pronome si può omettere).",
+     "answers": [
+      "Pugnamus",
+      "Nos pugnamus",
+      "Pugnamus nos"
+     ],
+     "why": "Pugnamus è la 1ª persona plurale di pugno: il soggetto è nella desinenza. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-35",
+     "type": "write",
+     "q": "Traduci in italiano: «Venio».",
+     "answers": [
+      "Vengo",
+      "Giungo",
+      "Io vengo",
+      "Io giungo"
+     ],
+     "why": "Venio è la 1ª persona singolare di venio: il soggetto è nella desinenza. «Vengo».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-36",
+     "type": "write",
+     "q": "Scrivi in latino: «Vengo» (il pronome si può omettere).",
+     "answers": [
+      "Venio",
+      "Ego venio",
+      "Venio ego"
+     ],
+     "why": "Venio è la 1ª persona singolare di venio: il soggetto è nella desinenza. In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-37",
+     "type": "write",
+     "q": "Traduci in italiano: «Puellam audio».",
+     "answers": [
+      "Odo la ragazza",
+      "Odo la fanciulla",
+      "Sento la ragazza",
+      "Sento la fanciulla",
+      "Io odo la ragazza",
+      "Io odo la fanciulla",
+      "Io sento la ragazza",
+      "Io sento la fanciulla"
+     ],
+     "why": "Audio è la 1ª persona singolare di audio: il soggetto è nella desinenza, puellam all'accusativo (complemento oggetto). «Odo la ragazza».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-38",
+     "type": "write",
+     "q": "Scrivi in latino: «Odo la ragazza» (il pronome si può omettere).",
+     "answers": [
+      "Puellam audio",
+      "Ego puellam audio",
+      "Audio puellam",
+      "Ego audio puellam",
+      "Puellam ego audio",
+      "Puellam audio ego",
+      "Audio ego puellam",
+      "Audio puellam ego"
+     ],
+     "why": "Audio è la 1ª persona singolare di audio: il soggetto è nella desinenza, puellam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-39",
+     "type": "write",
+     "q": "Traduci in italiano: «Romam amant».",
+     "answers": [
+      "Amano Roma",
+      "Essi amano Roma",
+      "Esse amano Roma"
+     ],
+     "why": "Amant è la 3ª persona plurale di amo: il soggetto è nella desinenza, Romam all'accusativo (complemento oggetto). «Amano Roma».",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-40",
+     "type": "write",
+     "q": "Scrivi in latino: «Amano Roma» (il pronome si può omettere).",
+     "answers": [
+      "Romam amant",
+      "Illi Romam amant",
+      "Illae Romam amant",
+      "Amant Romam",
+      "Illi amant Romam",
+      "Romam illi amant",
+      "Romam amant illi",
+      "Amant illi Romam",
+      "Amant Romam illi",
+      "Illae amant Romam",
+      "Romam illae amant",
+      "Romam amant illae",
+      "Amant illae Romam",
+      "Amant Romam illae"
+     ],
+     "why": "Amant è la 3ª persona plurale di amo: il soggetto è nella desinenza, Romam all'accusativo (complemento oggetto). In latino l'ordine delle parole è libero: conta la desinenza.",
+     "src": "VOC.1 · VOC.2 · GR.8 (frase di esercizio)"
+    },
+    {
+     "id": "traduci-41",
+     "type": "write",
+     "q": "Traduci in italiano: «dicit».",
+     "answers": [
+      "Dice",
+      "Egli dice",
+      "Ella dice"
+     ],
+     "why": "Dicit è la 3ª persona singolare di dico: «Dice».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-42",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «egli dice».",
+     "answers": [
+      "dicit"
+     ],
+     "why": "Dicit è la 3ª persona singolare di dico.",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-43",
+     "type": "write",
+     "q": "Traduci in italiano: «dicunt».",
+     "answers": [
+      "Dicono",
+      "Essi dicono",
+      "Esse dicono"
+     ],
+     "why": "Dicunt è la 3ª persona plurale di dico: «Dicono».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-44",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «essi dicono».",
+     "answers": [
+      "dicunt",
+      "illi dicunt",
+      "illae dicunt"
+     ],
+     "why": "Dicunt è la 3ª persona plurale di dico.",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-45",
+     "type": "write",
+     "q": "Traduci in italiano: «dicimus».",
+     "answers": [
+      "Diciamo",
+      "Noi diciamo"
+     ],
+     "why": "Dicimus è la 1ª persona plurale di dico: «Diciamo».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-46",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «noi diciamo».",
+     "answers": [
+      "dicimus",
+      "nos dicimus"
+     ],
+     "why": "Dicimus è la 1ª persona plurale di dico.",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-47",
+     "type": "write",
+     "q": "Traduci in italiano: «agit».",
+     "answers": [
+      "Agisce",
+      "Fa",
+      "Spinge",
+      "Egli agisce",
+      "Egli fa",
+      "Egli spinge",
+      "Ella agisce",
+      "Ella fa",
+      "Ella spinge"
+     ],
+     "why": "Agit è la 3ª persona singolare di ago: «Agisce».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-48",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «egli agisce».",
+     "answers": [
+      "agit"
+     ],
+     "why": "Agit è la 3ª persona singolare di ago.",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-49",
+     "type": "write",
+     "q": "Traduci in italiano: «agitis».",
+     "answers": [
+      "Agite",
+      "Fate",
+      "Spingete",
+      "Voi agite",
+      "Voi fate",
+      "Voi spingete"
+     ],
+     "why": "Agitis è la 2ª persona plurale di ago: «Agite».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-50",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «voi agite».",
+     "answers": [
+      "agitis",
+      "vos agitis"
+     ],
+     "why": "Agitis è la 2ª persona plurale di ago.",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-51",
+     "type": "write",
+     "q": "Traduci in italiano: «agunt».",
+     "answers": [
+      "Agiscono",
+      "Fanno",
+      "Spingono",
+      "Essi agiscono",
+      "Essi fanno",
+      "Essi spingono",
+      "Esse agiscono",
+      "Esse fanno",
+      "Esse spingono"
+     ],
+     "why": "Agunt è la 3ª persona plurale di ago: «Agiscono».",
+     "src": "VOC.2 · Paradigmi verbali"
+    },
+    {
+     "id": "traduci-52",
+     "type": "write",
+     "q": "Scrivi in latino (basta il verbo): «essi agiscono».",
+     "answers": [
+      "agunt",
+      "illi agunt",
+      "illae agunt"
+     ],
+     "why": "Agunt è la 3ª persona plurale di ago.",
+     "src": "VOC.2 · Paradigmi verbali"
     }
    ]
   }

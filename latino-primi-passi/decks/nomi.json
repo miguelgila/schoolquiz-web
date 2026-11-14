@@ -56,40 +56,6 @@
     "src": "VOC.1 · Nomi della 1ª declinazione"
   },
   {
-    "id": "nomi-06",
-    "type": "mc",
-    "q": "In che cosa esce il genitivo singolare di tutti i nomi della lista?",
-    "options": [
-      "-a",
-      "-is",
-      "-ae",
-      "-as"
-    ],
-    "answer": 2,
-    "why": "Tutti i nomi della 1ª declinazione della lista hanno il genitivo singolare in -ae.",
-    "src": "VOC.1 · Nomi della 1ª declinazione"
-  },
-  {
-    "id": "nomi-07",
-    "type": "write",
-    "q": "Scrivi il genitivo singolare di «puella».",
-    "answers": [
-      "puellae"
-    ],
-    "why": "Il genitivo singolare di «puella» è «puellae», con la terminazione -ae.",
-    "src": "VOC.1 · Nomi della 1ª declinazione"
-  },
-  {
-    "id": "nomi-08",
-    "type": "write",
-    "q": "Scrivi il genitivo singolare di «dea».",
-    "answers": [
-      "deae"
-    ],
-    "why": "Il genitivo singolare di «dea» è «deae».",
-    "src": "VOC.1 · Nomi della 1ª declinazione"
-  },
-  {
     "id": "nomi-09",
     "type": "tf",
     "q": "«Nauta» significa marinaio, navigatore.",
@@ -243,14 +209,6 @@
     ],
     "answer": 2,
     "why": "«Domina» significa padrona, signora.",
-    "src": "VOC.1 · Nomi della 1ª declinazione"
-  },
-  {
-    "id": "nomi-20",
-    "type": "tf",
-    "q": "Anche i nomi maschili della lista, come «nauta», hanno il genitivo singolare in -ae.",
-    "answer": true,
-    "why": "Tutti i nomi della lista, maschili compresi, hanno il genitivo singolare in -ae.",
     "src": "VOC.1 · Nomi della 1ª declinazione"
   },
   {

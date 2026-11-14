@@ -62,12 +62,15 @@ const QuizCore = {
     }
   },
 
-  // Typed answers compare without case, accents/macrons, extra spaces or a trailing full stop.
+  // Typed answers compare without case, accents/macrons, extra spaces or a trailing full stop;
+  // curly apostrophes (phone keyboards) count as straight ones.
   normalize(text) {
     return String(text == null ? '' : text)
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
+      .replace(/[\u2018\u2019\u02bc`\u00b4]/g, "'")
+      .replace(/\s*'\s*/g, "'")
       .replace(/\s+/g, ' ')
       .trim()
       .replace(/\s*\.$/, '');
