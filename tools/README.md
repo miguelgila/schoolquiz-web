@@ -50,7 +50,9 @@ What it checks:
 - `mc`: 3-4 distinct non-empty `options`, `answer` is an integer index into
   them. `tf`: `answer` is `true` or `false`. `match`: 3-5 `[left, right]`
   `pairs` with distinct lefts and distinct rights. `order`: 3-5 distinct
-  `items`, in the correct order.
+  `items`, in the correct order. `write`: a non-empty list of `answers`,
+  non-empty and still distinct once compared the way the engine compares a
+  typed answer (no case, accents/macrons, extra spaces or final full stop).
 - `diagram.js` (labelling board) is `window.DIAGRAM = <strict JSON>;`. Quiz:
   `id` equals its folder, non-empty `title` and `subtitle`, at least one
   deck. Deck: non-empty unique `id` and `label`, positive numbers `w`, `h`
@@ -69,7 +71,7 @@ What it checks:
 ## Fixture quiz page
 
 `tools/fixture/` holds a small test quiz (`"id": "fixture"`, one deck "Prova",
-10 easy questions covering `mc`, `tf`, `match` and `order`) and a quiz page
+11 easy questions covering `mc`, `tf`, `match`, `order` and `write`) and a quiz page
 (`index.html`) that loads the shared engine with `../../shared/` paths. It is
 not listed in `quizzes.js`, and the checker's folder scan skips `tools/`, so
 check it explicitly as shown above. Its `index.html` is the page shell every

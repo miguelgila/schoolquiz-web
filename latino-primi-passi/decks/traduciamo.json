@@ -1,0 +1,294 @@
+[
+  {
+    "id": "traduciamo-01",
+    "type": "mc",
+    "q": "Che cosa vuol dire «Domina ancillam monet»?",
+    "options": [
+      "La serva ammonisce la padrona",
+      "La padrona ammonisce la serva",
+      "La serva ode la padrona",
+      "La padrona loda la serva"
+    ],
+    "answer": 1,
+    "why": "Domina è al nominativo (soggetto), ancillam all'accusativo (complemento oggetto).",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-02",
+    "type": "mc",
+    "q": "Che cosa vuol dire «Nautam agricola audit»?",
+    "options": [
+      "Il contadino ode il marinaio",
+      "Il marinaio ode il contadino",
+      "Il contadino loda il marinaio",
+      "Il marinaio loda il contadino"
+    ],
+    "answer": 0,
+    "why": "Agricola è il soggetto anche se viene dopo: nautam, all'accusativo, è il complemento oggetto.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-03",
+    "type": "mc",
+    "q": "Che cosa vuol dire «Epistulam discipula legit»?",
+    "options": [
+      "Il poeta legge la lettera",
+      "La ragazza legge la lettera",
+      "L'allieva legge la lettera",
+      "L'allieva ode il poeta"
+    ],
+    "answer": 2,
+    "why": "Discipula, al nominativo, è il soggetto: «L'allieva legge la lettera».",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-04",
+    "type": "mc",
+    "q": "Che cosa vuol dire «Dea nautam monet»?",
+    "options": [
+      "Il marinaio ammonisce la dea",
+      "La dea loda il marinaio",
+      "La padrona ammonisce il marinaio",
+      "La dea ammonisce il marinaio"
+    ],
+    "answer": 3,
+    "why": "Dea è il soggetto, nautam il complemento oggetto e monet vuol dire «ammonisce».",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-05",
+    "type": "mc",
+    "q": "Quale frase latina vuol dire «Il poeta loda la dea»?",
+    "options": [
+      "Poeta puellam laudat",
+      "Deam poeta laudat",
+      "Agricola deam laudat",
+      "Poeta nautam laudat"
+    ],
+    "answer": 1,
+    "why": "Poeta è il soggetto e deam, all'accusativo, il complemento oggetto, anche se viene per primo.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-06",
+    "type": "tf",
+    "q": "«Nautam poeta laudat» vuol dire «Il poeta loda il marinaio».",
+    "answer": true,
+    "why": "Poeta è al nominativo e quindi soggetto, in qualunque posizione si trovi.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-07",
+    "type": "tf",
+    "q": "«Poeta nautam laudat» e «Laudat nautam poeta» hanno significati diversi, perché le parole sono in un altro ordine.",
+    "answer": false,
+    "why": "In latino contano le desinenze, non la posizione: le due frasi vogliono dire la stessa cosa.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-08",
+    "type": "mc",
+    "q": "In latino, da che cosa si capisce la funzione logica di un nome?",
+    "options": [
+      "Dalla sua posizione nella frase",
+      "Dalla sua desinenza",
+      "Dal suo genere",
+      "Dalla parola che viene prima"
+    ],
+    "answer": 1,
+    "why": "In latino la funzione logica dei nomi è data dalle desinenze, non dalla posizione.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-09",
+    "type": "mc",
+    "q": "In «Ancilla dominam audit», che funzione logica ha «dominam»?",
+    "options": [
+      "Soggetto",
+      "Predicato verbale",
+      "Complemento oggetto"
+    ],
+    "answer": 2,
+    "why": "Dominam è all'accusativo, il caso del complemento oggetto.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-10",
+    "type": "mc",
+    "q": "In «Agricola silvam laudat», che funzione logica ha «laudat»?",
+    "options": [
+      "Predicato verbale",
+      "Soggetto",
+      "Complemento oggetto"
+    ],
+    "answer": 0,
+    "why": "Laudat è il verbo, cioè il predicato verbale della frase.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-11",
+    "type": "mc",
+    "q": "In «Deam poeta laudat», che funzione logica ha «poeta»?",
+    "options": [
+      "Complemento oggetto",
+      "Soggetto",
+      "Predicato verbale"
+    ],
+    "answer": 1,
+    "why": "Poeta è al nominativo, quindi è il soggetto, anche se non è la prima parola.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-12",
+    "type": "tf",
+    "q": "In «Puella epistulam legit», «epistulam» è al nominativo.",
+    "answer": false,
+    "why": "Epistulam esce in -am: è all'accusativo e fa da complemento oggetto.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-13",
+    "type": "mc",
+    "q": "Da quale parola parte sempre l'analisi di una frase latina?",
+    "options": [
+      "Dal soggetto",
+      "Dal complemento oggetto",
+      "Dalla prima parola",
+      "Dal verbo"
+    ],
+    "answer": 3,
+    "why": "Il verbo è il «motore» della frase: l'analisi parte sempre da lì.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-14",
+    "type": "mc",
+    "q": "In «Poeta nautam laudat», qual è l'analisi di «nautam»?",
+    "options": [
+      "Nome maschile singolare, nominativo, soggetto",
+      "Nome maschile singolare, accusativo, complemento oggetto",
+      "Nome femminile singolare, accusativo, complemento oggetto",
+      "Verbo, indicativo presente, predicato verbale"
+    ],
+    "answer": 1,
+    "why": "Nauta è maschile; nautam è all'accusativo e fa da complemento oggetto.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-15",
+    "type": "match",
+    "q": "Abbina ogni parola di «Poeta nautam laudat» alla sua funzione logica.",
+    "pairs": [
+      [
+        "poeta",
+        "Soggetto"
+      ],
+      [
+        "nautam",
+        "Complemento oggetto"
+      ],
+      [
+        "laudat",
+        "Predicato verbale"
+      ]
+    ],
+    "why": "Poeta è al nominativo (soggetto), nautam all'accusativo (c.o.), laudat è il predicato verbale.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-16",
+    "type": "order",
+    "q": "Metti in costruzione diretta la frase «Nautam agricola audit»: soggetto, predicato verbale, complemento oggetto.",
+    "items": [
+      "Agricola",
+      "audit",
+      "nautam"
+    ],
+    "why": "In costruzione diretta: Agricola audit nautam, «Il contadino ode il marinaio».",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-17",
+    "type": "order",
+    "q": "Metti in costruzione diretta la frase «Epistulam discipula legit»: soggetto, predicato verbale, complemento oggetto.",
+    "items": [
+      "Discipula",
+      "legit",
+      "epistulam"
+    ],
+    "why": "In costruzione diretta: Discipula legit epistulam, «L'allieva legge la lettera».",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-18",
+    "type": "order",
+    "q": "Metti in ordine gli elementi della costruzione diretta, dal primo all'ultimo.",
+    "items": [
+      "Soggetto",
+      "Predicato verbale",
+      "Complemento oggetto"
+    ],
+    "why": "Prima di tradurre si mette 1 il soggetto, 2 il predicato verbale, 3 il complemento oggetto.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-19",
+    "type": "write",
+    "q": "Completa con la parola latina che manca: «Il contadino loda la dea» = «Agricola ___ laudat».",
+    "answers": [
+      "deam"
+    ],
+    "why": "La dea è il complemento oggetto, quindi va all'accusativo: deam.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-20",
+    "type": "write",
+    "q": "Completa con la parola latina che manca: «La ragazza legge la lettera» = «Puella ___ legit».",
+    "answers": [
+      "epistulam"
+    ],
+    "why": "La lettera è il complemento oggetto, quindi va all'accusativo: epistulam.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-21",
+    "type": "write",
+    "q": "Completa con la parola latina che manca: «L'allieva ode il poeta» = «Discipula ___ audit».",
+    "answers": [
+      "poetam"
+    ],
+    "why": "Il poeta è il complemento oggetto, quindi va all'accusativo: poetam.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-22",
+    "type": "write",
+    "q": "Completa con la parola latina che manca: «La padrona ammonisce la serva» = «Domina ancillam ___».",
+    "answers": [
+      "monet"
+    ],
+    "why": "«Ammonisce» è la 3ª persona singolare di moneo: monet.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-23",
+    "type": "write",
+    "q": "Completa con la parola latina che manca: «Il contadino loda il bosco» = «___ silvam laudat».",
+    "answers": [
+      "Agricola"
+    ],
+    "why": "Il contadino è il soggetto, quindi va al nominativo: agricola.",
+    "src": "GR.8 · … e ora traduciamo!"
+  },
+  {
+    "id": "traduciamo-24",
+    "type": "write",
+    "q": "Scrivi l'accusativo singolare di «insula», come nella frase «Il marinaio loda l'isola».",
+    "answers": [
+      "insulam"
+    ],
+    "why": "Nella 1ª declinazione l'accusativo singolare esce in -am: insulam.",
+    "src": "GR.8 · … e ora traduciamo!"
+  }
+]

@@ -35,6 +35,8 @@ window.I18N = {
       "moveUp": "Sposta su",
       "moveDown": "Sposta giù",
       "pick": "Scegli…",
+      "writeHelp": "Scrivi la risposta e premi \"Verifica\". Gli accenti e i segni sulle vocali non servono.",
+      "writeAria": "La tua risposta",
       "footCode": "Codice",
       "footLicence": "MIT",
       "coffeeQ": "Ti è utile?",

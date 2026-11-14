@@ -1,0 +1,349 @@
+[
+  {
+    "id": "presente-01",
+    "type": "write",
+    "q": "Scrivi in latino: «voi leggete» (basta il verbo).",
+    "answers": [
+      "legĭtis",
+      "vos legĭtis"
+    ],
+    "why": "«Voi leggete» è legĭtis: tema leg, vocale tematica i e desinenza -tis.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-02",
+    "type": "write",
+    "q": "Scrivi in latino: «noi udiamo» (basta il verbo).",
+    "answers": [
+      "audīmus",
+      "nos audīmus"
+    ],
+    "why": "«Noi udiamo» è audīmus, con la desinenza -mus della 1ª persona plurale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-03",
+    "type": "write",
+    "q": "Scrivi in latino: «essi lodano» (basta il verbo).",
+    "answers": [
+      "laudant",
+      "illi laudant",
+      "illae laudant"
+    ],
+    "why": "«Essi lodano» è laudant: nella 1ª coniugazione la 3ª plurale esce in -ant.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-04",
+    "type": "write",
+    "q": "Scrivi in latino: «tu ammonisci» (basta il verbo).",
+    "answers": [
+      "mones",
+      "tu mones"
+    ],
+    "why": "«Tu ammonisci» è mones, con la desinenza -s della 2ª persona singolare.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-05",
+    "type": "write",
+    "q": "Scrivi in latino: «egli legge» (basta il verbo).",
+    "answers": [
+      "legit",
+      "ille legit",
+      "illa legit"
+    ],
+    "why": "«Egli legge» è legit, come nella frase «Puella legit».",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-06",
+    "type": "write",
+    "q": "Scrivi la 3ª persona plurale dell'indicativo presente di lego.",
+    "answers": [
+      "legunt"
+    ],
+    "why": "Nella 3ª coniugazione la 3ª persona plurale esce in -unt: legunt.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-07",
+    "type": "write",
+    "q": "Scrivi la 3ª persona plurale dell'indicativo presente di audio.",
+    "answers": [
+      "audiunt"
+    ],
+    "why": "Nella 4ª coniugazione la 3ª persona plurale esce in -iunt: audiunt.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-08",
+    "type": "write",
+    "q": "Scrivi la 1ª persona plurale dell'indicativo presente di moneo.",
+    "answers": [
+      "monēmus"
+    ],
+    "why": "La 1ª persona plurale di moneo è monēmus, con la desinenza -mus.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-09",
+    "type": "write",
+    "q": "Scrivi in latino: «voi udite» (basta il verbo).",
+    "answers": [
+      "audītis",
+      "vos audītis"
+    ],
+    "why": "«Voi udite» è audītis, con la desinenza -tis della 2ª persona plurale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-10",
+    "type": "write",
+    "q": "Scrivi in latino: «io ammonisco» (basta il verbo).",
+    "answers": [
+      "moneo",
+      "ego moneo"
+    ],
+    "why": "«Io ammonisco» è moneo: nella 2ª coniugazione la 1ª singolare esce in -eo.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-11",
+    "type": "write",
+    "q": "Scrivi in latino: «tu lodi» (basta il verbo).",
+    "answers": [
+      "laudas",
+      "tu laudas"
+    ],
+    "why": "«Tu lodi» è laudas, con la desinenza -s della 2ª persona singolare.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-12",
+    "type": "write",
+    "q": "Scrivi in latino: «essi ammoniscono» (basta il verbo).",
+    "answers": [
+      "monent",
+      "illi monent",
+      "illae monent"
+    ],
+    "why": "«Essi ammoniscono» è monent: nella 2ª coniugazione la 3ª plurale esce in -ent.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-13",
+    "type": "write",
+    "q": "Scrivi in latino: «noi lodiamo» (basta il verbo).",
+    "answers": [
+      "laudāmus",
+      "nos laudāmus"
+    ],
+    "why": "«Noi lodiamo» è laudāmus, con la desinenza -mus della 1ª persona plurale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-14",
+    "type": "mc",
+    "q": "Che cosa vuol dire «audiunt»?",
+    "options": [
+      "Voi udite",
+      "Essi odono",
+      "Egli ode",
+      "Noi udiamo"
+    ],
+    "answer": 1,
+    "why": "Audiunt è la 3ª persona plurale di audio: «essi odono».",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-15",
+    "type": "mc",
+    "q": "Quale persona e numero è «legunt»?",
+    "options": [
+      "3ª persona singolare",
+      "2ª persona plurale",
+      "1ª persona plurale",
+      "3ª persona plurale"
+    ],
+    "answer": 3,
+    "why": "Legunt finisce in -nt, la desinenza della 3ª persona plurale: «essi leggono».",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-16",
+    "type": "mc",
+    "q": "Quante coniugazioni ha il latino, rispetto all'italiano?",
+    "options": [
+      "Tre, come l'italiano",
+      "Quattro, come l'italiano",
+      "Quattro, l'italiano tre",
+      "Tre, l'italiano quattro"
+    ],
+    "answer": 2,
+    "why": "In latino le coniugazioni sono 4, in italiano 3.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-17",
+    "type": "match",
+    "q": "Abbina ogni infinito alla sua coniugazione.",
+    "pairs": [
+      [
+        "laudāre",
+        "1ª coniugazione"
+      ],
+      [
+        "monēre",
+        "2ª coniugazione"
+      ],
+      [
+        "legĕre",
+        "3ª coniugazione"
+      ],
+      [
+        "audīre",
+        "4ª coniugazione"
+      ]
+    ],
+    "why": "Le coniugazioni si riconoscono dall'infinito: -āre 1ª, -ēre 2ª, -ĕre 3ª, -īre 4ª.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-18",
+    "type": "tf",
+    "q": "Le desinenze personali (-o, -s, -t, -mus, -tis, -nt) sono uguali per tutte e quattro le coniugazioni.",
+    "answer": true,
+    "why": "Le desinenze personali sono le stesse per le 4 coniugazioni e indicano la persona.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-19",
+    "type": "tf",
+    "q": "L'infinito della 2ª coniugazione ha la prima «e» breve, quello della 3ª ce l'ha lunga.",
+    "answer": false,
+    "why": "È il contrario: lunga (ē) nella 2ª, come monēre, e breve (ĕ) nella 3ª, come legĕre.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-20",
+    "type": "mc",
+    "q": "Nella forma LEG-I-T, che cos'è la «i»?",
+    "options": [
+      "Il tema",
+      "La vocale tematica",
+      "La desinenza personale"
+    ],
+    "answer": 1,
+    "why": "In LEG-I-T leg è il tema, i la vocale tematica e t la desinenza personale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-21",
+    "type": "tf",
+    "q": "Nella forma LEG-I-T, «leg» è la desinenza personale.",
+    "answer": false,
+    "why": "Leg è il tema; la desinenza personale è la t finale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-22",
+    "type": "match",
+    "q": "Abbina ogni pronome alla forma giusta di audio.",
+    "pairs": [
+      [
+        "ego",
+        "audio"
+      ],
+      [
+        "tu",
+        "audis"
+      ],
+      [
+        "nos",
+        "audīmus"
+      ],
+      [
+        "vos",
+        "audītis"
+      ],
+      [
+        "illi/illae",
+        "audiunt"
+      ]
+    ],
+    "why": "Ego audio, tu audis, nos audīmus, vos audītis, illi audiunt.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-23",
+    "type": "match",
+    "q": "Abbina ogni desinenza personale alla sua persona.",
+    "pairs": [
+      [
+        "-o",
+        "1ª persona singolare"
+      ],
+      [
+        "-s",
+        "2ª persona singolare"
+      ],
+      [
+        "-t",
+        "3ª persona singolare"
+      ],
+      [
+        "-mus",
+        "1ª persona plurale"
+      ],
+      [
+        "-nt",
+        "3ª persona plurale"
+      ]
+    ],
+    "why": "Le desinenze sono -o, -s, -t al singolare e -mus, -tis, -nt al plurale.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-24",
+    "type": "order",
+    "q": "Metti in ordine le forme di moneo, dalla 1ª persona singolare (ego) alla 2ª persona plurale (vos).",
+    "items": [
+      "moneo",
+      "mones",
+      "monet",
+      "monēmus",
+      "monētis"
+    ],
+    "why": "Ego moneo, tu mones, ille monet, nos monēmus, vos monētis.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-25",
+    "type": "mc",
+    "q": "Quale desinenza ha la 3ª persona plurale nella 3ª coniugazione, quella di legĕre?",
+    "options": [
+      "-ant",
+      "-ent",
+      "-iunt",
+      "-unt"
+    ],
+    "answer": 3,
+    "why": "Nella 3ª coniugazione si dice legunt, con -unt; -iunt è della 4ª (audiunt).",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "presente-26",
+    "type": "mc",
+    "q": "Quale verbo ha la 1ª persona singolare in -eo?",
+    "options": [
+      "lego",
+      "moneo",
+      "audio",
+      "laudo"
+    ],
+    "answer": 1,
+    "why": "Solo la 2ª coniugazione ha -eo (moneo); la 4ª ha -io (audio), la 1ª e la 3ª solo -o.",
+    "src": "GR.6 · Indicativo presente"
+  }
+]

@@ -23,6 +23,7 @@ Exit code 0 when everything is valid, 1 otherwise (errors go to stderr).
 import json
 import os
 import sys
+import unicodedata
 
 QUIZ_PREFIX = "window.QUIZ = "
 DIAGRAM_PREFIX = "window.DIAGRAM = "
@@ -63,6 +64,13 @@ def _is_text(value):
 
 def _is_number(value):
     return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+
+def normalize_answer(text):
+    """Same comparison as QuizCore.normalize: no case, accents/macrons, extra spaces or final full stop."""
+    text = "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c))
+    text = " ".join(text.lower().split())
+    return text[:-1].rstrip() if text.endswith(".") else text
 
 
 def _distinct_texts(values):
@@ -111,8 +119,16 @@ def _check_question(q, where):
             errors.append("%s: 'items' must be non-empty strings" % where)
         elif len(set(items)) != len(items):
             errors.append("%s: duplicate items" % where)
+    elif kind == "write":
+        answers = q.get("answers")
+        if not isinstance(answers, list) or not answers:
+            errors.append("%s: 'answers' must be a non-empty list of strings" % where)
+        elif not all(_is_text(a) and normalize_answer(a) != "" for a in answers):
+            errors.append("%s: 'answers' must be non-empty strings" % where)
+        elif len({normalize_answer(a) for a in answers}) != len(answers):
+            errors.append("%s: answers that only differ by case, accents, spaces or a full stop" % where)
     elif _is_text(kind):
-        errors.append("%s: unknown type %r (expected mc, tf, match or order)" % (where, kind))
+        errors.append("%s: unknown type %r (expected mc, tf, match, order or write)" % (where, kind))
     return errors
 
 

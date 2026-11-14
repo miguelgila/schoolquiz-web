@@ -1,0 +1,312 @@
+[
+  {
+    "id": "verbi-01",
+    "type": "mc",
+    "q": "Che cosa significa «laudāre»?",
+    "options": [
+      "amare",
+      "combattere",
+      "lodare",
+      "leggere"
+    ],
+    "answer": 2,
+    "why": "«Laudāre» significa lodare: laudo, as, āre 1.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-02",
+    "type": "mc",
+    "q": "Come si dice «vedere» in latino (infinito)?",
+    "options": [
+      "habēre",
+      "vidēre",
+      "monēre",
+      "audīre"
+    ],
+    "answer": 1,
+    "why": "«Vedere» in latino è «vidēre»: video, es, ēre 2.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-03",
+    "type": "mc",
+    "q": "A quale coniugazione appartiene «vidēre»?",
+    "options": [
+      "1ª",
+      "2ª",
+      "3ª",
+      "4ª"
+    ],
+    "answer": 1,
+    "why": "«Vidēre» ha l'infinito in -ēre con la e lunga, quindi è della 2ª coniugazione.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-04",
+    "type": "mc",
+    "q": "A quale coniugazione appartiene «legĕre»?",
+    "options": [
+      "1ª",
+      "2ª",
+      "3ª",
+      "4ª"
+    ],
+    "answer": 2,
+    "why": "«Legĕre» ha l'infinito in -ĕre con la e breve, quindi è della 3ª coniugazione.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-05",
+    "type": "tf",
+    "q": "«Vidēre» e «legĕre» sono della stessa coniugazione, perché finiscono entrambi in -ere.",
+    "answer": false,
+    "why": "«Vidēre» (e lunga) è della 2ª coniugazione, «legĕre» (e breve) della 3ª.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "verbi-06",
+    "type": "mc",
+    "q": "Quante sono le coniugazioni dei verbi latini?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "why": "In latino le coniugazioni sono 4, in italiano invece 3.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "verbi-07",
+    "type": "mc",
+    "q": "Che cosa distingue l'infinito della 2ª coniugazione da quello della 3ª?",
+    "options": [
+      "La desinenza -re",
+      "La quantità della prima «e»",
+      "Il numero di sillabe",
+      "La prima lettera del verbo"
+    ],
+    "answer": 1,
+    "why": "La 2ª e la 3ª coniugazione si distinguono solo dalla quantità della prima «e»: lunga (ē) nella 2ª, breve (ĕ) nella 3ª.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "verbi-08",
+    "type": "mc",
+    "q": "Quale forma del verbo si cerca sul vocabolario latino?",
+    "options": [
+      "L'infinito presente",
+      "La 2ª persona singolare dell'indicativo presente",
+      "La 1ª persona singolare dell'indicativo presente",
+      "La 3ª persona singolare dell'indicativo presente"
+    ],
+    "answer": 2,
+    "why": "Sul vocabolario si cerca la prima forma del paradigma, la 1ª persona singolare dell'indicativo presente.",
+    "src": "GR.7 · Il paradigma verbale"
+  },
+  {
+    "id": "verbi-09",
+    "type": "write",
+    "q": "Scrivi la prima forma del paradigma (1ª persona singolare dell'indicativo presente) del verbo che significa «leggere».",
+    "answers": [
+      "lego"
+    ],
+    "why": "«Leggere» è lego, is, ĕre 3: la prima forma è «lego».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-10",
+    "type": "write",
+    "q": "Scrivi la prima forma del paradigma (1ª persona singolare dell'indicativo presente) del verbo che significa «dire».",
+    "answers": [
+      "dico"
+    ],
+    "why": "«Dire» è dico, is, ĕre 3: la prima forma è «dico».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-11",
+    "type": "write",
+    "q": "Scrivi l'infinito latino del verbo che significa «udire, sentire».",
+    "answers": [
+      "audīre"
+    ],
+    "why": "«Udire, sentire» è audio, is, īre 4: l'infinito è «audīre».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-12",
+    "type": "write",
+    "q": "Scrivi l'infinito latino del verbo che significa «avere».",
+    "answers": [
+      "habēre"
+    ],
+    "why": "«Avere» è habeo, es, ēre 2: l'infinito è «habēre».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-13",
+    "type": "write",
+    "q": "Scrivi la prima forma del paradigma (1ª persona singolare dell'indicativo presente) del verbo che significa «combattere».",
+    "answers": [
+      "pugno"
+    ],
+    "why": "«Combattere» è pugno, as, āre 1: la prima forma è «pugno».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-14",
+    "type": "write",
+    "q": "Scrivi la prima forma del paradigma (1ª persona singolare dell'indicativo presente) del verbo che significa «venire, giungere».",
+    "answers": [
+      "venio"
+    ],
+    "why": "«Venire, giungere» è venio, is, īre 4: la prima forma è «venio».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-15",
+    "type": "write",
+    "q": "Scrivi la seconda forma del paradigma di «moneo» (2ª persona singolare dell'indicativo presente), per intero.",
+    "answers": [
+      "mones"
+    ],
+    "why": "Il paradigma è moneo, mones, monēre 2: la seconda forma è «mones».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-16",
+    "type": "write",
+    "q": "Scrivi l'infinito latino del verbo che significa «spingere, agire, fare».",
+    "answers": [
+      "agĕre"
+    ],
+    "why": "«Spingere, agire, fare» è ago, is, ĕre 3: l'infinito è «agĕre».",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-17",
+    "type": "order",
+    "q": "Metti in ordine le tre forme del paradigma di «laudo» che si studiano ora, dalla prima all'ultima.",
+    "items": [
+      "laudo",
+      "laudas",
+      "laudāre"
+    ],
+    "why": "Le forme studiate si danno in quest'ordine: laudo, laudas, laudāre, e poi il numero della coniugazione (1).",
+    "src": "GR.7 · Il paradigma verbale"
+  },
+  {
+    "id": "verbi-18",
+    "type": "order",
+    "q": "Metti in ordine le cinque parti del paradigma completo di un verbo, dalla prima all'ultima.",
+    "items": [
+      "Indicativo presente, 1ª persona singolare",
+      "Indicativo presente, 2ª persona singolare",
+      "Indicativo perfetto, 1ª persona singolare",
+      "Supino",
+      "Infinito presente"
+    ],
+    "why": "Il paradigma completo è: indicativo presente 1ª e 2ª singolare, indicativo perfetto 1ª singolare, supino, infinito presente.",
+    "src": "GR.7 · Il paradigma verbale"
+  },
+  {
+    "id": "verbi-19",
+    "type": "match",
+    "q": "Abbina ogni verbo alla sua coniugazione.",
+    "pairs": [
+      [
+        "laudāre",
+        "1ª"
+      ],
+      [
+        "monēre",
+        "2ª"
+      ],
+      [
+        "dicĕre",
+        "3ª"
+      ],
+      [
+        "venīre",
+        "4ª"
+      ]
+    ],
+    "why": "Laudāre (-āre) è della 1ª, monēre (-ēre) della 2ª, dicĕre (-ĕre) della 3ª e venīre (-īre) della 4ª coniugazione.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-20",
+    "type": "match",
+    "q": "Abbina ogni verbo latino al suo significato.",
+    "pairs": [
+      [
+        "habeo",
+        "avere"
+      ],
+      [
+        "moneo",
+        "ammonire"
+      ],
+      [
+        "ago",
+        "spingere"
+      ],
+      [
+        "audio",
+        "udire"
+      ],
+      [
+        "pugno",
+        "combattere"
+      ]
+    ],
+    "why": "Habeo significa avere, moneo ammonire, ago spingere, audio udire e pugno combattere.",
+    "src": "VOC.2 · Paradigmi verbali"
+  },
+  {
+    "id": "verbi-21",
+    "type": "tf",
+    "q": "Il perfetto e il supino (terza e quarta forma del paradigma) per ora non si studiano.",
+    "answer": true,
+    "why": "Per ora si studiano solo la 1ª e la 2ª persona singolare dell'indicativo presente e l'infinito; perfetto e supino non ancora.",
+    "src": "GR.7 · Il paradigma verbale"
+  },
+  {
+    "id": "verbi-22",
+    "type": "mc",
+    "q": "Nel paradigma abbreviato «laudo, as, are 1», che cosa indica il numero 1?",
+    "options": [
+      "La persona del verbo",
+      "Il numero della coniugazione",
+      "Il numero di forme studiate",
+      "La prima forma da cercare sul vocabolario"
+    ],
+    "answer": 1,
+    "why": "Il numero alla fine del paradigma indica la coniugazione: laudo, as, are è della 1ª.",
+    "src": "GR.7 · Il paradigma verbale"
+  },
+  {
+    "id": "verbi-23",
+    "type": "tf",
+    "q": "Sia in latino sia in italiano i verbi si catalogano per coniugazione in base all'infinito.",
+    "answer": true,
+    "why": "In latino come in italiano la coniugazione di un verbo si riconosce dall'infinito.",
+    "src": "GR.6 · Indicativo presente"
+  },
+  {
+    "id": "verbi-24",
+    "type": "mc",
+    "q": "Che cosa significa «venio»?",
+    "options": [
+      "udire, sentire",
+      "vedere",
+      "venire, giungere",
+      "dire"
+    ],
+    "answer": 2,
+    "why": "«Venio, is, īre» significa venire, giungere, andare.",
+    "src": "VOC.2 · Paradigmi verbali"
+  }
+]

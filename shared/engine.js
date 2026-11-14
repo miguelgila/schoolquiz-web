@@ -62,9 +62,20 @@ const QuizCore = {
     }
   },
 
-  // response: mc original index, tf boolean, match {leftIdx: rightIdx}, order array of original indices.
-  // mc and order responses must be numbers (compared strictly); match values may be numeric strings.
-  // correctText for tf is 'true'/'false'; the UI translates it.
+  // Typed answers compare without case, accents/macrons, extra spaces or a trailing full stop.
+  normalize(text) {
+    return String(text == null ? '' : text)
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/\s*\.$/, '');
+  },
+
+  // response: mc original index, tf boolean, match {leftIdx: rightIdx}, order array of original indices,
+  // write the typed string. mc and order responses must be numbers (compared strictly); match values may
+  // be numeric strings. correctText for tf is 'true'/'false'; the UI translates it.
   grade(q, response) {
     switch (q.type) {
       case 'mc':
@@ -82,6 +93,11 @@ const QuizCore = {
         const ok = Array.isArray(response) && response.length === q.items.length &&
           response.every((v, i) => v === i);
         return { ok, correctText: q.items.join(' → ') };
+      }
+      case 'write': {
+        const typed = QuizCore.normalize(response);
+        const ok = typed !== '' && q.answers.some((a) => QuizCore.normalize(a) === typed);
+        return { ok, correctText: q.answers[0] };
       }
       default:
         return { ok: false, correctText: '' };
@@ -310,7 +326,9 @@ const QuizCore = {
     else if (q.type === 'tf') renderTf(card);
     else if (q.type === 'match') renderMatch(card, q);
     else if (q.type === 'order') renderOrder(card);
-    if (focus) prompt.focus();
+    else if (q.type === 'write') renderWrite(card);
+    // a write question takes the focus straight to its input, so the next answer can be typed at once
+    if (focus) (q.type === 'write' ? el('writeInput') : prompt).focus();
   }
 
   function renderMc(card) {
@@ -390,6 +408,23 @@ const QuizCore = {
     checkButton(card, true);
   }
 
+  function renderWrite(card) {
+    card.appendChild(mk('p', 'help', t('writeHelp')));
+    S.response = '';
+    const input = mk('input', 'write');
+    input.id = 'writeInput';
+    input.type = 'text';
+    input.setAttribute('aria-label', t('writeAria'));
+    ['autocomplete', 'autocorrect', 'autocapitalize'].forEach((a) => input.setAttribute(a, 'off'));
+    input.spellcheck = false;
+    card.appendChild(input);
+    const check = checkButton(card, false);
+    input.addEventListener('input', () => {
+      S.response = input.value;
+      check.disabled = QuizCore.normalize(input.value) === '';
+    });
+  }
+
   // Redraws the order list from S.response; refocus keeps keyboard users on the moved row.
   function drawOrder(list, refocus) {
     const byIdx = {};
@@ -465,6 +500,10 @@ const QuizCore = {
         li.classList.add(response[pos] === pos ? 'ok' : 'bad');
         li.querySelectorAll('button').forEach((b) => { b.disabled = true; });
       });
+    } else if (q.type === 'write') {
+      const input = el('writeInput');
+      input.classList.add(QuizCore.grade(q, response).ok ? 'ok' : 'bad');
+      input.disabled = true;
     }
     const check = el('checkBtn');
     if (check) check.parentNode.remove();

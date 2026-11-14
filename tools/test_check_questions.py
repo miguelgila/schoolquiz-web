@@ -33,6 +33,12 @@ def order(qid, items=None):
             "why": "Perché.", "src": "§1"}
 
 
+def write(qid, answers=None):
+    return {"id": qid, "type": "write", "q": "Scrivi.",
+            "answers": answers if answers is not None else ["laudamus"],
+            "why": "Perché.", "src": "§1"}
+
+
 def valid_quiz():
     questions = [mc("d-01"), mc("d-02", 2), mc("d-03", 1, ["X", "Y", "Z"]),
                  mc("d-04", 3), mc("d-05"), mc("d-06"),
@@ -138,6 +144,34 @@ class ValidateQuizTest(unittest.TestCase):
         quiz = valid_quiz()
         q_of(quiz, "d-09")["pairs"] = [[str(i), str(i)] for i in range(6)]
         self.assertErrorMentions(self.errors(quiz), "d-09", "pairs")
+
+    def test_write_is_valid(self):
+        quiz = valid_quiz()
+        quiz["decks"][0]["questions"].append(write("d-11", ["laudāmus", "laudant"]))
+        self.assertEqual(self.errors(quiz), [])
+
+    def test_write_needs_answers(self):
+        for answers in ([], "laudamus", None):
+            quiz = valid_quiz()
+            q = write("d-11")
+            q["answers"] = answers
+            quiz["decks"][0]["questions"].append(q)
+            self.assertErrorMentions(self.errors(quiz), "d-11", "'answers' must be a non-empty list")
+
+    def test_write_answers_must_be_text(self):
+        for answers in (["laudamus", ""], ["  .  "], [3]):
+            quiz = valid_quiz()
+            quiz["decks"][0]["questions"].append(write("d-11", answers))
+            self.assertErrorMentions(self.errors(quiz), "d-11", "non-empty strings")
+
+    def test_write_answers_distinct_after_normalizing(self):
+        quiz = valid_quiz()
+        quiz["decks"][0]["questions"].append(write("d-11", ["laudāmus", "Laudamus."]))
+        self.assertErrorMentions(self.errors(quiz), "d-11", "only differ")
+
+    def test_normalize_answer(self):
+        self.assertEqual(cq.normalize_answer("  Legĭmus . "), "legimus")
+        self.assertEqual(cq.normalize_answer("Agricola  deam"), "agricola deam")
 
     def test_order_needs_three_items(self):
         quiz = valid_quiz()

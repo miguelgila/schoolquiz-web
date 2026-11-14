@@ -39,6 +39,7 @@ const MC = { id: 'mc1', type: 'mc', q: 'Capitale?', options: ['Roma', 'Milano', 
 const TF = { id: 'tf1', type: 'tf', q: 'Vero?', answer: false, why: 'w', src: 's' };
 const MATCH = { id: 'm1', type: 'match', q: 'Abbina', pairs: [['A', '1'], ['B', '2'], ['C', '3']], why: 'w', src: 's' };
 const ORDER = { id: 'o1', type: 'order', q: 'Ordina', items: ['primo', 'secondo', 'terzo'], why: 'w', src: 's' };
+const WRITE = { id: 'w1', type: 'write', q: 'Scrivi', answers: ['legĭmus', 'legimus tu'], why: 'w', src: 's' };
 
 test('shuffle keeps elements and does not mutate', () => {
   const input = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -146,6 +147,22 @@ test('grade mc / tf / match / order right and wrong cases', () => {
   assert.equal(Q.grade(ORDER, [1, 0, 2]).ok, false);
   assert.equal(Q.grade(ORDER, [0, 1]).ok, false);
   assert.equal(Q.grade(ORDER, null).ok, false);
+});
+
+test('normalize drops case, accents/macrons, extra spaces and a final full stop', () => {
+  assert.equal(Q.normalize('  Laudāmus . '), 'laudamus');
+  assert.equal(Q.normalize('Agricola   DEAM'), 'agricola deam');
+  assert.equal(Q.normalize(null), '');
+});
+
+test('grade write accepts any listed answer after normalizing', () => {
+  assert.equal(Q.grade(WRITE, 'legimus').ok, true);
+  assert.equal(Q.grade(WRITE, ' LEGĬMUS.').ok, true);
+  assert.equal(Q.grade(WRITE, 'legimus  tu').ok, true);
+  assert.equal(Q.grade(WRITE, 'legitis').ok, false);
+  assert.equal(Q.grade(WRITE, '').ok, false);
+  assert.equal(Q.grade(WRITE, undefined).ok, false);
+  assert.equal(Q.grade(WRITE, 'x').correctText, 'legĭmus');
 });
 
 test('grade correctText formats', () => {

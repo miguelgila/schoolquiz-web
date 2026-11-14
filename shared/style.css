@@ -76,6 +76,11 @@ h1{margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
 .order li .txt{flex:1 1 auto;min-width:0}
 .order li .num{flex-shrink:0;color:var(--muted);font-weight:800;font-size:13px;width:18px}
 
+/* write */
+input.write{width:100%;min-height:48px;padding:0 14px;border:1.5px solid var(--btn);border-radius:12px;background:#fff;color:var(--ink);font-family:inherit;font-size:18px;font-weight:600}
+input.write:focus{border-color:var(--accent);outline:none}
+input.write:disabled{opacity:1;-webkit-text-fill-color:var(--ink)}
+
 /* feedback */
 .feedback{display:flex;flex-direction:column;gap:6px;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:#fff}
 .feedback.ok{border-color:var(--ok);background:var(--okBg)}

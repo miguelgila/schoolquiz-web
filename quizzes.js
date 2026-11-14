@@ -22,5 +22,13 @@ window.QUIZZES = [
   "subtitle": "3ª media · Metti i nomi delle ossa sullo scheletro e sul cranio",
   "decks": 2,
   "questions": 26
+ },
+ {
+  "id": "latino-primi-passi",
+  "path": "latino-primi-passi/",
+  "title": "Latino: primi passi",
+  "subtitle": "3ª media · Nomi della 1ª declinazione, paradigmi, indicativo presente e prime traduzioni",
+  "decks": 4,
+  "questions": 98
  }
 ];

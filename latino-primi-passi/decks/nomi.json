@@ -1,0 +1,302 @@
+[
+  {
+    "id": "nomi-01",
+    "type": "mc",
+    "q": "Che cosa significa «agricola»?",
+    "options": [
+      "marinaio",
+      "contadino",
+      "poeta",
+      "serva"
+    ],
+    "answer": 1,
+    "why": "«Agricola» significa contadino, agricoltore.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-02",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «isola».",
+    "answers": [
+      "insula"
+    ],
+    "why": "«Isola» in latino si dice «insula».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-03",
+    "type": "tf",
+    "q": "«Agricola» è un nome femminile, perché finisce in -a.",
+    "answer": false,
+    "why": "«Agricola» finisce in -a ma è maschile, come «nauta» e «poeta».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-04",
+    "type": "mc",
+    "q": "Quale di questi nomi è maschile?",
+    "options": [
+      "puella",
+      "silva",
+      "nauta",
+      "pugna"
+    ],
+    "answer": 2,
+    "why": "«Nauta» (marinaio) è maschile; «puella», «silva» e «pugna» sono femminili.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-05",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «denaro».",
+    "answers": [
+      "pecunia"
+    ],
+    "why": "«Denaro» in latino si dice «pecunia».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-06",
+    "type": "mc",
+    "q": "In che cosa esce il genitivo singolare di tutti i nomi della lista?",
+    "options": [
+      "-a",
+      "-is",
+      "-ae",
+      "-as"
+    ],
+    "answer": 2,
+    "why": "Tutti i nomi della 1ª declinazione della lista hanno il genitivo singolare in -ae.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-07",
+    "type": "write",
+    "q": "Scrivi il genitivo singolare di «puella».",
+    "answers": [
+      "puellae"
+    ],
+    "why": "Il genitivo singolare di «puella» è «puellae», con la terminazione -ae.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-08",
+    "type": "write",
+    "q": "Scrivi il genitivo singolare di «dea».",
+    "answers": [
+      "deae"
+    ],
+    "why": "Il genitivo singolare di «dea» è «deae».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-09",
+    "type": "tf",
+    "q": "«Nauta» significa marinaio, navigatore.",
+    "answer": true,
+    "why": "«Nauta» significa marinaio, navigatore.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-10",
+    "type": "match",
+    "q": "Abbina ogni nome latino al suo significato.",
+    "pairs": [
+      [
+        "ancilla",
+        "serva"
+      ],
+      [
+        "discipula",
+        "allieva"
+      ],
+      [
+        "domina",
+        "padrona"
+      ],
+      [
+        "epistula",
+        "lettera"
+      ],
+      [
+        "pugna",
+        "battaglia"
+      ]
+    ],
+    "why": "Ancilla è la serva, discipula l'allieva, domina la padrona, epistula la lettera e pugna la battaglia.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-11",
+    "type": "match",
+    "q": "Abbina ogni nome latino al suo significato.",
+    "pairs": [
+      [
+        "insula",
+        "isola"
+      ],
+      [
+        "silva",
+        "bosco"
+      ],
+      [
+        "ara",
+        "altare"
+      ],
+      [
+        "pecunia",
+        "denaro"
+      ],
+      [
+        "puella",
+        "ragazza"
+      ]
+    ],
+    "why": "Insula è l'isola, silva il bosco, ara l'altare, pecunia il denaro e puella la ragazza.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-12",
+    "type": "mc",
+    "q": "Come si dice in latino «bosco, selva, foresta»?",
+    "options": [
+      "insula",
+      "ara",
+      "pugna",
+      "silva"
+    ],
+    "answer": 3,
+    "why": "«Silva» significa bosco, selva, foresta.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-13",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «battaglia».",
+    "answers": [
+      "pugna"
+    ],
+    "why": "«Battaglia» in latino si dice «pugna».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-14",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «lettera», nel senso di missiva.",
+    "answers": [
+      "epistula"
+    ],
+    "why": "La lettera che si spedisce, la missiva, in latino è «epistula».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-15",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «marinaio».",
+    "answers": [
+      "nauta"
+    ],
+    "why": "«Marinaio» in latino si dice «nauta».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-16",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «allieva».",
+    "answers": [
+      "discipula"
+    ],
+    "why": "«Allieva» in latino si dice «discipula».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-17",
+    "type": "tf",
+    "q": "«Poeta» è un nome maschile.",
+    "answer": true,
+    "why": "«Poeta» è maschile: con «agricola» e «nauta» è uno dei tre maschili della lista.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-18",
+    "type": "mc",
+    "q": "Quale gruppo contiene solo nomi maschili?",
+    "options": [
+      "agricola, nauta, poeta",
+      "agricola, nauta, puella",
+      "poeta, dea, nauta",
+      "domina, ancilla, poeta"
+    ],
+    "answer": 0,
+    "why": "I nomi maschili della lista sono tre: agricola, nauta e poeta; tutti gli altri sono femminili.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-19",
+    "type": "mc",
+    "q": "Che cosa significa «domina»?",
+    "options": [
+      "serva",
+      "allieva",
+      "padrona",
+      "dea"
+    ],
+    "answer": 2,
+    "why": "«Domina» significa padrona, signora.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-20",
+    "type": "tf",
+    "q": "Anche i nomi maschili della lista, come «nauta», hanno il genitivo singolare in -ae.",
+    "answer": true,
+    "why": "Tutti i nomi della lista, maschili compresi, hanno il genitivo singolare in -ae.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-21",
+    "type": "tf",
+    "q": "«Pugna» (battaglia) è un nome maschile.",
+    "answer": false,
+    "why": "«Pugna» è femminile: i soli maschili della lista sono agricola, nauta e poeta.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-22",
+    "type": "write",
+    "q": "Scrivi in latino (nominativo singolare): «contadino».",
+    "answers": [
+      "agricola"
+    ],
+    "why": "«Contadino, agricoltore» in latino si dice «agricola».",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-23",
+    "type": "mc",
+    "q": "Che cosa significa «puella»?",
+    "options": [
+      "ragazza",
+      "isola",
+      "lettera",
+      "battaglia"
+    ],
+    "answer": 0,
+    "why": "«Puella» significa ragazza, fanciulla.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  },
+  {
+    "id": "nomi-24",
+    "type": "mc",
+    "q": "Che cosa significa «ara»?",
+    "options": [
+      "isola",
+      "altare",
+      "bosco",
+      "denaro"
+    ],
+    "answer": 1,
+    "why": "«Ara» significa ara, altare.",
+    "src": "VOC.1 · Nomi della 1ª declinazione"
+  }
+]

@@ -16,7 +16,8 @@ window.QUIZ = {
         {"id": "p-match-1", "type": "match", "q": "Abbina ogni numero al suo nome.", "pairs": [["1", "uno"], ["2", "due"], ["3", "tre"], ["4", "quattro"]], "why": "Sono i primi quattro numeri naturali.", "src": "Aritmetica"},
         {"id": "p-match-2", "type": "match", "q": "Abbina ogni animale al suo verso.", "pairs": [["Cane", "abbaia"], ["Gatto", "miagola"], ["Mucca", "muggisce"]], "why": "Ogni animale ha il suo verso tipico.", "src": "Scienze di base"},
         {"id": "p-order-1", "type": "order", "q": "Metti in ordine i giorni della settimana.", "items": ["Lunedì", "Martedì", "Mercoledì", "Giovedì"], "why": "La settimana inizia il lunedì.", "src": "Calendario"},
-        {"id": "p-order-2", "type": "order", "q": "Metti in ordine le stagioni a partire dalla primavera.", "items": ["Primavera", "Estate", "Autunno", "Inverno"], "why": "Le stagioni si susseguono in questo ordine.", "src": "Calendario"}
+        {"id": "p-order-2", "type": "order", "q": "Metti in ordine le stagioni a partire dalla primavera.", "items": ["Primavera", "Estate", "Autunno", "Inverno"], "why": "Le stagioni si susseguono in questo ordine.", "src": "Calendario"},
+        {"id": "p-write-1", "type": "write", "q": "Scrivi in lettere il numero 3.", "answers": ["tre"], "why": "3 si scrive «tre».", "src": "Aritmetica"}
       ]
     }
   ]

@@ -8,6 +8,7 @@ A static hub of school-revision quizzes in Italian, hosted at [schoolquiz.giar.d
 |---|---|---|---|
 | Storia: Medioevo ed esplorazioni | `storia-medioevo-esplorazioni/` | 5: Città e mercanti, Passi alpini e commerci, Nascita della Confederazione, Età moderna e Rinascimento, Esplorazioni e conquiste | 168 |
 | Contesto Socioeconomico 2026 | `contesto-socioeconomico-2026/` | 5: Settori economici, I tre pilastri, Lavoro, turismo e commercio, Società e innovazione, Ambiente e politica | 168 |
+| Latino: primi passi | `latino-primi-passi/` | 4: Nomi, Verbi e paradigmi, Indicativo presente, Traduciamo | 98 |
 | Scienze: le ossa | `scienze-ossa/` | 2 boards: Scheletro (19 slots), Cranio (7 slots) | 26 |
 
 Every question quiz also has a **Tutto** deck that mixes all its decks, with an equal share from each. *Scienze: le ossa* is a labelling quiz (see below), with no **Tutto**.
@@ -106,11 +107,23 @@ Every question has an `id` that is unique in the quiz and stable (e.g. `citta-07
  "src": "§1 · Dai tre cantoni ai tredici"}
 ```
 
+**`write`**: the player types the answer, and **Verifica** checks it against `answers`, the first of which is shown as the right one. The comparison ignores case, accents and macrons, extra spaces and a final full stop, so `laudāmus`, `Laudamus` and `laudamus.` all match. Use it for short fixed answers (a Latin form, a single word), not for free translations.
+
+```json
+{"id": "presente-05", "type": "write",
+ "q": "Scrivi in latino: «voi leggete».",
+ "answers": ["legĭtis"],
+ "why": "Voi leggete = legitis: tema leg-, vocale tematica -i-, desinenza -tis.",
+ "src": "GR.6 · Indicativo presente"}
+```
+
 ## Content
 
 Le domande sono scritte a partire dalle schede di classe basate su *La Svizzera nella storia 2* e dagli appunti dello studente; nessun testo o immagine del libro è riprodotto.
 
 I nomi di *Scienze: le ossa* vengono dalla scheda di classe; i disegni sono di Wikimedia Commons, in pubblico dominio ([scheletro](https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg), [cranio](https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones).svg)), ritagliati e senza le scritte inglesi.
+
+Le domande di *Latino: primi passi* sono scritte a partire dalle schede di vocabolario e di grammatica e dagli esercizi dello studente; le frasi da tradurre sono costruite con i soli nomi e verbi delle schede.
 
 Le domande di *Contesto Socioeconomico 2026* sono scritte a partire da appunti di studio sul contesto socioeconomico svizzero e ticinese; nessun testo originale è riprodotto.
 
